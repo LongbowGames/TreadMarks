@@ -1,0 +1,17 @@
+Class = smoke
+#Class of entity.
+
+Type = gray2
+#The type of the entity.
+
+Texture = sprites/SmokeC.img
+#Which image to use.
+
+Width = 2
+Height = 2
+Base = 0
+#Size of sprite in meters once in the world.
+
+blend = add
+
+alphagrad = 1

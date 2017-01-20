@@ -1,0 +1,11 @@
+class = sound
+type = hornlow
+
+sound = horn/hornlow2.wav
+#altsound =
+
+volume = 1.0
+
+Is2DSound = 1
+
+Priority = 0.6

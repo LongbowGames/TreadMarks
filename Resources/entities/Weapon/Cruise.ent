@@ -1,0 +1,34 @@
+class = weapon
+type = Cruise
+
+mesh = weapons/CruiseMissile/CruiseMissileHighT.lwo
+mesh1 = weapons/CruiseMissile/CruiseMissileMedT.lwo
+texture = textures/CruiseMissile.bmp
+sizebias = -1
+
+projectile = CruiseMissile
+
+ammo = 1
+
+bolton = 2
+
+#lockon = 0
+
+reloadtime = 5.0
+
+launchangle = 0, 0, 0
+launchcoords = -0.3, 0, 0
+#launchcoords = -0.3, 0, -4.5
+#where projectile comes from
+
+FireSoundEnt = Missile2
+
+#MeshOffset = -0.3, 0, -4.5
+MeshOffset = -0.3, 0, 0
+
+#weight = 50
+weight = 40
+
+Name = Cruise Missile
+
+pickupsound = DodgeThis

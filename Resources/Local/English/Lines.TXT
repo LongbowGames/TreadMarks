@@ -1,0 +1,471 @@
+#
+# English text for Tread Marks
+#
+
+#
+# Notes for translators:
+#   %s represents a place where a word or phrase will be
+#       placed into the line (eg: "Name: %s" might become
+#       "Name: John Doe").
+#   %d represents a place where a number will be placed
+#       into the string (eg: "Ammo: %d" might become
+#       "Ammo: 42")
+#
+
+#
+# Main menu
+#
+Field Manual
+Rolling Demo
+Single Game
+Ladder Play
+Multi-player
+Game Options
+Story & Credits
+Visit Web Site
+(For News, Updates, and Add-Ons!)
+Quit
+Help
+Okay
+Cancel
+Please Insert CD-ROM
+Insert the Tread Marks
+CD-ROM and click Okay
+Back
+Yes
+No
+Apply
+On
+Off
+Enabled
+Disabled
+Done
+# Demo
+ DEMO
+ Full
+#
+# In-game menu
+#
+Game In Progress Menu
+Return to Game
+Tank Options
+Server Menu
+Game Options
+Stop Game
+#
+# Options menu
+#
+Game Options
+Graphics
+Music and Sound
+Controls
+Miscellaneous
+Language
+#
+# Graphics options
+#
+Graphics Options
+Res: %d x %d
+Bit Depth: Desktop
+Bit Depth: %d
+Mode: Fullscreen
+Mode: Windowed
+Texture Res: %d
+S3TC: %s
+Trilinear: %s
+Horizon Fog: %s
+Dust: %d%%
+Menu Fire: %s
+OpenGL Driver Vendor: %s
+Total Texels Downloaded to Driver: %d
+Terrain Tris: %d
+Meshes: %s
+Detail Texture: %s
+View Distance: %dm
+Treadmarks: %s
+High
+Low
+#
+# Music/sound options
+#
+Sound and Music Options
+Music: %s
+#Sound Out: %s
+Sound Quality: %s
+#A3D 2.0
+#WaveOut
+#DirectSound
+Music Volume: %d
+Sound Volume: %d
+#
+# Input options
+#
+Input Options
+Tank Controls
+Camera Controls
+Joystick Settings
+Mouse Settings
+#
+# Joystick Settings
+#
+Joystick Settings
+Joystick
+None
+Buttons: %d
+Axes:    %d
+Hat:     %s
+X Axis: %s
+Y Axis: %s
+Z Axis: %s
+R Axis: %s
+U Axis: %s
+V Axis: %s
+Hat X:  %s
+Hat Y:  %s
+Tank Left / Right
+Tank Forward / Backward
+Turret Left / Right
+Camera Left / Right
+Camera Up / Down
+Dead Zone: %d%%
+#
+# Mouse Settings
+#
+Mouse Settings
+Mouse: %s
+Mouse Speed: %d%%
+Mouse Y: %s
+Inverted
+Normal
+#
+# Misc options
+#
+Miscellaneous Options
+Net Rate: %dk/sec
+Camera Pitch Control: %s
+Follow Terrain
+Follow Tank
+#
+# Camera controls
+#
+Camera Controls
+#
+# Tank controls
+#
+Tank Controls
+#
+# General controls
+#
+Press a key or button (ESC to cancel)
+Control:     Primary:   Secondary: Tertiary: 
+#
+# Language selection
+#
+Language Selection
+Language Selection is incomplete at this time.
+#
+# Trophy menu
+#
+Total Trophies Awarded: %d
+#
+# Ladder Roster
+#
+Ladder Roster
+Players:       
+Name:  %s
+Rank:  %s
+Races Started:     %d
+Races Finished:    %d
+Trophies Awarded:  %d
+Total Frags:  %d
+Total Deaths: %d
+New Player
+Delete Player
+#
+# New Ladder
+#
+Create a New Player
+Starting Rank:
+40th (harder)
+55th         
+70th (medium)
+85th         
+100th (easy) 
+#
+# Delete Ladder
+#
+Delete a Player
+Really delete player?
+#
+# Ladder
+#
+Ladder Progress
+Map: %s
+Opponents: %d
+Race Laps: %d
+The Ladder:        
+Start
+View
+Stats
+#
+# Stats
+#
+Hall of Fame
+Battle Stats for
+Race Stats for
+Unknown Map
+Num  Name      Best   FPH DPH Frags Dths  Laps Place Skill Time  
+#
+# Tank Select
+#
+Tank Selection
+Your Treads:     
+Name: 
+Your Insignia: 
+Team:   
+#
+# Tutorial
+#
+Field Manual
+Chapter:         
+Description:     
+#
+# Map Selection
+#
+Map Selection
+The Map:         
+Game Type:   Battle
+Game Type:   Race
+Race Laps: 
+AI Tanks: 
+Time Limit: 
+Frag Limit: 
+Enemy Skill: %d%%
+Tank Types:  All
+Tank Types:  Steel
+Tank Types: Liquid
+Start Delay: 
+Mirror Map:  %s
+Allow Joins: %s
+Num Teams:
+Team Scores: %s
+Team Damage: %s
+Battle
+ Race 
+#
+# Chat screen
+#
+Tread Marks Chat
+Chatting on channel: %s
+#Msg from
+Channels (%d)
+Users (%d)
+Chat: 
+#
+# Tank death messages
+#
+The World destroyed %s with %s!
+The World destroyed You with %s!
+You destroyed yourself with %s!
+You destroyed yourself with a Death Wish!
+You destroyed %s with %s!
+%s destroyed themselves with %s!
+%s destroyed themselves with a Death Wish!
+%s destroyed You with %s!
+%s destroyed %s with %s!
+%s destroyed %s by capturing his flag!
+#
+# Status messages
+#
+Downloading Textures
+Checking Web Site
+Download Failed
+Lookup Failed
+Game Paused
+Please Wait
+Level Restart
+Wrong Version
+Server is Full
+Name Lookup Failed
+Timed Out
+Client/Server Data Mismatch
+Disconnected
+Trying to Connect
+Connection Accepted
+Player Info Sent
+Map Loaded
+Map Load Failure
+Synching Entity Type %d of %d
+Loading Map
+Light Shading Map
+Creating Entities
+#
+# Tank entity messages
+#
+Press Fire
+Updating Craters
+Please Wait...
+[CHAT] 
+Dummy Tank
+Target
+#
+# HUD messages
+#
+kph
+mph
+fps: %d
+Ping: %d
+Main Gun
+Weapon: %s
+Ammo: %d
+Health: %d
+Frags: %d
+Reloading
+Place  Frags  Deaths  Ping  Name
+%-5s  %5d  %6d  %4d  %s
+%-5s  %5d  %6d        %s
+                            %s
+#
+# Status Messages
+#
+Free Look On
+Camera attached to turret
+Camera attached to front of tank
+Free Look Off
+%s has joined team %s
+The Race has been won by %s!
+The Time Limit Has Elapsed!
+The Frag Limit Has Been Reached!
+Now playing music file "%s"
+ID	Team	Frags	Client Name
+Total:
+Kicking player: %s
+Kicking Player: %s for %d minutes
+Player found, disconnect command sent.
+%s kicked by server operator
+No players by that name
+%s has joined the server
+Team		Frags	AI Name
+%s removed from game
+Player %s disconnected
+Player %s is connecting
+Player %s changed their vehicle to %s
+Player %s changed their name to %s
+Your Byte Rate has been set to %s
+Server Operator:
+%s has picked up the %s flag!
+The %s flag as been dropped!
+%s has captured the %s flag!
+%s has returned the %s flag!
+The enemy has your flag!
+You have the flag!
+#
+# Ordinal numbers, 1 to 20
+#
+1st 
+2nd 
+3rd 
+4th 
+5th 
+6th 
+7th 
+8th 
+9th 
+10th
+11th
+12th
+13th
+14th
+15th
+16th
+17th
+18th
+19th
+20th
+21st
+22nd
+23rd
+24th
+25th
+26th
+27th
+28th
+29th
+30th
+31st
+32nd
+33rd
+34th
+35th
+36th
+37th
+38th
+39th
+40th
+41st
+42nd
+43rd
+44th
+45th
+46th
+47th
+48th
+49th
+50th
+51st
+52nd
+53rd
+54th
+55th
+56th
+57th
+58th
+59th
+60th
+61st
+62nd
+63rd
+64th
+65th
+66th
+67th
+68th
+69th
+70th
+71st
+72nd
+73rd
+74th
+75th
+76th
+77th
+78th
+79th
+80th
+81st
+82nd
+83rd
+84th
+85th
+86th
+87th
+88th
+89th
+90th
+91st
+92nd
+93rd
+94th
+95th
+96th
+97th
+98th
+99th
+100th
+
+#
+# Next!
+#
+Test1
+Test2
+Foo!

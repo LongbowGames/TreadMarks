@@ -1,0 +1,36 @@
+class = mesh
+type = Shaft2
+
+mesh = sculpture/Shaft/Shaft.lwo
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+
+#texture = textures/BlackShiny2.bmp
+#texture = textures/ShinyOrange.bmp
+texture = textures/Fiery5.bmp
+
+
+scale = 1.0
+collide = 1
+mass = 2
+
+#envmode = blend
+envmode = texture
+fade = 1.0
+#fade = 0.5
+
+#envmode = global
+#fade = 1.0
+
+RestOnGround = 1
+#GroundOffset = -2.0
+GroundOffset = -20.0
+
+envlight = 1
+
+smoothshade = 1
+
+ConstRotate = 0, 60, 0
+
+envbasismodel = 1

@@ -1,0 +1,12 @@
+class = sound
+type = Laser4
+
+sound = gun/Laser4.wav
+#altsound = gun/gun2.wav
+
+volume = 1.0
+
+FreqVariance = 0.1
+
+Priority = 0.5
+

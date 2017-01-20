@@ -1,0 +1,26 @@
+class = mesh
+type = FlagPole
+
+mesh = Pole.lwo
+mesh1 = Pole.lwo
+mesh2 = Pole.lwo
+
+LodBias = 0.3
+
+texture = textures/Waypoint.bmp
+
+scale = 1.0
+collide = 0
+mass = 2
+
+envmode = blend
+fade = 0.5
+smoothshade = 1.0
+
+#envmode = global
+#fade = 1.0
+
+RestOnGround = 1
+GroundOffset = 0
+
+Transitory = 1

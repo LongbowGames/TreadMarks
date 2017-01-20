@@ -1,0 +1,50 @@
+class = mesh
+type = ZDoll3
+mesh = sculpture/ZDoll/ZDoll3HT.lwo
+mesh1 = sculpture/ZDoll/ZDoll3MT.lwo
+
+
+LodBias = 0.5
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+#texture = textures/BlackShiny2.bmp
+#texture = textures/BlackShinyEvil.bmp
+#texture = textures/Chrome1.bmp
+#texture = textures/Chrome2.bmp
+#texture = textures/Chromeyellow.bmp
+#texture = textures/ShinyOrange.bmp
+#texture = textures/Fiery5Green.bmp
+#texture = textures/RadialBlueLightning.bmp
+texture = textures/SnakeSkinPink.bmp
+#texture = textures/SnakeSkinBlueOrange.bmp
+#texture = textures/SnakeSkinGreenBlue.bmp
+#texture = textures/SnakeSkinSilver.bmp
+#texture = textures/Fiery2B.bmp
+#texture = textures/FieryFiery5Blue2.bmp
+
+#blend = add
+#cullface = 0
+
+scale = 1.0
+#collide = 1
+collide = 0
+mass = 2
+
+#envmode = blend
+#envmode = global
+
+envlight = 1
+envmode = texture
+#smoothshade = 1
+solidlight = 1
+
+fade = 1.0
+#fade = 0.5
+
+RestOnGround = 1
+GroundOffset = 15
+
+ConstRotate = 20, 0, 20
+#ConstWave = 0, 2, 0

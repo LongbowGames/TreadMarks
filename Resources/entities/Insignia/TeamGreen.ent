@@ -1,0 +1,35 @@
+class = insignia
+type = teamGreen
+name = Green
+
+#mesh = BaubleSphereH.lwo
+#texture = textures/ChromeTeamRed.bmp
+
+#texture = textures/teamlogos/RedBanner.bmp
+texture = textures/teamlogos/GreenBanner2.bmp
+
+mesh = bannerteamh.lwo
+mesh1 = bannerteamm.lwo
+mesh2 = bannerteaml.lwo
+
+cullface = 0
+
+scale = 1.0
+collide = 0
+mass = 0.01
+
+smoothshade = 1
+#envmode = texture
+
+Perturb = 0.5
+PerturbScale = 1
+PerturbSpeed = 3
+
+#Rotation = 0, 70, 0
+Rotation = 0, 90, 0
+
+solidlight = 0
+
+Team = 1
+
+sizebias = -2

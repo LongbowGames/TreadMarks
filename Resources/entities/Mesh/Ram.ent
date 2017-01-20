@@ -1,0 +1,53 @@
+class = mesh
+type = Ram
+
+mesh = sculpture/Ram/RamHT.lwo
+mesh1 = sculpture/Ram/RamMT.lwo
+mesh2 = sculpture/Ram/RamLT.lwo
+
+LodBias = 0.3
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+
+#texture = textures/Waypoint.bmp
+#texture = textures/EarthGreen.bmp
+#texture = textures/StonePebblesDX.bmp
+#texture = textures/Field.bmp
+#texture = textures/RockFace.bmp
+#texture = textures/EarthBrown.bmp
+#texture = textures/TerrainRidgedCourse.bmp
+#texture = textures/SnakePurple.bmp
+#texture = textures/SnakeSkinGreenBlue.bmp
+#texture = textures/MarbleWhiteBlackGold.bmp
+#texture = textures/WallpaperGreenGold.bmp
+#texture = textures/LizardSkinYellow.bmp
+#texture = textures/StoneMosaic.bmp
+#texture = textures/EarthCourse.bmp
+#texture = textures/WallTexSC5.bmp
+#texture = textures/WallTexSC5.bmp
+#texture = textures/Fiery2.bmp
+#texture = textures/Chrome1.bmp
+#texture = textures/Fiery2B.bmp
+texture = textures/ChromeYellow.bmp
+#texture = textures/CarvedBronze.bmp
+
+
+#smoothshade = 1
+
+scale = 1.0
+collide = 1
+mass = 2
+
+envmode = texture
+#envmode = blend
+#fade = 0.5
+fade = 1.0
+
+#envmode = global
+
+
+RestOnGround = 1
+GroundOffset = -2.0
+

@@ -1,0 +1,42 @@
+Class = explo
+#Class of entity.
+
+Type = treedeath
+#The type of the entity.
+
+texture = sprites/firefractal1.bmp
+#Which image to use.
+
+Width = 5
+Height = 2
+Base = 1
+#Size of sprite in meters once in the world.
+
+grow = -0.5
+
+#how to blend the image over the scene.
+
+blend = add
+#try more traditional blend mode...
+
+#initial fade strength (1.0 for full, 0.0 for invisible)
+fade = 0.9
+
+#number of puffs.
+count = 16
+
+#expansion radius.
+expandstart = 6
+expand = 12
+
+lifespan = 5
+
+gravity = 1.0
+
+DefaultVel = 0, 5, 0
+
+EntityChain0 = explo/firebig
+EntityChain1 = explo/fireGAU
+
+RandomRotate = 0
+

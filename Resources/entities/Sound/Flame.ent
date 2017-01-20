@@ -1,0 +1,13 @@
+class = sound
+type = Flame
+
+#sound = missile/Missile01.wav
+sound = missile/rocket2.wav
+altsound = missile/rocket5.wav
+
+volume = 1.0
+
+FreqVariance = 0.2
+
+Priority = 0.5
+

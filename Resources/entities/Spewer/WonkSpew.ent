@@ -1,0 +1,51 @@
+class = spewer
+type = wonk
+
+mesh = SphereHigh.lwo
+mesh1 = SphereLow.lwo
+lodbias = 0.05
+
+texture = sprites/laserball.bmp
+#texture = textures/Fiery5.bmp
+width = 2
+height = 2
+
+scale = 1.0
+collide = 0
+mass = 1
+
+blend = add
+#smoothshade = 1
+#solidlight = 1
+#cullface = 1
+#edgetrans = 1
+
+#envmode = texture
+#none, texture, global, blend
+
+# Now for the good stuff.
+
+SpewType0 = explo/lasersparks
+SpewType1 = projectile/wonk
+SpewType2 = projectile/wonk
+
+SpewMin = -2, 10, -2
+SpewMax = 2, 15, 2
+
+CycleType = 0
+
+SpewTime = 0.2
+RandomTime = 0
+MaxSpewCount = 1
+
+LaunchCoords = 0, 6.0, 0
+
+RestOnGround = 0
+GroundOffset = 0.0
+
+EntityChain0 = explo/wonkhit
+
+Transitory = 1
+
+PropagateSpew = 1
+

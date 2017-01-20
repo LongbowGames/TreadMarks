@@ -1,0 +1,13 @@
+class = sound
+type = Respawn
+
+sound = Respawn/Respawn1.wav
+altsound = Respawn/Respawn2.wav
+altsound2 = Respawn/Respawn3.wav
+altsound3 = Respawn/Respawn4.wav
+volume = 1.0
+
+FreqVariance = 0.1
+
+Priority = 0.5
+

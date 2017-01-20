@@ -1,0 +1,36 @@
+#Tiny machine gun explo with ricochet.
+
+class = explosphere
+type = fireenvsmall
+
+mesh = SphereHigh.lwo
+mesh1 = SphereLow.lwo
+lodbias = 0.1
+
+texture = textures/Fiery1.bmp
+#texture = textures/RadialBlueLightning.bmp
+
+scale = 1.0
+collide = 0
+mass = 1
+
+expand = 5
+expandstart = 1
+
+rotatespeed = 2.0
+
+fade = 0.5
+
+blend = add
+smoothshade = 1
+solidlight = 1
+cullface = 0
+edgetrans = 1
+
+lifespan = 0.3
+
+envmode = texture
+#none, texture, global, blend
+
+soundentity = ricochet
+

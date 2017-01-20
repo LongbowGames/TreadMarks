@@ -1,0 +1,7 @@
+class = icon
+type = ammo
+
+texture = hud/Icon_Ammo.bmp
+
+ServerSynch = 0
+

@@ -1,0 +1,38 @@
+class = explosphere
+type = Shockwave2
+
+mesh = SphereHigh.lwo
+mesh1 = SphereLow.lwo
+lodbias = 0.2
+
+#texture = textures/FieryBlue.bmp
+#texture = textures/RadialBlueLightning.bmp
+texture = textures/BlackShiny2b.bmp
+
+scale = 1.0
+collide = 0
+mass = 1
+
+expand = 20
+expandstart = 2
+
+rotatespeed = 0.5
+
+fade = 0.9
+
+blend = add
+smoothshade = 1
+solidlight = 1
+cullface = 0
+edgetrans = 0
+
+lifespan = 0.7
+
+envlight = 1
+envmode = texture
+#none, texture, global, blend
+
+#soundentity = thud1
+
+EntityChain0 = explo/firebig
+

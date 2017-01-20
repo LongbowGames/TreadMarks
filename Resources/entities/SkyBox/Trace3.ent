@@ -1,0 +1,24 @@
+#Sky backdrop entity.
+
+class = skybox
+
+type = trace3
+
+skyboximages = skybox/skybox3
+halfskybox = 1
+
+detailtexture = textures/TerrainMult4.bmp
+watertexture = textures/water1.bmp
+wateralpha = 0.75
+waterenv = 1.0
+
+#specify the color of the distance fog to best match the sky image.
+#FogRed = 0.7
+#FogGreen = 0.9
+#FogBlue = 1.0
+FogColor = 0.7, 0.9, 1.0
+
+LightVector = -1.0, 1.0, -1.0
+AmbientTerrain = 0.33
+AmbientEntity = 0.5
+

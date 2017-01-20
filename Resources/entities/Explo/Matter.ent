@@ -1,0 +1,48 @@
+Class = explo
+#Class of entity.
+
+Type = Matter
+#The type of the entity.
+
+#Texture = sprites/LumpyFire1.bmp
+#Texture = sprites/fireball.img
+Texture = sprites/LumpySmoke1.bmp
+#Which image to use.
+
+Width = 10
+Height = 30
+Base = 0
+#Size of sprite in meters once in the world.
+
+#how to blend the image over the scene.
+#blend = alpha
+blend = add
+
+#initial fade strength (1.0 for full, 0.0 for invisible)
+fade = 0.7
+fadebias = 0.8
+
+#number of puffs.
+count = 64
+
+#expansion radius.
+expandstart = 100
+expand = 5
+
+soundentity = "explolong"
+
+lifespan = 1
+
+DefaultVel = 0, 0, 0
+
+EntityChain0 = explo/Matter2
+EntityChain1 = explo/Matter3
+EntityChain2 = explosphere/Matter
+EntityChain3 = explosphere/Matter2
+EntityChain4 = explosphere/Matter3
+
+Transitory = 0
+#This lets matter explo always be propogated to clients, no matter distance.
+
+RandomRotate = 0
+

@@ -1,0 +1,18 @@
+class = mesh
+type = redarrow
+
+mesh = WaypointArrow3.lwo
+texture = textures/RedArrow.bmp
+
+scale = 0.5
+collide = 0
+
+#fade = 0.5
+envmode = blend
+
+#envmode = global
+fade = 0.2
+cullface = 1
+
+Transitory = 1
+

@@ -1,0 +1,27 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tutorial entity file.
+#
+
+Class = tutorial
+Type = HeavyMGtut
+
+TutID = 40
+
+Name = Machine Gun
+
+mesh = weapons/HeavyMG/HeavyMGHighT.lwo
+texture = textures/HeavyMG.bmp
+sizebias = -1
+
+
+descstring0 = -
+descstring1 = A turret mounted automatic cannon.
+descstring2 = -
+descstring3 = Take advantage of its flexibility,
+descstring4 = to make up for its small caliber.
+
+
+#scale = 2.0

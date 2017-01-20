@@ -1,0 +1,36 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tutorial entity file.
+#
+
+Class = tutorial
+Type = GAUtut
+
+TutID = 50
+
+Name = Avenger
+
+mesh = weapons/Gau/GAUHighT.lwo
+secmesh = weapons/Gau/GAUBarrelsHighT.lwo
+texture = textures/GAU.bmp
+sizebias = -1
+
+SecMeshOffset = -0.23.5, 0, 1.847
+
+SecRotMin = 0, 0, 45
+SecRotMax = 0, 0, 1440
+#SecRotMax = 0, 0, 2880
+SecRotWindup = 0.5
+
+descstring0 = -
+descstring1 = An extremely powerful, 
+descstring2 = hull mounted rotary auto-cannon. 
+descstring3 = -
+descstring4 = Use short bursts to range and aim
+descstring5 = your target, then hose em'!
+
+meshoffset = 0, 0, -2
+
+#scale = 1.5

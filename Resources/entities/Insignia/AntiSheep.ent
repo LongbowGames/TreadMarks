@@ -1,0 +1,22 @@
+class = insignia
+type = AntiSheep
+name = The AntiSheep!
+
+texture = textures/teamlogos/AntiSheepFlag.bmp
+
+mesh = bannerh.lwo
+mesh1 = bannerm.lwo
+mesh2 = bannerl.lwo
+
+cullface = 0
+smoothshade = 1
+
+Perturb = 0.5
+PerturbScale = 1
+PerturbSpeed = 2
+
+Rotation = 0, 20, 0
+
+solidlight = 0
+
+sizebias = -2

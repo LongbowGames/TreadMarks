@@ -1,0 +1,26 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tutorial entity file.
+#
+
+Class = tutorial
+Type = Cruisetut
+
+TutID = 180
+
+Name = Cruise Missile
+
+mesh = weapons/CruiseMissile/CruiseMissileHighT.lwo
+texture = textures/CruiseMissile.bmp
+
+descstring0 = -
+descstring1 = The ultimate "fire and forget"
+descstring2 = long range missile;
+descstring3 = with maximum guidance.
+descstring4 = 
+
+meshoffset = 0, 0, -1
+
+#scale = 1.5

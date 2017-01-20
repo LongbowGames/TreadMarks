@@ -1,0 +1,7 @@
+class = particlefire
+type = burn1
+
+updaterate = 0.05
+buffersize = 256
+particles = 100
+

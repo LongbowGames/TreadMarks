@@ -1,0 +1,27 @@
+class = weapon
+type = launcher1
+
+mesh = weapons/launcher1/launcher1hight.lwo
+mesh1 = weapons/launcher1/launcher1MedT.lwo
+texture = textures/launcher1.bmp
+sizebias = -1
+
+#projectile = missile/smallunguided
+projectile = missile1
+#projectile = tankgun1
+
+ammo = 10
+
+bolton = 1
+
+#lockon = 0
+
+reloadtime = 0.5
+
+launchangle = 0, 0, 0
+launchcoords = 0, 0.4, 0.8
+#where projectile comes from
+
+weight = 100
+
+Name = Concussion

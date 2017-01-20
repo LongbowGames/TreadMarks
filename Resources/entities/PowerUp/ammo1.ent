@@ -1,0 +1,13 @@
+class = powerup
+type = ammo1
+
+mesh = powerups/box2medT.lwo
+texture = textures/powerups/ammo2.bmp
+sizebias = -2
+
+ammoadd = 6
+
+weight = 300
+
+level = 0
+

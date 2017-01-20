@@ -1,0 +1,32 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tutorial entity file.
+#
+
+Class = tutorial
+Type = Drilltut
+
+TutID = 10
+
+Name = RamDrill
+
+mesh = weapons/Drill2/Drill2EngineHighT.lwo
+texture = textures/Drill2.bmp
+
+SecEnt = mesh/DrillBit
+SecEntOffset = -0.38, 0, 2.085
+
+descstring0 = -
+descstring1 = The melee weapon of choice.
+descstring2 = With a 22ft long 
+descstring3 = diamond tipped bit
+descstring4 = -
+descstring5 = The dentist's dream!
+
+#offset the axis of rotation
+
+meshoffset = 0, 0, -2
+
+#scale = 1.0

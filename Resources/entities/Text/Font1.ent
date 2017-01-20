@@ -1,0 +1,18 @@
+#Text font entity.
+
+class = text
+type = font1
+
+texture = fonts/font1.bmp
+
+charsx = 8
+charsy = 8
+
+map = abcdefghijklmnopqrstuvwxyz1234567890 .:,!?@#$%^&*()-+_=/\<>";[]'
+
+alphagrad = 1
+
+alphagradbias = 0.9
+
+mixedcase = 0
+

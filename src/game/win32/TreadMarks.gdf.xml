@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<GameDefinitionFile xmlns:baseTypes="urn:schemas-microsoft-com:GamesExplorerBaseTypes.v1" xmlns="urn:schemas-microsoft-com:GameDescription.v1">
+  <GameDefinition gameID="{dd43abdb-e64e-46c0-940b-e27d3ecb37cd}">
+    <Name>Tread Marks</Name>
+    <Description>Battle Tank Combat and Racing</Description>
+    <ReleaseDate>2000-01-14</ReleaseDate>
+    <Genres>
+      <Genre>Action</Genre>
+      <Genre>Combat Racer</Genre>
+    </Genres>
+    <Ratings>
+      <Rating ratingSystemID="{768BD93D-63BE-46A9-8994-0B53C4B5248F}" ratingID="{18CD34B7-7AA3-42b9-A303-5A729B2FF228}">
+        <Descriptor descriptorID="{BE562A5F-2A80-4c28-9752-74C696E2ABAF}" />
+      </Rating>
+      <Rating ratingSystemID="{36798944-B235-48ac-BF21-E25671F597EE}" ratingID="{464299D0-6D57-47e8-AA53-A849CBEA12CB}" />
+    </Ratings>
+    <Version>
+      <VersionNumber versionNumber="1.6.1.999" />
+    </Version>
+    <WindowsSystemPerformanceRating minimum="1" recommended="1" />
+    <Developers>
+      <Developer URI="http://www.longbowgames.com">Longbow Games</Developer>
+    </Developers>
+    <Publishers>
+      <Publisher URI="http://www.longbowgames.com">Longbow Games</Publisher>
+    </Publishers>
+    <GameExecutables>
+      <GameExecutable path="Tread Marks.exe" />
+      <GameExecutable path="TM.exe" />
+      <GameExecutable path="MCEWrapper.exe" />
+    </GameExecutables>
+  </GameDefinition>
+</GameDefinitionFile>

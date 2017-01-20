@@ -1,0 +1,61 @@
+class = mesh
+type = CubeFace
+
+mesh = sculpture/CubeFace/CubeFaceHT.lwo
+mesh1 = sculpture/CubeFace/CubeFaceMT.lwo
+mesh2 = sculpture/CubeFace/CubeFaceLT.lwo
+
+LodBias = 0.3
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+#texture = textures/Waypoint.bmp
+#texture = textures/BlackShiny3.bmp
+#texture = textures/BlackShiny1.bmp
+#texture = textures/AnimalSkinShiny.bmp
+#texture = textures/ChromeYellow.bmp
+#texture = textures/Chrome.bmp
+#texture = textures/ChromeTeamBlue.bmp
+#texture = textures/ChromeTeamRed.bmp
+#texture = textures/StoneCracked.bmp
+#texture = textures/LaserBeam1.bmp
+#texture = textures/RadialOrangeLightning.bmp
+#texture = textures/RadialBlueLightning.bmp
+#texture = textures/BlueTiles.bmp
+texture = textures/BlueTilesNew.bmp
+#texture = textures/CarpetBlueDX.bmp
+#texture = textures/Chrome2.bmp
+#texture = textures/CarvedOrange.bmp
+#texture = textures/CarvedBronzeA.bmp
+#texture = textures/CarvedBronze3.bmp
+#texture = textures/CarvedBronze.bmp
+#texture = textures/CarvedBronze2.bmp
+#texture = textures/GlyphsFine.bmp
+#texture = textures/SnakeSkinGreenBlue.bmp
+#texture = textures/PigSkin.bmp
+#texture = textures/DragonSkinRed.bmp
+#texture = textures/TerrainClay.bmp
+#texture = textures/TerrainRidgedCourse.bmp
+#texture = textures/EarthBrown.bmp
+#texture = textures/StoneMosaic.bmp
+
+
+
+scale = 1.0
+collide = 1
+mass = 2
+
+#envmode = blend
+envmode = texture
+#fade = 0.5
+#envlight = 1
+
+smoothshade = 1
+
+#envmode = global
+fade = 1.0
+
+RestOnGround = 1
+GroundOffset = -2.0
+

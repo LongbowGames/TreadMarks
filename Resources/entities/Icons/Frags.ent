@@ -1,0 +1,7 @@
+class = icon
+type = frags
+
+texture = hud/Icon_Frags_Explo.bmp
+
+ServerSynch = 0
+

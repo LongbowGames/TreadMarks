@@ -1,0 +1,7 @@
+class = icon
+type = clock
+
+texture = hud/Icon_Clock.bmp
+
+ServerSynch = 0
+

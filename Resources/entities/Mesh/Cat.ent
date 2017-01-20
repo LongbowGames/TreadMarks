@@ -1,0 +1,35 @@
+class = mesh
+type = Cat
+
+mesh = sculpture/Cat/CatHT.lwo
+mesh1 = sculpture/Cat/CatMT.lwo
+mesh2 = sculpture/Cat/CatLT.lwo
+
+LodBias = 0.3
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+#texture = textures/Waypoint.bmp
+#texture = textures/WallTexSC5.bmp
+#texture = textures/BlackShiny2b.bmp
+#texture = textures/CatFurBrown.bmp
+texture = textures/BlackShiny3.bmp
+
+
+scale = 1.0
+collide = 1
+mass = 2
+
+envmode = texture
+
+#envmode = blend
+#fade = 0.5
+
+#envmode = global
+fade = 1.0
+smoothshade = 1.0
+
+RestOnGround = 1
+GroundOffset = -2.0
+

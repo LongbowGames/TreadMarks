@@ -1,0 +1,23 @@
+Class = smoke
+#Class of entity.
+
+Type = firediamond
+#The type of the entity.
+
+Texture = sprites/diamondfire.bmp
+#Which image to use.
+
+Width = 5
+Height = 1
+Base = 0
+#Size of sprite in meters once in the world.
+
+blend = add
+fade = 1.0
+fadebias = 0.2
+timetolive = 0.5
+
+#blend mode, "copy", "add", "sub", "alpha" or "alpha2".
+
+RandomRotate = 0
+

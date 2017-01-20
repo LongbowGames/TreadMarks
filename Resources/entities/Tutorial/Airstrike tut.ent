@@ -1,0 +1,32 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tutorial entity file.
+#
+
+Class = tutorial
+Type = Airstriketut
+
+TutID = 110
+
+Name = Airstrike
+
+mesh = weapons/Airstrike/AirstrikeHighT.lwo
+secmesh = weapons/Airstrike/AirstrikeDishHighT.lwo
+texture = textures/Airstrike.bmp
+
+SecMeshOffset = 0.23, 0.17, -0.41
+
+SecRotMin = 0, 360, 0
+SecRotMax = 0, 360, 0
+SecRotWindup = 0
+
+descstring0 = -
+descstring1 = Calls in a single airstike
+descstring2 = with moderate guidance.
+descstring3 = Best against non-moving or
+descstring4 = weakened targets.
+
+
+#scale = 2.0

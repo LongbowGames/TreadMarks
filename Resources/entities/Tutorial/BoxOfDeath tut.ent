@@ -1,0 +1,24 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tutorial entity file.
+#
+
+Class = tutorial
+Type = BoxOfDeathtut
+
+TutID = 150
+
+Name = Wasps
+
+mesh = weapons/BoxOfDeath3/BoxOfDeath3HighT.lwo
+texture = textures/BoxOfDeath3.bmp
+
+descstring0 = -
+descstring1 = Fires bursts of highly guided,
+descstring2 = medium range missiles that
+descstring3 = slowly converge on target.
+descstring4 = 
+
+#scale = 2.0

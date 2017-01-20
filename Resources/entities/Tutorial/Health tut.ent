@@ -1,0 +1,27 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tutorial entity file.
+#
+
+Class = tutorial
+Type = health
+
+TutID = 6
+
+Name = Repair
+
+mesh = powerups/CrosswrenchT.lwo
+texture = textures/Crosswrench.bmp
+sizebias = -2
+
+
+descstring0 = -
+descstring1 = Use this pickup to do
+descstring2 = some repairs to your Tank 
+descstring3 = 
+descstring4 = 
+
+
+#scale = 1.5

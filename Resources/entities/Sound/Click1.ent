@@ -1,0 +1,14 @@
+class = sound
+type = Click1
+
+sound = Menu/Click1.wav
+altsound = Menu/Click2.wav
+altsound2 = Menu/Click3.wav
+volume = 2.0
+
+FreqVariance = 0.1
+
+Priority = 0.8
+
+Is2DSound = 1
+

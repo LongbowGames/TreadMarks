@@ -1,0 +1,16 @@
+class = sound
+type = Aussie
+
+sound = squishy/Gooday.wav
+altsound = squishy/Gooday2.wav
+altsound2 = squishy/Billy.wav
+altsound3 = squishy/Billabong.wav
+altsound4 = squishy/Jumpbuck.wav
+altsound5 = squishy/Swagman.wav
+
+volume = 1.0
+
+FreqVariance = 0.0
+
+Priority = 0.2
+

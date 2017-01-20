@@ -1,0 +1,51 @@
+class = weapon
+type = MassDriver
+
+mesh = weapons/MassDriver2/MD2HighT.lwo
+mesh1 = weapons/MassDriver2/MD2MedT.lwo
+mesh2 = weapons/MassDriver2/MD2LowT.lwo
+secmesh = weapons/MassDriver2/MD2RingHighT.lwo
+secmesh1 = weapons/MassDriver2/MD2RingMedT.lwo
+secmesh2 = weapons/MassDriver2/MD2RingLowT.lwo
+
+texture = textures/MassDriver.bmp
+sizebias = -1
+
+#projectile = missile/smallunguided
+#projectile = missile1
+#projectile = tankgun1
+#projectile = GAUbullets
+projectile = Sniper
+
+#ammo = 200
+ammo = 4
+
+bolton = 2
+
+#lockon = 0
+
+reloadtime = 4
+
+launchangle = 0, 0, 0
+launchcoords = -0.25, 0, 3.5
+#where projectile comes from
+
+#FireSoundEnt = machinegunfast1
+#FireSoundEnt = Chaingun
+
+weight = 60
+
+#SecMeshOffset = -0.29.5, 0, 0.50
+SecMeshOffset = -0.40, 0, 1.29
+
+SecRotMin = 0, 0, 90
+SecRotMax = 0, 0, 90
+#SecRotMax = 0, 0, 2880
+SecRotWindup = 0.0
+
+SecEnt = mesh/redlaser
+SecEntOffset = -0.40, 0, 3.15
+
+Name = Mass Driver
+
+pickupsound = PickupHeavy

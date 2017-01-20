@@ -1,0 +1,36 @@
+class = projectile
+type = DrillBit
+nameid = 2
+
+speed = 0
+#meters per second
+
+damage = 0.2
+#hit strength
+
+kick = 0.00
+
+crater = 2
+#meter radius of crater
+depth = 0.5
+#meter depth of crater
+scorch = 0.5
+#percentage to blacken near center.  1.0 is no change, 0.0 is all black.
+
+ExploEnt = YellowSparks
+ExploHitEnt = explosphere/fireenvsmall2
+#ExploHitEnt = crud/DrillHit
+#SmokeEnt = shortfireball1
+SmokeEnt = crud/DrillSparks
+#SoundEnt = tankgun1
+SoundEnt = 
+#No sound for 30mm projectile, will only be used from BoltOn and that will run sound loop.
+
+Texture = sprites/LumpyFire1.bmp
+Width = 0.01
+Height = 0.01
+Blend = add
+#image for traveling shell
+
+timetolive = 0.01
+

@@ -1,0 +1,44 @@
+class = weapon
+type = Airstrike
+
+mesh = weapons/Airstrike/AirstrikeHighT.lwo
+mesh1 = weapons/Airstrike/AirstrikeMedT.lwo
+secmesh = weapons/Airstrike/AirstrikeDishHighT.lwo
+secmesh1 = weapons/Airstrike/AirstrikeDishMedT.lwo
+texture = textures/Airstrike.bmp
+sizebias = -1
+
+#projectile = missile/smallunguided
+#projectile = PlasmaMine
+projectile = strike
+
+ammo = 10
+
+bolton = 3
+
+#lockon = 0
+
+reloadtime = 0.2
+
+launchangle = 75, 0, 0
+launchcoords = 0, 300, 0
+
+launchspread = 0, 360, 0
+
+globalcoords = 1
+#where projectile comes from
+
+weight = 70
+
+SecMeshOffset = 0.23, 0.17, -0.41
+
+SecRotMin = 0, 360, 0
+SecRotMax = 0, 360, 0
+SecRotWindup = 0
+
+Name = Airstrike
+
+#launchspread = 45, 45, 45
+launchcount = 10
+
+FireSoundEnt = FlyBy

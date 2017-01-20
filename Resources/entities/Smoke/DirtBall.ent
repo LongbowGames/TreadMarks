@@ -1,0 +1,20 @@
+Class = smoke
+#Class of entity.
+
+Type = dirtball
+#The type of the entity.
+
+Texture = sprites/RoundSmoke1.bmp
+Width = 0.9
+Height = 0.9
+Blend = add
+
+#initial fade strength (1.0 for full, 0.0 for invisible)
+fade = 1.0
+
+timetolive = 0.4
+
+fadebias = 0.8
+
+DefaultVel = 0, 0, 0
+

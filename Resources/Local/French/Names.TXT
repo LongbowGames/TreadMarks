@@ -1,0 +1,37 @@
+#
+# Weapon names
+#
+XAirstrike
+XWasps
+XCruise Missile
+XDirtball
+XRamDrill
+#Propane Accessory
+XHeavy Flamer
+#G.A.U.
+XAvenger
+XR-Grenades
+#Chaingun
+XMachine Gun
+XLaser
+XM.R.L.
+XMass Driver
+XMatter Bomb
+XPlasma Mines
+XLe Bomb Nuclear
+XPlasma Cannon
+XSwarmer
+XShadow Keeper
+XConcussion
+#
+# Extra names for the tutorials
+#
+XAmmo Box
+XGeneral Tips
+XRepair
+XControls
+XSuper Ammo
+#
+#
+#
+Error!

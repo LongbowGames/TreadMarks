@@ -1,0 +1,42 @@
+class = mesh
+type = Snake
+
+mesh = sculpture/Snake/SnakeHT.lwo
+mesh1 = sculpture/Snake/SnakeMT.lwo
+mesh2 = sculpture/Snake/SnakeLT.lwo
+
+LodBias = 0.3
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+#texture = textures/Waypoint.bmp
+#texture = textures/RadialBlueLightning.bmp
+#texture = textures/LaserBeam2.bmp
+#texture = textures/Fiery5Green.bmp
+#texture = textures/FieryBlue.bmp
+#texture = textures/Fiery2B.bmp
+#texture = textures/BlackShiny3.bmp
+#texture = textures/SnakeSkinPink.bmp
+texture = textures/SnakeSkinSilver.bmp
+#texture = textures/GloppyGreen2.bmp
+#texture = textures/LaserBeam2red2.bmp
+
+
+
+scale = 1.0
+collide = 1
+mass = 2
+
+smoothshade = 1
+
+#envmode = texture 
+envmode = blend
+fade = 0.5
+
+#envmode = global
+#fade = 1.0
+
+RestOnGround = 1
+GroundOffset = -2.0
+

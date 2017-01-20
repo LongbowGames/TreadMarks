@@ -1,0 +1,44 @@
+class = spewer
+type = Magma
+
+mesh = SphereHigh.lwo
+mesh1 = SphereLow.lwo
+lodbias = 0.05
+
+#texture = textures/FieryBlue.bmp
+#texture = textures/RadialBlueLightning.bmp
+texture = textures/Fiery5.bmp
+#texture = textures/BlackShiny2b.bmp
+
+scale = 1.0
+collide = 0
+mass = 1
+
+blend = add
+smoothshade = 1
+solidlight = 1
+cullface = 1
+edgetrans = 1
+
+envmode = texture
+#none, texture, global, blend
+
+
+
+# Now for the good stuff.
+
+SpewType0 = projectile/MagmaSpew
+
+SpewMin = -10, 5, -10
+SpewMax = 10, 15, 10
+
+CycleType = 0
+
+SpewTime = 3.0
+RandomTime = 1
+
+LaunchCoords = 0, 0, 0
+
+RestOnGround = 1
+GroundOffset = 4.0
+

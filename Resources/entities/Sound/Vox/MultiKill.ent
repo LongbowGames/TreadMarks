@@ -1,0 +1,20 @@
+class = sound
+type = MultiKill
+
+sound = Vox/Nice.wav
+altsound = Vox/Groovy.wav
+altsound2 = Vox/Excellent.wav
+altsound3 = Vox/Fright.wav
+altsound4 = Vox/Rockin.wav
+altsound5 = Vox/Boomstick.wav
+altsound6 = Vox/Payday.wav
+
+volume = 2.0
+
+FreqVariance = 0.0
+Priority = 1.0
+Is2DSound = 1
+Announcer = 1
+
+VolumeBias = 0.9
+

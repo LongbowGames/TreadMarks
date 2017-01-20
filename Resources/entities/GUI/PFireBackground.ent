@@ -1,0 +1,27 @@
+class = guibackground
+type = pfirebackground
+
+#texture = menus/armorplateblue.bmp
+#texture = menus/20atesta.bmp
+#texture = menus/BlackFleckedBack.bmp
+
+blend = add
+
+useenvtexture = 2
+
+xscale = 1.0
+yscale = 1.0
+
+rotatetime = 0.0
+
+rotateshift = 0.0
+
+fade = 1.0
+
+removetime = 0.3
+addtime = 0.1
+
+ServerSynch = 0
+
+Transparent = 0
+

@@ -1,0 +1,18 @@
+class = guilistbox
+type = chatbox
+
+SelectColor = 1.0, 1.0, 1.0
+#no select color
+
+#UpType = guibutton/buttonupsquished
+#DownType = guibutton/buttondownsquished
+
+#No up/down arrows.
+
+ListType = guibutton/button1
+
+KnobType = guibutton/buttonknob
+KnobWidth = 1
+
+ServerSynch = 0
+

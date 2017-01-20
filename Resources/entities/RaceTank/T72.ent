@@ -1,0 +1,58 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tank entity file.
+#
+
+Class = racetank
+Type = T72
+
+Mesh = T72/T72HTripled.lwo
+Mesh1 = T72/T72MTripled.lwo
+Mesh2 = T72/T72LTripled.lwo
+TurretMesh = T72/T72HTurretTripled.lwo
+TurretMesh1 = T72/T72MTurretTripled.lwo
+TurretMesh2 = T72/T72LTurretTripled.lwo
+GunMesh = T72/T72HGunTripled.lwo
+GunMesh1 = T72/T72MGunTripled.lwo
+GunMesh2 = T72/T72LGunTripled.lwo
+
+#Texture = textures/T72.bmp
+Texture = textures/BlackShiny2a.bmp
+Scale = 1.0
+
+#meters per second.
+### Tweak max speed and acceleration settings to taste! ###
+maxspeed = 50
+accelspeed = 15.0
+
+turretspeed = 60.0
+#degrees per second turret rotation.
+
+SmokeType = lumpy1
+#which subtype of class "smoke" to use for spewing.
+
+#EngineSound1 = engine/tanksqueaky1.wav
+EngineSound2 = engine/tanktreads.wav
+EngineSound1 = engine/tankrumble1.wav
+
+RumbleSound = Engine/RoadRumble3.wav
+
+ProjectileType = tankgun1
+#ProjectileType = nuke
+ReloadTime = 3
+
+baubletype = bauble1
+#weapon/launcher1
+
+bolton0 = -0.60, 0.25, -0.70
+bolton1 = 0.60, 0.25, -0.60
+bolton2 = -1.75, -0.80, -0.10
+bolton3 = 0, -0.75, -3.75
+
+#envmode = texture
+#smoothshade = 1
+#solidlight = 1
+#envlight = 1
+

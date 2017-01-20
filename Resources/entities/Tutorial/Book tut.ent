@@ -1,0 +1,58 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tutorial entity file.
+#
+
+Class = tutorial
+Type = book
+
+TutID = 2
+
+Name = General Tips
+
+mesh = book.lwo
+texture = textures/book.bmp
+sizebias = -2
+
+
+descstring0 = -
+descstring1 = Deathmatch:
+descstring2 = Blast away with bolt-on weapons.
+descstring3 = Only one weapon can be carried
+descstring4 = at a time. No hoarding!!   
+descstring5 = Each weapon has a "best" range.
+descstring6 = -
+descstring7 = Tanks re-spawn at random power-up
+descstring8 = points after being destroyed.
+descstring9 = -
+descstring10 = Race Mode:
+descstring11 = Go for speed and power sliding
+descstring12 = through checkpoints. Weapons are
+descstring13 = secondary but can be useful. The
+descstring14 = red arrow points to the next
+descstring15 = checkpoint.
+descstring16 = -
+descstring17 = Radar:
+descstring18 = Lower left corner. Your tank's body 
+descstring19 = is always pointing upward.
+descstring20 = Blue dot: your tank
+descstring21 = Red dot: enemy tank
+descstring22 = White dot: pick-up/checkpoint
+descstring23 = Green dot: team member
+descstring24 = White line: race course
+descstring25 = -
+descstring26 = -
+descstring27 = Tips:
+descstring28 = -
+descstring30 = Use the terrain...position yourself.
+descstring31 = -
+descstring32 = Back away, front armor is stronger.
+descstring33 = -
+descstring34 = Use "quick look" (Rt Mouse Button) to
+descstring35 = stabilize the camera on steep slopes
+descstring36 = or in rough terrain.
+
+
+#scale = 1.5

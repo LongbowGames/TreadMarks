@@ -1,0 +1,21 @@
+Class = smoke
+#Class of entity.
+
+Type = GAUtrail
+#The type of the entity.
+
+Texture = sprites/LumpyFire1.bmp
+Width = 0.3
+Height = 0.3
+Blend = add
+#image for traveling shell
+Base = 0
+
+#initial fade strength (1.0 for full, 0.0 for invisible)
+fade = 1.0
+fadebias = 0.99
+
+timetolive = 0.1
+
+DefaultVel = 0, 0, 0
+

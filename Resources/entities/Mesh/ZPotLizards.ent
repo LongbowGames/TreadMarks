@@ -1,0 +1,48 @@
+class = mesh
+type = ZPotLizards
+
+mesh = sculpture/ZPotLizards/ZPotLizardsHT.lwo
+mesh1 = sculpture/ZPotLizards/ZPotLizardsMT.lwo
+mesh2 = sculpture/ZPotLizards/ZPotLizardsLT.lwo
+
+LodBias = 0.3
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+texture = textures/BlackShinyEvil.bmp
+#texture = textures/Chrome1.bmp
+#texture = textures/Chrome2.bmp
+#texture = textures/Chromeyellow.bmp
+#texture = textures/ShinyOrange.bmp
+#texture = textures/fiery5green.bmp
+#texture = textures/fieryblue.bmp
+#texture = textures/lizardskinbrown.bmp
+
+#blend = add
+cullface = 0
+
+scale = 1.0
+#collide = 1
+collide = 0
+mass = 2
+
+#envmode = blend
+envmode = global
+#envmode = texture
+
+envlight = 1
+smoothshade = 1
+solidlight = 1
+
+
+fade = 1.0
+#fade = 0.5
+
+#envmode = global
+#fade = 1.0
+
+RestOnGround = 1
+GroundOffset = 1.0
+
+ConstRotate = 0, 45, 0

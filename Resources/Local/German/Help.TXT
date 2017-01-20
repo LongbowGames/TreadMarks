@@ -1,0 +1,198 @@
+Main Menu Help
+   Welcome to Tread Marks, the Ultimate Tank Fantasy!
+ 
+   Click on Rolling Demo to start an auto-playing demo with random settings if you want to see what the game looks like before playing, or simply to amuse your pets. Press the Escape key at any time to bring up the In-Game Menu, which will allow you to change Options, Tank Settings, and end the current game and return to the main menu.
+ 
+   To start a Single Player game, click either Single Game or Ladder Play. Single Game will let you Race or Battle against computer opponents on any map and with any settings you choose. Ladder Play begins a 100-Tank tournament against the computer where you will progress from race to race, trying to improve your standings as you go.
+ 
+   To search for and join an Internet Multi-Player game or to join a game in progress on your local network, hit the Multiplayer button. Joining an Internet game is easy and fun, just give it a try and see!
+%%
+*****Story and Credits Placeholder*****
+%%
+%%
+In-Game Main Menu Help
+   This menu appears when you press Escape while a game is in progress.
+   
+   Return to Game: Closes the menu (same as pressing Escape a second time).
+   Tank Options: Takes you to the Tank Selection screen, where you can select a new Insignia Flag or Team Flag, or in multi-player, a new Tank Type. Changing your Team or your Tank will cause your current tank to explode.
+   Server Menu: If you are joined to a multi-player game, you can use the Server Selection Menu while still connected, if you want to see what other servers are running or to directly connect to a new one.
+   Game Options: You can change options while the game is running.
+   Stop Game: Aborts or disconnects from the current game and returns you to the normal Main Menu.
+
+%%
+Options Screen Help 1/3
+   Res: The screen resolution to run the game at.
+   Bit Depth: Color resolution. 16 often runs faster, and 32 looks better. Desktop will use your Windows settings.
+   Mode: Select to run in a window or in full-screen.
+   Texture Res: If you experience stuttering or extreme slowness, try setting this down to 128. Only try 512 on 16 or 32 MEG 3D accelerators. 3DFX cards can't go above 256.
+   S3TC: S3 Texture Compression, only available on S3 cards.
+   Trilinear: Uses a smoother but possibly slightly slower texture filtering mode.
+   Fog: Distant fog at the horizon. It looks good, but it may be slow on some 3D cards.
+   Meshes: High meshes look better, Low meshes may run faster on slower systems.
+   Dust: Thickness of dust kicked up by tanks. Only set above 50% on cards with a lot of fill rate to spare.
+   Menu Fire: Toggle the Particle Fire layer on and off. It will turn itself off automatically if the frame rate in the menus drops below 10 FPS.
+
+Options Screen Help 2/3
+   Terrain Tris: The desired number of triangles for rendering of the landscape. At least 3,000 looks good on most maps. Computers with slower CPUs should use 1,000, and only very fast computers should use 10,000.
+   Detail Texture: Adds extra fine detail to the terrain, but will be slow on older 3D cards that lack Multi-Texturing in hardware.
+   View Distance: How far you can see, in meters. Slow computers should use 250, but very fast computers can use 1,000 meters (one kilometer).
+   Treadmarks: Turn on or off the tracks that tanks leave behind. Very slow computers may benefit from disabling this.
+
+Options Screen Help 3/3
+   Music: Enable or disable music.
+   Music Volume: 10 to 100
+   Sound Quality: High or Low
+   Sound Volume: 10 to 100
+   Net Rate: This is the maximum rate that a Game Server will send you data when playing on a LAN or the Internet. If you have a modem, set it to 2k, 3k, or 5k, depending on modem type, but if you're on a LAN or have a Cable Modem or DSL, you can set it to 10k.
+ 
+   OpenGL Driver: Displays the name and version of the 3D graphics driver currently in use. If running in Software mode, be sure the words "Generic/MMX" appear for best performance.
+   Total Texels: Reports the number of Texture Pixels currently allocated. Check this while a game is in progress to see how much Texture Ram the game is using. To find the number of Bytes used, multiply the Texels by 2 for 16-bit Textures, and by 4 for 32-bit Textures.
+
+%%
+%%
+%%
+Control Configuration Help
+   Use this screen to configure the game's controls to your preference. The Primary, Secondary, and Tertiary activators for an action can all be used interchangeably, so you can have up to three ways of controlling an action.
+   To add or change a control, click on one of the spaces with the left mouse button, then press the key, or mouse button you would like to use for that action.  
+   If you get stuck in a jam, you can hit Alt-K to self-destruct your tank. Doing this will cost you a frag though. Use the Escape key to bring up the Menus while a game is in progress. 
+
+%%
+Miscelaneous Options Help
+   Insert Help Here
+%%
+Tank Selection Help
+   Select your tank from the list on the left, and optionally select an Insignia Flag and a Team Flag from the lists on the right. Certain teams may not be available if you are joined to a multi-player server. If the server supports Team Play, hold down the TAB key to see the scores and the available teams.
+   Click to the right of the "Name:" button to type in your player name, which will be displayed in multi-player games and recorded in the Hall of Fame Statistics after each Race or Battle. Optionally, click on the Name button itself to cycle between the names of all players currently on the Ladder Play Roster.
+ 
+%%
+Map Selection Help
+   Select a map to play from the list to the right. Its picture should appear to the left. Map names that start with "DM" are for Battle Matches only, and don't contain Race Courses.
+   Game Type: Select an off-road Race or a Battle Match.
+   Race Laps: Number of times around the track in a Race.
+   AI Tanks: How many computer opponents to play against.
+   Time Limit: Minutes before the game will come to an end.
+   Frag Limit: Max number of Frags before the game will end.
+   Enemy Skill: Worthiness of opponents. Beginners should try 0%.
+   Tank Types: Limits the class of tank the computer uses.
+   Start Delay: Seconds before Race or Battle starts. Set this high if you will be having other players join your game at the start.
+   Mirror Map: Flips the map, creating a new track.
+   Allow Joins: When enabled, network users can connect to your game. However, you will not be listed on the Master Server unless you run a dedicated server.  
+%%
+Server Selection Help 1/2
+   There are two ways to play Multi-Player Tread Marks. You can join someone else's game in progress (or join a Dedicated Game Server) that is connected to your computer over a Local Area Network (LAN) by clicking on the Refresh LAN button, which will scan for all running games on your local LAN segment.
+   You can also join an Internet game, which you find through the Tread Marks Master Server. Hit Refresh Internet, and you will connect to the Master Server and receive a list of all currently running Internet game servers. If the Master is inaccessible, the game will try to find a new Master address from our Web Site.
+   If there are a lot of servers listed, click on the headings Name, Map, Tanks, Mode, Time, and Ping to sort the list by those parameters. To join a game, click on a server and hit Start. You can also type in a server's address directly, if you know it.
+   Hit the Chat button to enter the Chat Room on the Master Server, to shoot the breeze with any other players who are there.
+
+Server Selection Help 2/2
+   Each server in the server list has the following info that you can sort the list by:
+   Name: What the server operator calls the server.
+   Map: Name or file name of map being played.
+   Tanks: Number currently active, and maximum tanks.
+   Mode: Race, Deathmatch, or (future upgrade) CTF.
+   Time: How long the current map has been running.
+   Ping: Average ping time in 1/1000ths of a second.
+   
+   Once you select a server, extra info about it will be displayed below the list of available servers:
+   Ver: Game version of server, compare to main menu.
+   Bots: Number of robot AI tanks on server.
+   TL: Level Time Limit in minutes, 0 for none.
+   FL: Level Frag Limit (max kills), 0 for none.
+   FPS: Server Update Rate, 28.8 modems should use 10fps servers, 56k and Broadband users can try 15 or 20fps.
+   Team: "Y" if Team Play is active, "N" if it is not, plus "d" if Team Damage is on (you can hurt your mates) and "s" if Team Scoring is on.
+%%
+%%
+On-Line Chat Help
+   This is the Public Chat Room located on the Tread Marks Master Server. It works a bit like Internet Relay Chat (IRC). A "channel" is created whenever a user Joins that new channel name, and channels are removed when all users leave. To update the current list of channels, click the Channels button. To Join an existing channel, click on the channel's name in the list box. To Join a new channel, type "/join name". Type "/help" for additional commands.
+   To send a Private Message to another user, use the "/msg" command, or click once on the user's name in the Users list and then type your message while they are highlighted.
+ 
+%%
+Ladder Roster Help 1/2
+   Here is where you sign up for the Ultimate Tank Race, the 100-Tank Ladder Tournament! Don't let the name scare you off, this is the primary Single Player Experience in Tread Marks. You will be competing against 99 Computer Driven Tanks in a continuous Ladder style Tournament to determine the best Tank Racers in the galaxy.
+   The Ladder is designed to give you a challenging, fun play experience without being either too difficult or too easy. Your success in the Ladder determines your Ranking, and your Ranking determines the quality of the opponents you will compete against. Everyone can enjoy playing in the ladder at their own personal skill level.
+   Start by hitting New Player to sign up. Note that it is OK to have multiple players with the same name, since you can tell them apart by their Ladder Statistics. Feel free to start multiple Ladder players, as each one will have a different order for playing the tracks, and can have a different starting rank.
+
+Ladder Roster Help 2/2
+   Note that your starting rank doesn't affect the long term difficulty of making it to 1st Rank, it only affects how difficult things are at the beginning of your career. 100th Rank is the lowest rank, and has the easiest competitors. 1st Rank is the highest rank and has the toughest competition.
+ 
+   The following stats are kept for each player.
+   Rank: Current position in the Ladder.
+   Races Started: Number of races begun.
+   Races Finished: Number of races actually completed.
+   Trophies Awarded: Counts the number of Gold Trophies you have acquired by winning a race in 1st Rank.
+   Total Frags: The total frags accumulated through all completed races.
+   Total Deaths: How many times you have lost your turret in all completed races.
+ 
+%%
+%%
+Ladder Progress Help 1/2
+   Here you see the current Ladder of 100 tanks, with your name and position highlighted. The next map to play is shown on the left. In the Ladder, you must complete each map before progressing to the next map. If you press Escape and end the game in the middle of a race, it won't be counted as a Finished Race, and you will have to try it again. It does Not Matter if you lose a race, as long as you finish it. Losing a race will merely reduce your rank in the ladder, which is not always bad. If you are not a hot-shot game player, you may have more fun competing against tanks at a rank closer to the bottom end (rank 100th). Winning isn't always everything, so try to have fun at the skill level that suits you best.
+   If you are a hot-shot gamer, the ultimate goal is to reach 1st Rank in the ladder, but it doesn't end there. Once you are Champion, you can see for how many races you can remain as Champion. See the statistics on the Ladder Roster screen.
+
+Ladder Progress Help 2/2
+   When a Ladder Race starts, the competitors will be you plus the tanks directly above and/or below you in the ladder. For example, if you are at 50th Rank and you select 4 opponents, the participating tanks will include you and those at ranks 48th, 49th, 51st, and 52nd, for a total of 5 tanks in the race. How you place in the race determines what rank you have after the race. In the above example, if you place 3rd in the race, you will remain at 50th Rank in the ladder. If you place 1st in the race, you will advance to 48th Rank, and if you place 5th, you will slip to 52nd Rank.
+   Even though you can't bypass a race in the ladder, you can control your possible loss (and your possible gain) by changing the number of opponent tanks. With only 2 opponents, you will only be able to lose or gain 1 rank, but with 8 opponents, you will be able to lose or gain up to 4 ranks per race.
+%%
+%%
+Statistics Screen Help
+   Each map has two separate sets of statistics, one for Races, and one for Battle Matches. Mirrored versions of maps use the same stats as the normal versions. The primary statistics for sorting purposes are Best Lap Time and Frags Per Hour. Stats are not kept for multi-player games.
+ 
+   Best: Best Lap Time (not applicable for Battles).
+   FPH: Frags Per Hour, or how fast you blast.
+   DPH: Deaths Per Hour, or how fast you crash.
+   Frags: Total Frags for the battle or race.
+   Dths: Total times you were toasted.
+   Laps: Total Laps completed in a race.
+   Place: Your placing after the battle or race.
+   Skill: The selected computer tank skill.
+   Time: Total elapsed time for the game.
+ 
+%%
+Shareware Version
+   Since this is only the Shareware Demo version of Tread Marks, you aren't able to win the Ladder competition. If you want to advance to 1st Rank and win Trophies, you'll need to purchase the Full Version of Tread Marks, which includes 52 maps, 20 tanks, 23 weapons and power-ups, and full user customizability. There are also no silly limitations such as this. :)
+ 
+   Click the Ordering Information button on the Main Menu for more info! You can order instantly and securely from our on-line web store, or if you don't have a credit card or access to the internet you can order with a cheque or money order through the mail.
+ 
+   Thanks for playing!
+ 
+%%
+Ordering Information 1/2
+   Thanks for playing the Shareware Demo of Tread Marks!
+ 
+   The Full Version of Tread Marks includes 52 unique maps (104 with Mirroring), 20 turbo charged racing tanks, 23 explosive weapons and power ups, and unlimited user customization (you can create and download new tanks, weapons, and maps to add to the full game).
+ 
+   The fastest and most convenient way to order the game is over the internet. You can purchase the Full Version of Tread Marks on CD-Rom through our secure on-line web store for $34.95 U.S. (plus shipping) by using your web browser to navigate to:
+ 
+   http://www.TreadMarks.com/
+   - or -
+   http://www.LongbowDigitalArts.com/
+ 
+Ordering Information 2/2
+   If you don't have a credit card or internet access, you can also order the game through the mail by sending a cheque or money order for $35.00 plus $5.00 shipping (U.S. dollars please) to:
+ 
+   Longbow Digital Arts
+   4 MaryJane Street
+   Providence Bay
+   Ontario, P0P 1T0
+   Canada
+ 
+   (Canadian residents please add appropriate taxes.)
+ 
+   For direct mail-orders please allow 3-5 weeks for delivery. Note that on-line ordering provides much faster delivery options.
+ 
+%%
+%%
+Wrong Version
+   The server you tried to connect to refused your game client's Network Protocol Version Challenge. If this happens for all other servers as well, you may need to upgrade to a newer version of the game. Make a note of the Version number displayed on the Main Menu, and the Version displayed when you have selected a server to connect to.
+ 
+   For details on the current game version, see: 
+ 
+   http://www.TreadMarks.com/ 
+   - or - 
+   http://www.LongbowDigitalArts.com/ 
+ 
+%%
+Help Error!
+ 
+	You should never see this message, it means that something has gone wrong with parsing the help file.
+

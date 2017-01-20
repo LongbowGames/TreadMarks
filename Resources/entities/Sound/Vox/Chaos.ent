@@ -1,0 +1,13 @@
+class = sound
+type = Chaos
+
+sound = Vox/ChaosRev.wav
+
+volume = 2.0
+
+FreqVariance = 0.0
+Priority = 1.0
+Is2DSound = 1
+Announcer = 1
+
+VolumeBias = 0.9

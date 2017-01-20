@@ -1,0 +1,51 @@
+class = projectile
+type = GAUbullets
+nameid = 3
+
+speed = 300
+#meters per second
+
+damage = 0.06
+#hit strength
+
+kick = 0.02
+
+crater = 2
+#meter radius of crater
+depth = 0.5
+#meter depth of crater
+scorch = 0.5
+#percentage to blacken near center.  1.0 is no change, 0.0 is all black.
+
+ExploEnt = FireGAU
+ExploHitEnt = explosphere/fireenvsmall2
+#SmokeEnt = shortfireball1
+SmokeEnt = explosphere/Teardrop2
+#SoundEnt = tankgun1
+SoundEnt = 
+#No sound for 30mm projectile, will only be used from BoltOn and that will run sound loop.
+
+SmokeTrailEnt = GAUtrail
+SmokeTrail = 1
+
+Texture = sprites/LumpyFire1.bmp
+Width = 0.3
+Height = 0.3
+Blend = add
+#image for traveling shell
+
+timetolive = 2.5
+
+SplashRadius = 7
+SplashDamage = 0.015
+#SplashPush = 0.01
+SplashPush = 0.0
+
+guidespeed = 6.0
+guidemax = 7.5
+guidebias = 7.0
+guideramp = 0.1
+
+
+
+

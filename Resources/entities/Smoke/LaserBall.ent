@@ -1,0 +1,21 @@
+Class = smoke
+#Class of entity.
+
+Type = laserball
+#The type of the entity.
+
+Texture = sprites/LaserBall.bmp
+#Which image to use.
+
+Width = 2
+Height = 2
+Base = 0
+#Size of sprite in meters once in the world.
+
+blend = add
+fade = 1.0
+fadebias = 0.1
+
+timetolive = 1.0
+
+#blend mode, "copy", "add", "sub", "alpha" or "alpha2".

@@ -1,0 +1,27 @@
+class = weapon
+type = Plasma
+
+mesh = weapons/Plasma/PlasmaBHighT.lwo
+mesh1 = weapons/Plasma/PlasmaBMedT.lwo
+texture = textures/Plasma.bmp
+sizebias = -1
+
+#projectile = missile/smallunguided
+projectile = PlasmaBall
+#projectile = tankgun1
+
+ammo = 5
+
+bolton = 1
+
+#lockon = 0
+
+reloadtime = 5.0
+
+launchangle = 0, 0, 0
+launchcoords = 0, 0.45, 2.0
+#where projectile comes from
+
+weight = 70
+
+Name = Plasma Cannon

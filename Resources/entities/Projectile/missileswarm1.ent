@@ -1,0 +1,49 @@
+class = projectile
+type = missileswarm1
+nameid = 10
+
+mesh = weapons/missiles/missile1t.lwo
+texture = textures/Bomb.bmp
+#temporary!
+
+speed = 100
+#meters per second
+
+damage = 0.15
+#hit strength
+
+kick = 0.1
+
+
+gravity = 0.2
+#percentage of normal gravity to use
+
+crater = 3
+#meter radius of crater
+depth = 0.5
+#meter depth of crater
+scorch = 0.7
+#percentage to blacken near center.  1.0 is no change, 0.0 is all black.
+
+ExploEnt = FireTall
+ExploHitEnt = explosphere/fireenv2
+SmokeEnt = fractal1
+SmokeTrailEnt = fractaltiny
+SoundEnt = missile3
+
+smoketrail = 1
+
+SmokeTrailOffset = 0, 0, -1.0
+
+spiral = 40.0
+spiralramp = 0.01
+spiralperiod = 0.6
+
+FlareEnt = smoke/flare1
+
+guidespeed = 5.0
+guidemax = 8.0
+guidebias = 5.0
+guideramp = 0.2
+
+

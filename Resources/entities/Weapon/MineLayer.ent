@@ -1,0 +1,27 @@
+class = weapon
+type = MineLayer
+
+mesh = weapons/MineLayer/MineLayerHighT.lwo
+mesh1 = weapons/MineLayer/MineLayerMedT.lwo
+texture = textures/MineLayer.bmp
+sizebias = -1
+
+#projectile = missile/smallunguided
+projectile = PlasmaMine
+#projectile = tankgun1
+
+ammo = 5
+
+bolton = 3
+
+#lockon = 0
+
+reloadtime = 1.0
+
+launchangle = 0, 0, 0
+launchcoords = 0, -0.19, -0.50
+#where projectile comes from
+
+weight = 100
+
+Name = Plasma Mines

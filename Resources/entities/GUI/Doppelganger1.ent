@@ -1,0 +1,9 @@
+class = RacetankDoppelganger
+type = doppelganger1
+
+#This entity class is used for the spinning tank display.
+#This is a single placeholder type for the class, as the one
+#entity morphs its appearance to look like any racetank.
+
+ServerSynch = 0
+

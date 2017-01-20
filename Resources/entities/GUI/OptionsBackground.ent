@@ -1,0 +1,25 @@
+class = guibackground
+type = optionsbackground
+
+#texture = menus/armorplateblue.bmp
+#texture = menus/20atesta.bmp
+texture = menus/OptionsScreen.bmp
+
+xscale = 1.0
+yscale = 1.0
+
+rotatetime = 0
+#300.0
+
+rotateshift = 0
+#1.0
+
+fade = 0.5
+
+removetime = 0.3
+addtime = 0.1
+
+ServerSynch = 0
+
+Transparent = 0
+

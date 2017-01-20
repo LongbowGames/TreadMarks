@@ -1,0 +1,34 @@
+class = mesh
+type = ZSkull3
+
+mesh = sculpture/ZSkull3/ZSkull3HT.lwo
+mesh1 = sculpture/ZSkull3/ZSkull3MT.lwo
+mesh2 = sculpture/ZSkull3/ZSkull3LT.lwo
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+
+LodBias = 0.3
+
+#texture = textures/BlackShiny2.bmp
+texture = textures/Chromeyellow.bmp
+#texture = textures/BlueTilesNew.bmp
+
+
+scale = 1.0
+collide = 1
+mass = 2
+
+#envmode = blend
+envmode = texture
+fade = 1.0
+#fade = 0.5
+
+#envmode = global
+#fade = 1.0
+
+RestOnGround = 1
+GroundOffset = -6.0
+
+envlight = 1

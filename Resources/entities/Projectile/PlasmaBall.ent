@@ -1,0 +1,54 @@
+class = projectile
+type = PlasmaBall
+nameid = 14
+
+speed = 100
+#meters per second
+
+damage = 0.6
+#hit strength
+
+kick = 0.1
+#amount of speed to impart to target in collision.
+
+gravity = 0.5
+
+crater = 6
+#meter radius of crater
+depth = 1
+#meter depth of crater
+scorch = 0.1
+#percentage to blacken near center.  1.0 is no change, 0.0 is all black.
+
+ExploEnt = explosphere/PlasmaEnv1
+#ExploHitEnt = explosphere/TealEnv1
+ExploHitEnt = plasmaHit
+
+#ExploEnt = explosphere/fireenv1
+SmokeEnt = explo/greensparks
+
+#SmokeEnt = explosphere/Teardrop
+SoundEnt = Plasma3
+SmokeTrailEnt = crud/GreenSparks
+
+Smoketrail = 1
+
+Texture = sprites/PlasmaBall.bmp
+Width = 2.0
+Height = 2.0
+Blend = add
+#image for traveling shell
+
+#Fade = 0.5
+
+SplashRadius = 10
+SplashDamage = 0.6
+SplashPush = 0.1
+
+Transitory = 0
+
+guidespeed = 6.0
+guidemax = 7.5
+guidebias = 7.0
+guideramp = 0.1
+

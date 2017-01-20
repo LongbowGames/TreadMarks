@@ -1,0 +1,12 @@
+class = sound
+type = WonkExplo
+
+#sound = gun/Laser4.wav
+sound = gun/LaserblastDeep_A.wav
+
+volume = 1.0
+
+FreqVariance = 0.2
+
+Priority = 0.5
+

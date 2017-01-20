@@ -1,0 +1,10 @@
+#
+# Languages for the selection menu
+#
+English
+#Français
+Francais
+Deutsch
+Italiano
+#Español
+Espanol

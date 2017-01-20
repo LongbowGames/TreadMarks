@@ -1,0 +1,34 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tutorial entity file.
+#
+
+Class = tutorial
+Type = GLaunchertut
+
+TutID = 30
+
+Name = R-Grenades
+
+mesh = weapons/GLSeparate/GLauncherGunHT.lwo
+secmesh = weapons/GLSeparate/GLauncherBarrelHT.lwo
+texture = textures/GLauncher.bmp
+sizebias = -1
+
+SecMeshOffset = 0, 0.51, 0
+
+SecRotMin = 0, 0, 0
+SecRotMax = 0, 0, 180
+SecRotWindup = 0
+
+descstring0 = -
+descstring1 = Rocket grenades, hug the terrain 
+descstring2 = and climb hills too!
+descstring3 = -
+descstring4 = Great for surprise attacks or
+descstring5 = saturating groups of tanks
+
+
+#scale = 1.5

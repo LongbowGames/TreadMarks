@@ -1,0 +1,13 @@
+class = sound
+type = ricochet
+
+sound = gun/ricochet1.wav
+altsound = gun/ricochet2.wav
+altsound2 = gun/ricochet3.wav
+
+volume = 0.5
+
+freqvariance = 0.3
+
+Priority = 0.4
+

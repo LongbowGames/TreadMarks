@@ -1,0 +1,37 @@
+class = mesh
+type = Beetle
+
+mesh = sculpture/Beetle/BeetleHT.lwo
+mesh1 = sculpture/Beetle/BeetleMT.lwo
+mesh2 = sculpture/Beetle/BeetleLT.lwo
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+#texture = textures/Waypoint.bmp
+#texture = textures/CarpetGreen.bmp
+#texture = textures/CarpetBlueDX.bmp
+#texture = textures/EarthBrown.bmp
+#texture = textures/EarthMulti.bmp
+#texture = textures/StonePebblesDX.bmp
+#texture = textures/SnakeSkinBlueOrange.bmp
+#texture = textures/WallpaperGreenGold.bmp
+texture = textures/GemAmber.bmp
+
+
+
+
+LodBias = 0.3
+
+scale = 1.0
+collide = 1
+mass = 2
+
+envmode = blend
+fade = 0.5
+
+#envmode = global
+#fade = 1.0
+
+RestOnGround = 1
+GroundOffset = -2.0
+

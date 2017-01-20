@@ -1,0 +1,38 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tutorial entity file.
+#
+
+Class = tutorial
+Type = MassDrivertut
+
+TutID = 80
+
+Name = Mass Driver
+
+mesh = weapons/MassDriver2/MD2HighT.lwo
+secmesh = weapons/MassDriver2/MD2RingHighT.lwo
+texture = textures/MassDriver.bmp
+sizebias = -1
+
+SecMeshOffset = -0.40, 0, 1.29
+
+SecRotMin = 0, 0, 90
+SecRotMax = 0, 0, 90
+#SecRotMax = 0, 0, 2880
+SecRotWindup = 0.0
+
+SecEnt = mesh/redlaser
+SecEntOffset = -0.40, 0, 3.15
+
+descstring0 = -
+descstring1 = A rail-gun fit for a tank.
+descstring2 = Complete with an aiming laser.
+descstring3 = -
+descstring4 = Powerful, but very slow to reload.
+descstring5 =  
+
+
+#scale = 1.5

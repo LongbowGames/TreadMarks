@@ -1,0 +1,46 @@
+class = mesh
+type = ThinPot
+
+mesh = sculpture/ThinPot/ThinPot2HT.lwo
+mesh1 = sculpture/ThinPot/ThinPot2MT.lwo
+mesh2 = sculpture/ThinPot/ThinPot2LT.lwo
+
+LodBias = 0.3
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+#texture = textures/Waypoint.bmp
+#texture = textures/EarthGreen.bmp
+#texture = textures/ChromeTeamBlue.bmp
+#texture = textures/LaserBeam2red.bmp
+#texture = textures/LaserBeam2red2.bmp
+#texture = textures/ChromeTeamRed.bmp
+#texture = textures/Fiery2B.bmp
+#texture = textures/Fiery2.bmp
+#texture = textures/CarvedBronzeA.bmp
+texture = textures/CarvedBronze.bmp
+#texture = textures/CarvedBronze2.bmp
+#texture = textures/CarvedBronze3.bmp
+
+
+
+scale = 1.0
+collide = 1
+mass = 2
+
+#envmode = blend
+#fade = 0.5
+
+#envmode = global
+#fade = 1.0
+
+smoothshade = 1.0
+
+envmode = texture
+fade = 1.0
+envlight = 1
+
+RestOnGround = 1
+GroundOffset = -2.0
+

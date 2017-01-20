@@ -1,0 +1,40 @@
+class = projectile
+type = tankgun1
+nameid = 20
+
+speed = 100
+#meters per second
+
+damage = 0.2
+#hit strength
+
+kick = 0.15
+#amount of speed to impart to target in collision.
+
+crater = 3
+#meter radius of crater
+depth = 2
+#meter depth of crater
+scorch = 0.3
+#percentage to blacken near center.  1.0 is no change, 0.0 is all black.
+
+#ExploEnt = FireBig
+ExploEnt = Streamer1
+ExploHitEnt = explosphere/fireenv1
+#ExploEnt = explosphere/fireenv1
+SmokeEnt = firediamond
+#SmokeEnt = explosphere/Teardrop
+SoundEnt = tankgun1
+
+Texture = sprites/LumpyFire1.bmp
+Width = 0.5
+Height = 0.5
+Blend = add
+#image for traveling shell
+
+Transitory = 0
+
+guidespeed = 6.0
+guidemax = 7.5
+guidebias = 7.0
+guideramp = 0.1

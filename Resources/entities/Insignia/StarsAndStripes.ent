@@ -1,0 +1,25 @@
+class = insignia
+type = StarsAndStripes
+name = Stars and Stripes
+
+texture = textures/teamlogos/StarsAndStripes.bmp
+
+mesh = FlagH.lwo
+mesh1 = FlagM.lwo
+mesh2 = FlagL.lwo
+
+cullface = 0
+smoothshade = 1
+
+Perturb = 0.5
+PerturbScale = 1
+PerturbSpeed = 2
+
+Rotation = 0, 20, 0
+
+solidlight = 0
+
+sizebias = -2
+
+hflip = 1
+

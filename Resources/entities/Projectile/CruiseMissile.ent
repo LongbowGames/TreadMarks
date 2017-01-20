@@ -1,0 +1,60 @@
+class = projectile
+type = CruiseMissile
+nameid = 1
+
+speed = 75
+#meters per second
+
+#power = 100
+#hit strength
+
+damage = 1.2
+kick = 1
+
+SplashRadius = 10
+SplashDamage = 1.0
+SplashPush = 10
+
+crater = 10
+#meter radius of crater
+depth = 5
+#meter depth of crater
+scorch = 0.3
+#percentage to blacken near center.  1.0 is no change, 0.0 is all black.
+
+ExploEnt = FireBig
+SmokeEnt = fireball1
+#SoundEnt = missile2
+SoundEnt = CruiseJet
+
+mesh = weapons/CruiseMissile/CruiseMissileHighT.lwo
+mesh1 = weapons/CruiseMissile/CruiseMissileMedT.lwo
+texture = textures/CruiseMissile.bmp
+sizebias = -1
+
+SmokeTrailEnt = fractal1long
+SmokeTrail = 1
+
+#guidespeed = 15.0
+#guidemax = 20.0
+#guidebias = 2.0
+#guideramp = 4.0
+
+guidespeed = 30.0
+guidemax = 40.0
+guidebias = 2.0
+guideramp = 1.0
+
+Gravity = -1.0
+
+timetolive = 60.0
+
+SmokeTrailOffset = 0, 0, -2.5
+
+Transitory = 0
+
+followground = 1.5
+
+Detonate = 1
+
+FlareEnt = smoke/flare2

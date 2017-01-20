@@ -1,0 +1,33 @@
+Class = explo
+#Class of entity.
+
+Type = GreenSparks
+#The type of the entity.
+
+Texture = sprites/PlasmaBall.bmp
+#Which image to use.
+
+Width = 0.2
+Height = 0.2
+Base = 0
+#Size of sprite in meters once in the world.
+
+#how to blend the image over the scene.
+blend = add
+
+#initial fade strength (1.0 for full, 0.0 for invisible)
+fade = 0.8
+
+#number of puffs.
+count = 32
+
+#expansion radius, initial and final.
+expandstart = 0.5
+expand = 5
+
+grow = 1.0
+#puff growth
+
+#fade = 0.5
+
+timetolive = 0.2

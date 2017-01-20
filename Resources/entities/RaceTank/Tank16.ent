@@ -1,0 +1,53 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tank entity file.
+#
+
+Class = racetank
+Type = tank16
+
+Mesh = Tank16/16HighT.lwo
+Mesh1 = Tank16/16MedT.lwo
+Mesh2 = Tank16/16LowT.lwo
+TurretMesh = Tank16/16TurretHighT.lwo
+TurretMesh1 = Tank16/16TurretMedT.lwo
+TurretMesh2 = Tank16/16TurretLowT.lwo
+GunMesh = Tank16/16GunHighT.lwo
+GunMesh1 = Tank16/16GunMedT.lwo
+GunMesh2 = Tank16/16GunLowT.lwo
+
+Texture = textures/Tank16.bmp
+Scale = 1.0
+
+#meters per second.
+### Tweak max speed and acceleration settings to taste! ###
+maxspeed = 50
+#accelspeed = 15.0
+accelspeed = 20.0
+
+turretspeed = 60.0
+#degrees per second turret rotation.
+
+SmokeType = lumpy1
+#which subtype of class "smoke" to use for spewing.
+
+#EngineSound1 = engine/tanksqueaky1.wav
+EngineSound2 = engine/tanktreads.wav
+EngineSound1 = engine/tankrumble1.wav
+
+RumbleSound = Engine/RoadRumble3.wav
+
+ProjectileType = tankgun1
+#ProjectileType = nuke
+ReloadTime = 3
+
+bolton0 = -0.50, 0.28, -0.78
+bolton1 = 1.1, 0.14, -0.31
+bolton2 = -2.05, -0.90, -0.90
+bolton3 = 0, -0.75, -3.1
+
+Name = Belabor
+
+Namesound = Belabor

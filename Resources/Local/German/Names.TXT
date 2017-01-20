@@ -1,0 +1,37 @@
+#
+# Weapon names
+#
+Airstrike
+Wasps
+Cruise Missile
+Dirtball
+RamDrill
+#Propane Accessory
+Heavy Flamer
+#G.A.U.
+Avenger
+R-Grenades
+#Chaingun
+Machine Gun
+Laser
+M.R.L.
+Mass Driver
+Matter Bomb
+Plasma Mines
+Le Bomb Nuclear
+Plasma Cannon
+Swarmer
+Shadow Keeper
+Concussion
+#
+# Extra names for the tutorials
+#
+Munitionskiste
+Generelle Tips
+Reperatur
+Steuerung
+Super Munition
+#
+#
+#
+Error!

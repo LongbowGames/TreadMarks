@@ -1,0 +1,12 @@
+class = sound
+type = metal1
+
+sound = crunch/bucketcrunch2.wav
+altsound = crunch/bucketcrunch3.wav
+
+volume = 0.9
+
+freqvariance = 0.3
+
+Priority = 0.3
+

@@ -1,0 +1,32 @@
+class = squishy
+type = rabbit
+
+mesh = sculpture/rabbit/rabbitHT.lwo
+mesh1 = sculpture/rabbit/rabbitMT.lwo
+
+texture = textures/sheep.bmp
+
+scale = 1.0
+collide = 1
+mass = 0.1
+
+smoothshade = 1
+
+Transitory = 0
+
+
+Bounce = 3.0
+
+BounceMin = 1.0
+
+BounceThreshold = 3.0
+
+PitchScale = -0.5
+
+ExpandBBox = 3.0
+
+BounceEvery = 10.0
+
+
+#BounceSound = baah
+

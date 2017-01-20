@@ -1,0 +1,64 @@
+class = projectile
+type = Grenade
+nameid = 4
+
+speed = 20
+#meters per second
+
+damage = 0.15
+#hit strength
+
+kick = 0.4
+#amount of speed to impart to target in collision.
+
+SplashRadius = 5
+SplashDamage = 0.2
+SplashPush = 8
+
+gravity = 1.0
+
+crater = 3
+#meter radius of crater
+depth = 1
+#meter depth of crater
+scorch = 0.3
+#percentage to blacken near center.  1.0 is no change, 0.0 is all black.
+
+ExploEnt = FireBig
+#ExploHitEnt = FireBig
+ExploHitEnt = explosphere/fireenv2R
+#SmokeEnt = fractal1
+SmokeEnt = explosphere/Teardrop
+SoundEnt = GLauncher
+#SmokeTrailEnt = explo/TinyGreenSparks
+SmokeTrailEnt = fractaltiny
+
+Smoketrail = 1
+
+spiral = 30.0
+spiralramp = 0.0
+spiralperiod = 0.3
+
+Texture = sprites/PlasmaOrange.bmp
+Width = 0.5
+Height = 0.5
+Blend = add
+#image for traveling shell
+
+#Fade = 0.5
+
+launchinertia = 1.0
+followground = 1
+bounce = 0.5
+
+Detonate = 1
+
+FlareEnt = smoke/flareGrenade
+
+guidespeed = 6.0
+guidemax = 5.0
+guidebias = 2.0
+guideramp = 4.0
+
+
+

@@ -1,0 +1,20 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tree entity file.
+#
+
+Class = shrubbery
+#Class of entity.
+
+Type = green1
+#The type of the entity.
+
+Texture = Trees/Shrub1.img
+#Which image to use.
+
+Width = 4
+Height = 2
+Base = 1
+#Size of sprite in meters once in the world.

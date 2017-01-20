@@ -1,0 +1,27 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tutorial entity file.
+#
+
+Class = tutorial
+Type = Plasmatut
+
+TutID = 90
+
+Name = Plasma Cannon
+
+mesh = weapons/Plasma/PlasmaBHighT.lwo
+texture = textures/Plasma.bmp
+sizebias = -1
+
+descstring0 = -
+descstring1 = Fires large and deadly plasma bolts,
+descstring2 = with a slow reload.
+descstring3 = -
+descstring4 = Time its use carefully.
+ 
+
+
+#scale = 1.5

@@ -1,0 +1,45 @@
+class = mesh
+type = statue1
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+mesh = Sculpture/LongFigure/LongFigure4HT.lwo
+mesh1 = Sculpture/LongFigure/LongFigure4MT.lwo
+mesh2 = Sculpture/LongFigure/LongFigure4LT.lwo
+
+LodBias = 0.3
+
+#texture = textures/Waypoint.bmp
+#texture = textures/SnakePurple.bmp
+#texture = textures/WallTexSC5.bmp
+#texture = textures/Water1.bmp
+#texture = textures/RockFace.bmp
+#texture = textures/BlackShiny2b.bmp
+#texture = textures/Fiery2B.bmp
+#texture = textures/RadialOrangeLightning.bmp
+#texture = textures/RadialBlueLightning.bmp
+#texture = textures/ChromeTeamBlue.bmp
+texture = textures/ChromeYellow.bmp
+
+
+
+
+
+scale = 1.0
+collide = 1
+mass = 2
+
+#smoothshade = 1
+
+envmode = texture
+
+#envmode = blend
+#fade = 0.5
+
+#envmode = global
+fade = 1.0
+
+RestOnGround = 1
+GroundOffset = -2.0
+
+

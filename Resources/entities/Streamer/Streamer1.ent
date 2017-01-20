@@ -1,0 +1,60 @@
+Class = explo
+#Class of entity.
+
+Type = Streamer1
+#The type of the entity.
+
+#Texture = sprites/LumpyFire1.bmp
+Texture = sprites/fireball.img
+#texture = sprites/firefractal1.bmp
+#Which image to use.
+
+Width = 2
+Height = 2
+Base = 0
+#Size of sprite in meters once in the world.
+
+grow = 0.0
+#grow = 1.0
+
+#how to blend the image over the scene.
+
+#blend = alpha
+#transparent = 1
+#alphagrad = 1
+#alphagradbias = 0.75
+
+blend = add
+
+#initial fade strength (1.0 for full, 0.0 for invisible)
+#fade = 0.6
+fade = 0.9
+
+#number of puffs.
+count = 8
+
+#expansion radius.
+expandstart = 3
+#expand = 20
+expand = 15
+
+soundentity = "explolong"
+
+#EntityChain0 = explosphere/fireenvsmall
+#EntityChain1 = explo/smokebig
+#EntityChain2 = explo/smoketiny
+#EntityChainMode = cycle
+
+TimeToLive = 1.8
+
+RandVelAddMin = -15, 5, -15
+RandVelAddMax = 15, 20, 15
+FlyingTrailMode = 1
+FlyingTrailTime = 0.05
+EntityChain0 = explo/Streamer1
+EntityChainMultiply = 20
+
+Gravity = 1
+
+TimeWarp = 0.2
+

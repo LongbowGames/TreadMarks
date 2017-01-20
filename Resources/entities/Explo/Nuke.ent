@@ -1,0 +1,47 @@
+Class = explo
+#Class of entity.
+
+Type = Nuke
+#The type of the entity.
+
+#Texture = sprites/LumpyFire1.bmp
+Texture = sprites/fireball.img
+#Which image to use.
+
+Width = 10
+Height = 30
+Base = 0
+#Size of sprite in meters once in the world.
+
+#how to blend the image over the scene.
+#blend = alpha
+blend = add
+
+#initial fade strength (1.0 for full, 0.0 for invisible)
+fade = 0.7
+fadebias = 0.8
+
+#number of puffs.
+count = 64
+
+#expansion radius.
+expandstart = 100
+expand = 5
+
+soundentity = nukeboom
+
+lifespan = 1
+
+DefaultVel = 0, 0, 0
+
+EntityChain0 = explo/Nuke2
+EntityChain1 = explo/Nuke3
+EntityChain2 = explosphere/Nuke1
+EntityChain3 = explosphere/Nuke2
+EntityChain4 = explosphere/Nuke3
+
+Transitory = 0
+#This lets nuke explo always be propogated to clients, no matter distance.
+
+RandomRotate = 0
+

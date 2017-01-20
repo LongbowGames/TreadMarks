@@ -1,0 +1,61 @@
+class = projectile
+type = strike
+nameid = 19
+
+mesh = weapons/missiles/Bomb.lwo
+texture = textures/Bomb.bmp
+#temporary!
+
+speed = 50
+#meters per second
+
+damage = 0.4
+#hit strength
+
+kick = 0.5
+
+SplashRadius = 15
+SplashDamage = 0.4
+SplashPush = 20
+
+gravity = 1.0
+#percentage of normal gravity to use
+
+crater = 20
+#meter radius of crater
+#depth = 4
+depth = 2
+#2 * 10 still equals a 20 meter blast crater if all hit one spot.
+
+#meter depth of crater
+scorch = 0.7
+#percentage to blacken near center.  1.0 is no change, 0.0 is all black.
+
+#ExploEnt = FireAlpha
+ExploEnt = FireBigTall
+ExploHitEnt = explosphere/fireenv1
+SmokeEnt = fractal1
+#SmokeTrailEnt = fractalsmall
+SoundEnt = HighTone
+
+#smoketrail = 1
+
+#spiral = 80.0
+#spiralramp = 0.5
+#spiralperiod = 0.6
+
+#guidespeed = 10.0
+#guidemax = 15.0
+#guidebias = 5.0
+#guideramp = 0.1
+
+guidespeed = 40.0
+guidemax = 15.0
+guidebias = 2.0
+guideramp = 1.1
+
+timetolive = 20
+
+Detonate = 1
+
+Transitory = 0

@@ -1,0 +1,23 @@
+Class = smoke
+#Class of entity.
+
+Type = WaspSmoke
+#The type of the entity.
+
+Texture = sprites/SmokeFractal1.bmp
+#Which image to use.
+
+Width = .5
+Height = .5
+Base = 0
+#Size of sprite in meters once in the world.
+
+grow = 1.0
+
+#how to blend the image over the scene.
+blend = add
+
+#initial fade strength (1.0 for full, 0.0 for invisible)
+fade = 1.0
+
+TimeToLive = 3.0

@@ -1,0 +1,47 @@
+class = projectile
+type = smalldirtball
+nameid = 17
+
+speed = 50
+#meters per second
+
+damage = 0.4
+#hit strength
+
+kick = 0.15
+#amount of speed to impart to target in collision.
+
+SplashRadius = 15
+SplashDamage = 0.4
+SplashPush = 20
+
+CheckCollisions = 1
+#Turn OFF tank/entity collision checking!
+#Try it on again.
+
+crater = 7
+#meter radius of crater
+depth = -2
+#meter depth of crater
+scorch = 1.0
+#percentage to blacken near center.  1.0 is no change, 0.0 is all black.
+
+ExploEnt = SmokeBig
+#ExploEnt = racetank/tank5
+SmokeEnt = Lumpy1
+SoundEnt = tankgun1
+SmokeTrailEnt = DirtBall
+SmokeTrail = 1
+
+Texture = sprites/RoundSmoke1.bmp
+Width = 0.9
+Height = 0.9
+Blend = add
+#image for traveling shell
+
+guidespeed = 6.0
+guidemax = 7.5
+guidebias = 5.0
+guideramp = 0.1
+
+

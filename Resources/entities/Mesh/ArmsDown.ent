@@ -1,0 +1,37 @@
+class = mesh
+type = ArmsDown
+
+mesh = sculpture/ArmsDown/ArmsDownHT.lwo
+mesh1 = sculpture/ArmsDown/ArmsDownMT.lwo
+mesh2 = sculpture/ArmsDown/ArmsDownLT.lwo
+
+LodBias = 0.3
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+
+#texture = textures/Waypoint.bmp
+#texture = textures/EarthCourse.bmp
+#texture = textures/StonePebblesDX.bmp
+#texture = textures/Field.bmp
+#texture = textures/RockFace.bmp
+#texture = textures/RockLayered.bmp
+texture = textures/TerrainRidgedCourse.bmp
+#texture = textures/TerrainClay.bmp
+#texture = textures/StoneMosaic.bmp
+#texture = textures/StoneCracked.bmp
+
+scale = 1.0
+collide = 1
+mass = 2
+
+envmode = blend
+fade = .85
+
+#envmode = global
+#fade = 1.0
+
+RestOnGround = 1
+GroundOffset = -2.0
+

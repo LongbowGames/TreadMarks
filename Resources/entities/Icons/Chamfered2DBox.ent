@@ -1,0 +1,7 @@
+class = Chamfered2DBox
+type = basic
+
+chamferwidth = 0.01
+
+ServerSynch = 0
+

@@ -1,0 +1,25 @@
+class = weapon
+type = Swarmer1
+
+mesh = weapons/Swarmer/Swarmer1HighT.lwo
+mesh1 = weapons/Swarmer/Swarmer1MedT.lwo
+texture = textures/Swarmer1.bmp
+sizebias = -1
+
+projectile = missileswarm1
+
+ammo = 24
+
+bolton = 1
+
+#lockon = 0
+
+reloadtime = 0.1
+
+launchangle = 0, 0, 0
+launchcoords = 0, 0.50, 0.80
+#where projectile comes from
+
+weight = 100
+
+Name = Swarmer

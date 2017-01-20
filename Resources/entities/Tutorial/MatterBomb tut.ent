@@ -1,0 +1,29 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tutorial entity file.
+#
+
+Class = tutorial
+Type = MatterBombtut
+
+TutID = 170
+
+Name = Matter Bomb
+
+mesh = weapons/icbm/ICBMHighT.lwo
+texture = textures/ICBMGreen.bmp
+sizebias = -1
+
+
+descstring0 = -
+descstring1 = The anti-nuke. A large blast
+descstring2 = creates a large hill.
+descstring3 = -
+descstring4 = Find a viewpoint and fire upwards,
+descstring5 = or towards a distant crowd.
+
+meshoffset = 0, 0, -1
+
+#scale = 1.5

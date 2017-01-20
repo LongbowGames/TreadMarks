@@ -1,0 +1,4 @@
+#
+# The paths for the localised sounds (mostly vox)
+#
+Sound\Vox\IAmDeath.WAV

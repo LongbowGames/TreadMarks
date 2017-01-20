@@ -1,0 +1,26 @@
+#Sky backdrop entity.
+
+class = skyplane
+
+type = trace1a
+
+texture = sky/trace1_001a.bmp
+
+detailtexture = textures/TerrainMult4.bmp
+watertexture = textures/water1.bmp
+wateralpha = 0.75
+waterenv = 0.7
+
+#specify the color of the distance fog to best match the sky image.
+FogRed = 0.7
+FogGreen = 0.5
+FogBlue = 0.6
+
+
+LightVector = -1.0, 1.0, 0.0
+AmbientTerrain = 0.33
+AmbientEntity = 0.5
+
+EcoCrud = thin1
+EcoCrudForce = 10.0
+

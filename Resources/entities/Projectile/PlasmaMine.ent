@@ -1,0 +1,67 @@
+class = projectile
+type = PlasmaMine
+nameid = 15
+
+speed = 0
+#meters per second
+
+damage = 0.6
+#hit strength
+
+kick = 0.2
+#amount of speed to impart to target in collision.
+
+gravity = 0.5
+
+crater = 6
+#meter radius of crater
+depth = 1
+#meter depth of crater
+scorch = 0.1
+#percentage to blacken near center.  1.0 is no change, 0.0 is all black.
+
+ExploEnt = explosphere/PlasmaEnv1
+#ExploHitEnt = explosphere/TealEnv1
+ExploHitEnt = PlasmaHit
+#ExploEnt = explosphere/fireenv1
+#SmokeEnt = explo/greensparks
+SmokeEnt = explo/LaserHit
+#SmokeEnt = explosphere/Teardrop
+
+#SoundEnt = missile1
+SoundEnt = Plasma3
+
+#SmokeTrailEnt = explo/TinyGreenSparks
+
+Smoketrail = 0
+
+Texture = sprites/PlasmaBall.bmp
+Width = 2.0
+Height = 2.0
+Blend = add
+#image for traveling shell
+
+#Fade = 0.5
+
+timetolive = 60
+
+
+#launchinertia = 0
+launchinertia = 0.2
+#followground = 1.0
+followground = 2.0
+bounce = 0.9
+
+Detonate = 1
+
+#SelfHitDelay = 1.0
+SelfHitDelay = 2.0
+
+Transitory = 0
+
+FlareEnt = smoke/flareBlue
+
+#guidespeed = 6.0
+guidemax = 20.0
+guidebias = 5.0
+guideramp = 1.5

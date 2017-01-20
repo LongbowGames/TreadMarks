@@ -1,0 +1,60 @@
+#Global controller (only one in game) for tread marks world.
+
+class = tankgod
+type = sabot
+
+#Gravity = 0, -10, 0
+#Friction = 7.5
+Gravity = 0, -10, 0
+Friction = 10.0
+
+
+EcoCrud = thin1
+EcoCrudForce = 10.0
+
+
+#Mini-Map parameters
+
+MMapScale = 0.0003
+MMapOpacity = 0.5
+MMapX = 0.2
+MMapY = 0.70
+MMapLineWidth = 0.002
+MMapClipRad = 400
+MMapClipBias = 0.9
+MMapPlayerColor = 0.1, 0.7, 1.0
+MMapLineColor = 1, 1, 1
+MMapEnemyColor = 1.0, 0.2, 0.0
+MMapTeamColor = 0.0, 1.0, 0.0
+MMapFlagColor = 1.0, 0.0, 1.0
+
+
+StatusX = 0.02
+StatusY = 0.95
+StatusW = 0.012
+StatusH = -0.03
+StatusFont = font2
+StatusLife = 10.0
+
+StatusPriorityColor = 1, 1, 1
+StatusPrioritySound =
+StatusPriorityColor1 = 1, 1, 0
+StatusPrioritySound1 =
+StatusPriorityColor2 = 1, 0.5, 0.5
+StatusPrioritySound2 = BeepMech
+StatusPriorityColor3 = 0, 1, 1
+StatusPrioritySound3 = BeepXcom
+StatusPriorityColor4 = 1, 0.3, 0.3
+StatusPrioritySound4 =
+StatusPriorityColor5 = 1, 1.0, 0
+StatusPrioritySound5 =
+
+DMPeaShooter = 8
+#RacePeaShooter = 0
+RacePeaShooter = 3
+
+GlobalMultikillDecEvery = 2.0
+#GlobalMultikillThresh = 4
+GlobalMultikillThresh = 6
+GlobalMultikillSound = "chaos"
+

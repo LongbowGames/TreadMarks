@@ -1,0 +1,201 @@
+-
+Calls in a single airstike
+with moderate guidance.
+Best against non-moving or
+weakened targets.
+%%
+-
+Fires bursts of highly guided,
+medium range missiles that
+slowly converge on target.
+
+%%
+-
+The ultimate "fire and forget"
+long range missile;
+with maximum guidance.
+
+%%
+-
+For very close range action:
+Each blast creates a dirt mound
+with plenty of splash damage.
+Send the enemy tumbling into the air.
+Reload and blast them again.
+%%
+-
+The melee weapon of choice.
+With a 22ft long 
+diamond tipped bit
+-
+The dentist's dream!
+%%
+-
+Dual 200mm nozzles of
+napalmy goodness.
+-
+Careful, don't BBQ yourself!
+%%
+-
+An extremely powerful, 
+hull mounted rotary auto-cannon. 
+-
+Use short bursts to range and aim
+your target, then hose em'!
+%%
+-
+Rocket grenades, hug the terrain 
+and climb hills too!
+-
+Great for surprise attacks or
+saturating groups of tanks
+%%
+-
+A turret mounted automatic cannon.
+-
+Take advantage of its flexibility.
+to make up for its small caliber.
+%%
+-
+A high energy turret mounted
+tank melter!
+-
+Fear the tank with the laser.
+%%
+-
+Fast firing, medium-range
+artillery missiles.
+-
+Great for firing
+at enemies on hillsides.
+%%
+-
+A rail-gun fit for a tank.
+Complete with an aiming laser.
+-
+Powerful, but very slow to reload.
+ 
+%%
+-
+The anti-nuke. A large blast
+creates a large hill.
+-
+Find a viewpoint and fire upwards,
+or towards a distant crowd.
+%%
+-
+Balls of high energy,
+dropped from your rear.
+-
+Use only when moving!
+%%
+-
+This tactical nuke blows a
+big crater with mega light and fire.
+-
+For the best effect, crest a hill
+and fire in the direction of a crowd.
+%%
+-
+Fires large and deadly plasma bolts.
+-
+With a slow reload,
+time its use carefully
+%%
+-
+Very fast firing missiles.
+-
+Harder to aim, and weaker than most,
+but, deadly at close range.
+
+%%
+-
+Death Incarnate
+Short range chain lightning.
+-
+No aiming needed. Move in
+and take out an entire group.
+%%
+-
+No guidance. 
+Heavy splash pushes
+hard but doesn't hurt.
+-
+A direct hit hurts!
+%%
+-
+The ammo box 
+adds 6 extra shells
+to the main tank gun.
+a.k.a. "Pea Shooter"
+%%
+-
+Deathmatch:
+Blast away with bolt-on weapons.
+Only one weapon can be carried
+at a time. No hoarding!!   
+Each weapon has a "best" range.
+-
+Tanks re-spawn at random power-up
+points after being destroyed.
+-
+Race Mode:
+Go for speed and power sliding
+through checkpoints. Weapons are
+secondary but can be useful. The
+red arrow points to the next
+checkpoint.
+-
+Radar:
+Lower left corner. Your tank's body 
+is always pointing upward.
+Blue dot: your tank
+Red dot: enemy tank
+White dot: pick-up/checkpoint
+Green dot: team member
+White line: race course
+-
+-
+Tips:
+-
+Use the terrain...position yourself.
+-
+Back away, front armor is stronger.
+-
+Use "quick look" (Rt Mouse Button) to
+stabilize the camera on steep slopes
+or in rough terrain.
+%%
+-
+Use this pickup to do
+some repairs to your Tank 
+
+
+%%
+-
+Drive your tank with the arrow keys.
+Control the turret with the mouse.
+Fire weapons with the Lt Mouse Button.
+Hold down the Rt Mouse Button to free
+the camera and quickly look around.
+-
+Details/Alternatives
+-
+Up/Down     Arrow Keys  accelerate.
+Left/Right  Arrow Keys  turn.
+-
+Mouse movement Rotates Turret  Lt/Rt
+Comma/Period   Rotate Turret   Lt/Rt
+-
+Lt Mouse Button   Fires Weapon
+Space Bar         Fires Weapon
+-
+%%
+-
+The Super Ammo box 
+adds 6 "pea shooter" rounds,
+plus an extra full reload
+to the bolt-on weapon
+currently carried.
+%%
+Help Error!

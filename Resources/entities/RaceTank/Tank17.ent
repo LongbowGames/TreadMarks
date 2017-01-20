@@ -1,0 +1,56 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tank entity file.
+#
+
+Class = racetank
+Type = tank17
+
+Mesh = Tank17/17BHighT.lwo
+Mesh1 = Tank17/17BMedT.lwo
+Mesh2 = Tank17/17BLowT.lwo
+TurretMesh = Tank17/17TurretHighT.lwo
+TurretMesh1 = Tank17/17TurretMedT.lwo
+TurretMesh2 = Tank17/17TurretLowT.lwo
+GunMesh = Tank17/17GunHighT.lwo
+GunMesh1 = Tank17/17GunMedT.lwo
+GunMesh2 = Tank17/17GunLowT.lwo
+
+Texture = textures/Tank17.bmp
+Scale = 1.0
+
+#meters per second.
+### Tweak max speed and acceleration settings to taste! ###
+maxspeed = 50
+#accelspeed = 15.0
+accelspeed = 20.0
+
+turretspeed = 60.0
+#degrees per second turret rotation.
+
+SmokeType = lumpy1
+#which subtype of class "smoke" to use for spewing.
+
+#EngineSound1 = engine/tanksqueaky1.wav
+EngineSound2 = engine/tanktreads.wav
+EngineSound1 = engine/tankrumble1.wav
+
+RumbleSound = Engine/RoadRumble3.wav
+
+ProjectileType = tankgun1
+#ProjectileType = nuke
+ReloadTime = 3
+
+baubletype = bauble1
+#weapon/launcher1
+
+bolton0 = -0.60, 0.2, -1.2
+bolton1 = 0.48, 0.2, -0.81
+bolton2 = -2.15, -0.70, -0.70
+bolton3 = 0, -0.66, -3.15
+
+Name = Destroyer
+
+namesound = Destroyer

@@ -1,0 +1,35 @@
+Class = explo
+#Class of entity.
+
+Type = fireGAU
+#The type of the entity.
+
+#Texture = sprites/LumpyFire1.bmp
+Texture = sprites/fireball.img
+#Which image to use.
+
+Width = 3
+Height = 20
+Base = 0
+#Size of sprite in meters once in the world.
+
+#how to blend the image over the scene.
+#blend = alpha
+blend = add
+
+#initial fade strength (1.0 for full, 0.0 for invisible)
+fade = 0.6
+
+#number of puffs.
+count = 10
+
+#expansion radius.
+expandstart = 7
+expand = 7
+
+grow = -0.5
+
+soundentity = "explolong"
+
+RandomRotate = 0
+

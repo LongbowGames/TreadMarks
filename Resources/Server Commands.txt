@@ -1,0 +1,14 @@
+Server commands in 1.5.6
+
+The following commands can be entered into the Chat Message line in the dedicated server:
+
+/list
+	Lists all players on the server with their team hash and score
+/kick <name> <time>
+	Kicks a player from the server. If a <time> is supplied, the user is banned for the number of minutes specified in <time>.
+/addai
+	Adds an AI to the game.
+/listai
+	Lists all AI tanks in the game
+/kickai <name>
+	Removes the AI named <name> from the game

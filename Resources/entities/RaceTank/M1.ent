@@ -1,0 +1,66 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tank entity file.
+#
+
+Class = racetank
+Type = M1
+
+Mesh = M1/M1_HTriple.lwo
+Mesh1 = M1/M1_MTriple.lwo
+Mesh2 = M1/M1_LTriple.lwo
+TurretMesh = M1/M1TurretHTriple.lwo
+TurretMesh1 = M1/M1TurretMTriple.lwo
+TurretMesh2 = M1/M1TurretLTriple.lwo
+GunMesh = M1/M1GunHTriple.lwo
+GunMesh1 = M1/M1GunMTriple.lwo
+GunMesh2 = M1/M1GunLTriple.lwo
+
+Texture = textures/M1.bmp
+#Texture = textures/BlackShiny2a.bmp
+Scale = 1.0
+
+#meters per second.
+### Tweak max speed and acceleration settings to taste! ###
+maxspeed = 50
+#accelspeed = 15.0
+
+accelspeed = 20.0
+
+turretspeed = 60.0
+#degrees per second turret rotation.
+
+SmokeType = lumpy1
+#which subtype of class "smoke" to use for spewing.
+
+#EngineSound1 = engine/tanksqueaky1.wav
+#EngineSound2 = engine/tanktreads.wav
+#EngineSound1 = engine/tankrumble1.wav
+
+EngineSound2 = engine/tanktreadsRumble.wav
+EngineSound1 = engine/tankrumble1Deep.wav
+
+RumbleSound = Engine/RoadRumble3.wav
+
+ProjectileType = tankgun1
+#ProjectileType = nuke
+ReloadTime = 3
+
+baubletype = bauble1
+#weapon/launcher1
+
+bolton0 = -0.60, 0.40, -1.0
+bolton1 = 0.60, 0.40, -0.60
+bolton2 = -1.75, -0.80, -0.10
+bolton3 = 0, -0.75, -4.06
+
+#envmode = texture
+#smoothshade = 1
+#solidlight = 1
+#envlight = 1
+
+Name = M1-Turbo
+
+Namesound = M1Turbo

@@ -1,0 +1,40 @@
+Class = explo
+#Class of entity.
+
+Type = masstailings
+#The type of the entity.
+
+#texture = sprites/firefractal1.bmp
+Texture = sprites/GreenRing.bmp
+#Which image to use.
+
+Width = 1
+Height = 1
+Base = 0.5
+#Size of sprite in meters once in the world.
+
+grow = 0.0
+
+#how to blend the image over the scene.
+
+blend = add
+#try more traditional blend mode...
+
+#initial fade strength (1.0 for full, 0.0 for invisible)
+fade = 0.9
+
+#number of puffs.
+count = 4
+
+#expansion radius.
+expandstart = 3
+expand = 4
+
+timetolive = 5
+
+gravity = 1.0
+
+DefaultVel = 0, 1, 0
+
+RandomRotate = 1
+

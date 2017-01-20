@@ -1,0 +1,18 @@
+class = sound
+type = Chaingun
+
+sound = gun/Chaingun4.wav
+altsound =
+
+volume = 1.0
+
+FreqVariance = 0.0
+
+Priority = 0.7
+
+loop = 1
+
+RampUp = 0.0
+RampDown = 0.3
+RampFreq = 0.5
+

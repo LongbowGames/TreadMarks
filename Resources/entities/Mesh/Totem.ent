@@ -1,0 +1,47 @@
+class = mesh
+type = Totem
+
+mesh = sculpture/Totem/TotemHT.lwo
+mesh1 = sculpture/Totem/TotemMT.lwo
+mesh2 = sculpture/Totem/TotemLT.lwo
+
+LodBias = 0.3
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+#texture = textures/Waypoint.bmp
+#texture = textures/WallpaperAbstract.bmp
+#texture = textures/GlyphsFine.bmp
+#texture = textures/TerrainRidgedCourse.bmp
+#texture = textures/CraggyRedRock.bmp
+#texture = textures/CarvedBronze.bmp
+#texture = textures/CarvedOrange.bmp
+#texture = textures/ChromeYellow.bmp
+#texture = textures/LaserBeam1.bmp
+#texture = textures/ElectricHoney.bmp
+#texture = textures/BlackShiny3.bmp
+texture = textures/BlackShiny1.bmp
+#texture = textures/Scales.bmp
+
+
+
+scale = 1.0
+collide = 1
+mass = 2
+
+cullface = 1
+
+smoothshade = 1
+
+#envmode = blend
+envmode = texture
+#fade = 0.60
+
+#envmode = global
+envlight = 1
+fade = 1.0
+
+RestOnGround = 1
+GroundOffset = -2.0
+

@@ -1,0 +1,30 @@
+class = mesh
+type = Tower
+
+mesh = sculpture/Tower/TowerHT.lwo
+mesh1 = sculpture/Tower/TowerMT.lwo
+mesh2 = sculpture/Tower/TowerLT.lwo
+
+LodBias = 0.2
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+texture = textures/BlackShiny2.bmp
+
+scale = 1.0
+collide = 1
+mass = 2
+
+#envmode = blend
+envmode = texture
+fade = 1.0
+#fade = 0.5
+
+#envmode = global
+#fade = 1.0
+
+RestOnGround = 1
+GroundOffset = -4.0
+
+envlight = 1

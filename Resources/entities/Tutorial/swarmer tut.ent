@@ -1,0 +1,25 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tutorial entity file.
+#
+
+Class = tutorial
+Type = swarmertut
+
+TutID = 130
+
+Name = Swarmer
+
+mesh = weapons/Swarmer/Swarmer1HighT.lwo
+texture = textures/Swarmer1.bmp
+
+descstring0 = -
+descstring1 = Very fast firing missiles.
+descstring2 = -
+descstring3 = Harder to aim, and weaker than most,
+descstring4 = but, deadly at close range.
+descstring5 =
+
+#scale = 2.0

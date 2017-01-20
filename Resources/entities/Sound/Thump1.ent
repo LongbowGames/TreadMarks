@@ -1,0 +1,10 @@
+class = sound
+type = thump1
+
+sound = crunch/crunch3.wav
+altsound = crunch/crunch5.wav
+
+volume = 0.5
+
+Priority = 0.3
+

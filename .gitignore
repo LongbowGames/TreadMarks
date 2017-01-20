@@ -1,0 +1,4 @@
+/out
+/build
+/Installers/*.p12
+/Installers/out/*.exe

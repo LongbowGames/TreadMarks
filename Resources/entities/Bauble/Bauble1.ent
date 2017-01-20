@@ -1,0 +1,17 @@
+class = bauble
+type = bauble1
+
+mesh = Bauble2T.lwo
+#texture = textures/RedArrow.bmp
+texture = textures/BlackShiny3.bmp
+
+scale = 1.0
+collide = 0
+mass = 0.01
+stiffness = 4.0
+dampening = 0.9
+
+smoothshade = 0
+#envmode = global
+envmode = texture
+

@@ -1,0 +1,65 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tank entity file.
+#
+
+Class = racetank
+Type = tank18
+
+Mesh = Tank18/18HighT.lwo
+Mesh1 = Tank18/18MedT.lwo
+Mesh2 = Tank18/18LowT.lwo
+TurretMesh = Tank18/18TurretHighT.lwo
+TurretMesh1 = Tank18/18TurretMedT.lwo
+TurretMesh2 = Tank18/18TurretLowT.lwo
+GunMesh = Tank18/18GunHighT.lwo
+GunMesh1 = Tank18/18GunMedT.lwo
+GunMesh2 = Tank18/18GunLowT.lwo
+
+Texture = textures/Tank18.bmp
+#Texture = textures/BlackShiny2a.bmp
+Scale = 1.0
+
+#meters per second.
+### Tweak max speed and acceleration settings to taste! ###
+maxspeed = 50
+#accelspeed = 15.0
+accelspeed = 20.0
+
+turretspeed = 60.0
+#degrees per second turret rotation.
+
+SmokeType = lumpy1
+#which subtype of class "smoke" to use for spewing.
+
+#EngineSound1 = engine/tanksqueaky1.wav
+#EngineSound2 = engine/tanktreads.wav
+#EngineSound1 = engine/tankrumble1.wav
+
+EngineSound2 = engine/tanktreadsRumble.wav
+EngineSound1 = engine/tankrumble1Deep.wav
+
+RumbleSound = Engine/RoadRumble3.wav
+
+ProjectileType = tankgun1
+#ProjectileType = nuke
+ReloadTime = 3
+
+baubletype = bauble1
+#weapon/launcher1
+
+bolton0 = -0.75, 0.5, -0.7
+bolton1 = 0.75, 0.5, -0.7
+bolton2 = -2.4, -0.80, -0.30
+bolton3 = 0, -0.70, -3.54
+
+#envmode = texture
+#smoothshade = 1
+#solidlight = 1
+#envlight = 1
+
+Name = Barbarian
+
+Namesound = Barbarian

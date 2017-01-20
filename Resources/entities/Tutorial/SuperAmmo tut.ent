@@ -1,0 +1,27 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tutorial entity file.
+#
+
+Class = tutorial
+Type = superammo
+
+TutID = 5
+
+Name = Super Ammo
+
+mesh = powerups/box2medT.lwo
+texture = textures/powerups/ammo2gold.bmp
+sizebias = -2
+
+
+descstring0 = -
+descstring1 = The Super Ammo box 
+descstring2 = adds 6 "pea shooter" rounds,
+descstring3 = plus an extra full reload
+descstring4 = to the bolt-on weapon
+descstring5 = currently carried.
+
+#scale = 1.5

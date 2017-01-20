@@ -1,0 +1,36 @@
+class = explosphere
+type = Matter
+
+mesh = SphereSquishedHigh.lwo
+#mesh1 = SphereSquishedLow.lwo
+#don't need no steenkin low meshes on nuke explos!
+lodbias = 3.0
+
+#texture = textures/FieryBlue.bmp
+#texture = textures/RadialBlueLightning.bmp
+texture = textures/BlackShiny2b.bmp
+
+scale = 1.0
+collide = 0
+mass = 1
+
+expand = 50
+expandstart = 400
+
+rotatespeed = 0.1
+
+fade = 1.0
+fadebias = 0.9
+
+blend = add
+smoothshade = 1
+solidlight = 1
+cullface = 0
+edgetrans = 0
+
+lifespan = 2.0
+
+envlight = 1
+envmode = texture
+#none, texture, global, blend
+

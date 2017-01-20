@@ -1,0 +1,25 @@
+class = guiimagebrowser
+type = ibinsignia
+
+OverColor = 0.5, 1, 1
+ClickColor = 1, 0.8, 0.5
+
+ClickSound = click1
+
+Clickable = 1
+
+fade = 1.0
+
+#This is a special entity, it will have one downloaded texture of this size which will be updated
+#as new images to display are requested by the app.  Only create ONE entity at a time of this
+#class/type combo, as the single texture will be created with the class/type name identifying it.
+
+width = 128
+height = 128
+
+PulseAmount = 0.25
+PulseTime = 0.5
+OverLinger = 1.0
+
+ServerSynch = 0
+

@@ -1,0 +1,7 @@
+#
+# The relative paths for the languages in Language.TXT
+#
+Local\English
+Local\French
+Local\German
+#

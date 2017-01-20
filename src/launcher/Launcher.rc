@@ -1,0 +1,155 @@
+// This file is part of Tread Marks
+// 
+// Tread Marks is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+// 
+// Tread Marks is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+// 
+// You should have received a copy of the GNU General Public License
+// along with Tread Marks.  If not, see <http://www.gnu.org/licenses/>.
+
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 273, 161
+STYLE DS_MODALFRAME | DS_NOFAILCREATE | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Tread Marks Game Launcher"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Play Tread Marks",IDC_BUTTONHW,67,31,117,20,0,
+                    WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE
+    GROUPBOX        "Forums, Mods and Updates",IDC_STATIC,5,113,180,31
+    PUSHBUTTON      "Go to www.TreadMarks.com!",IDC_BUTTONWEB,10,123,170,15,
+                    0,WS_EX_CLIENTEDGE
+    GROUPBOX        "Run a dedicated game server open to the public",
+                    IDC_STATIC,5,59,180,50
+    PUSHBUTTON      "Launch Dedicated Server",IDC_BUTTONDEDI,10,89,170,15,0,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Edit Server Configuration",IDC_BUTTONDEDICFG,10,70,170,
+                    15,0,WS_EX_CLIENTEDGE
+    CTEXT           "Copyright 1999-2017 by Longbow Digital Arts, Inc.",
+                    IDC_STATIC,40,148,180,10
+    GROUPBOX        "Graphics Detail",IDC_STATIC,67,3,116,26
+    //CONTROL         "Current",IDC_RADIOCURRENT,"Button",BS_AUTORADIOBUTTON,
+    //                69,14,38,10
+    CONTROL         "Average",IDC_RADIOAVG,"Button",BS_AUTORADIOBUTTON,//139,14,40,10
+                    85,14,40,10
+    CONTROL         "High",IDC_RADIOHIGH,"Button",BS_AUTORADIOBUTTON,//109,14,27,10
+					138,14,27,10
+    GROUPBOX        "Tips:",IDC_STATIC,191,3,75,141
+    CONTROL         103,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,5,6,58,45
+    LTEXT           "Learn controls in the field manual.",IDC_STATIC,198,15,
+                    60,19
+    LTEXT           "Hone your skills on the training maps.",IDC_STATIC,198,
+                    42,60,18
+    LTEXT           "Adjust the graphics detail in the game options.",
+                    IDC_STATIC,198,114,60,27
+    LTEXT           "Learn to use the terrain to aim your weapons and avoid enemy fire.",
+                    IDC_STATIC,198,68,57,32
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 266
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "..\\TreadMarks.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "bitmap1.bmp"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

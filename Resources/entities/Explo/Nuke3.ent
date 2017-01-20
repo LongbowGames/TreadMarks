@@ -1,0 +1,41 @@
+Class = explo
+#Class of entity.
+
+Type = Nuke3
+#The type of the entity.
+
+texture = sprites/firefractal1.bmp
+#Which image to use.
+
+Width = 10
+Height = 2
+Base = 0
+#Size of sprite in meters once in the world.
+
+grow = -1.0
+
+#how to blend the image over the scene.
+
+#blend = alpha
+#transparent = 1
+#alphagrad = 1
+#alphagradbias = 0.5
+
+blend = add
+
+#initial fade strength (1.0 for full, 0.0 for invisible)
+fade = 0.9
+
+#number of puffs.
+count = 128
+
+#expansion radius.
+expandstart = 5
+expand = 400
+
+lifespan = 4
+
+soundentity = "explolong"
+
+RandomRotate = 0
+

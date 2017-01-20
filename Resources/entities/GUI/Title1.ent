@@ -1,0 +1,20 @@
+class = guibutton
+type = title1
+
+#texture = menus/armorplateblue.bmp
+#texture = menus/20atesta.bmp
+texture = menus/BlackButtonBack.bmp
+
+FontType = font2
+
+#OverColor = 0.5, 1, 1
+#ClickColor = 1, 0.8, 0.5
+
+#ClickSound = click1
+
+Clickable = 0
+
+fade = 0.5
+
+ServerSynch = 0
+

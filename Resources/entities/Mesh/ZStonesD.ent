@@ -1,0 +1,39 @@
+class = mesh
+type = ZStonesD
+
+mesh = sculpture/ZStonesD/ZStonesDHT.lwo
+mesh1 = sculpture/ZStonesD/ZStonesDMT.lwo
+mesh2 = sculpture/ZStonesD/ZStonesDLT.lwo
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+
+LodBias = 0.3
+
+texture = textures/BlackShiny2.bmp
+#texture = textures/StoneMosaic.bmp
+#texture = textures/Chrome2.bmp
+#texture = textures/RadialBlueLightning.bmp
+
+
+scale = 1.0
+collide = 1
+mass = 2
+
+envlight = 1
+envmode = texture
+smoothshade = 1
+solidlight = 1
+
+#envmode = blend
+fade = 1.0
+#fade = 0.5
+
+#envmode = global
+#fade = 1.0
+
+RestOnGround = 1
+GroundOffset = -1.5
+
+envlight = 1

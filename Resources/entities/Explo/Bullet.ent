@@ -1,0 +1,34 @@
+Class = explo
+#Class of entity.
+
+Type = Bullet
+#The type of the entity.
+
+#Texture = sprites/LumpyFire1.bmp
+Texture = sprites/fireball.img
+#Which image to use.
+
+Width = 2
+Height = 20
+Base = 0
+#Size of sprite in meters once in the world.
+
+#how to blend the image over the scene.
+#blend = alpha
+blend = add
+
+#initial fade strength (1.0 for full, 0.0 for invisible)
+fade = 0.9
+
+#number of puffs.
+count = 1
+
+#expansion radius.
+expandstart = 0
+expand = 1
+
+grow = 0.0
+
+soundentity = thud1
+
+RandomRotate = 0

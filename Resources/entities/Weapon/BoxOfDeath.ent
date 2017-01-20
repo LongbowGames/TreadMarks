@@ -1,0 +1,32 @@
+class = weapon
+type = BoxOfDeath
+
+mesh = weapons/BoxOfDeath3/BoxOfDeath3HighT.lwo
+mesh1 = weapons/BoxOfDeath3/BoxOfDeath3LowT.lwo
+texture = textures/BoxOfDeath3.bmp
+sizebias = -1
+
+projectile = missilewasp
+
+ammo = 40
+
+bolton = 1
+
+#lockon = 0
+
+reloadtime = 2.0
+
+launchangle = -10, 0, 0
+launchcoords = 0, 0.50, 0.80
+#where projectile comes from
+
+weight = 80
+
+Name = Wasps
+
+launchspread = 45, 45, 0
+
+launchcount = 10
+
+#FireSoundEnt = missile3
+FireSoundEnt = missileWasp

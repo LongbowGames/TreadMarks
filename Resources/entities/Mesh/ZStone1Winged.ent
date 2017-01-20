@@ -1,0 +1,41 @@
+class = mesh
+type = ZStone1Winged
+
+mesh = sculpture/ZStone1Winged/ZStone1WingedHT.lwo
+mesh1 = sculpture/ZStone1Winged/ZStone1WingedMT.lwo
+mesh2 = sculpture/ZStone1Winged/ZStone1WingedLT.lwo
+
+LodBias = 0.3
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+#texture = textures/BlackShiny2.bmp
+#texture = textures/Chrome1.bmp
+#texture = textures/Chrome2.bmp
+#texture = textures/Chromeyellow.bmp
+texture = textures/ShinyOrange.bmp
+
+blend = add
+cullface = 0
+
+scale = 1.0
+#collide = 1
+collide = 0
+mass = 2
+
+#envmode = global
+#envmode = blend
+
+envlight = 1
+envmode = texture
+smoothshade = 1
+solidlight = 1
+
+fade = 1.0
+#fade = 0.5
+
+RestOnGround = 1
+GroundOffset = 4.5
+
+ConstRotate = 0, 45, 0

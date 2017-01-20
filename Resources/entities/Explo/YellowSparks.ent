@@ -1,0 +1,36 @@
+Class = explo
+#Class of entity.
+
+Type = YellowSparks
+#The type of the entity.
+
+Texture = sprites/LumpyFire1.bmp
+#Which image to use.
+
+Width = 0.3
+Height = 0.3
+Base = 0.2
+#Size of sprite in meters once in the world.
+
+#how to blend the image over the scene.
+blend = add
+
+#initial fade strength (1.0 for full, 0.0 for invisible)
+fade = 0.9
+
+#number of puffs.
+count = 32
+
+#expansion radius, initial and final.
+expandstart = 0.5
+expand = 10
+
+grow = 1.0
+#puff growth
+
+#fade = 0.5
+
+timetolive = 1.0
+
+gravity = 1.0
+

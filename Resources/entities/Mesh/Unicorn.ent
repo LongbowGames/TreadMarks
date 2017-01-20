@@ -1,0 +1,37 @@
+class = mesh
+type = Unicorn
+
+mesh = sculpture/Unicorn/UnicornHT.lwo
+mesh1 = sculpture/Unicorn/UnicornMT.lwo
+mesh2 = sculpture/Unicorn/UnicornLT.lwo
+
+LodBias = 0.3
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+#texture = textures/Waypoint.bmp
+#texture = textures/GemAmber.bmp
+#texture = textures/StoneMosaic.bmp
+#texture = textures/EarthMulti.bmp
+texture = textures/Chromeyellow.bmp
+
+scale = 1.0
+collide = 1
+mass = 2
+
+#envmode = blend
+envmode = texture
+fade = 1.0
+#fade = 0.5
+
+#envmode = global
+#fade = 1.0
+
+#smoothshade = 1
+
+RestOnGround = 1
+GroundOffset = -2.0
+
+envlight = 1
+

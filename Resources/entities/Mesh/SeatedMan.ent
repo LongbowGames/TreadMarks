@@ -1,0 +1,44 @@
+class = mesh
+type = SeatedMan
+
+mesh = sculpture/SeatedMan/SeatedManHT.lwo
+mesh1 = sculpture/SeatedMan/SeatedManMT.lwo
+mesh2 = sculpture/SeatedMan/SeatedManLT.lwo
+
+LodBias = 0.3
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+
+#texture = textures/Waypoint.bmp
+#texture = textures/EarthCourse.bmp
+#texture = textures/StonePebblesDX.bmp
+#texture = textures/Field.bmp
+#texture = textures/RockFace.bmp
+#texture = textures/RockLayered.bmp
+#texture = textures/TerrainRidgedCourse.bmp
+#texture = textures/TerrainClay.bmp
+#texture = textures/StoneMosaic.bmp
+#texture = textures/StoneCracked.bmp
+#texture = textures/BlackShiny3.bmp
+texture = textures/WallpaperAbstract.bmp
+
+
+scale = 1.0
+collide = 1
+mass = 2
+
+smoothshade = 1
+
+#envmode = texture
+envmode = blend
+fade = 0.65
+#fade = 1.0
+
+#envmode = global
+#fade = 1.0
+
+RestOnGround = 1
+GroundOffset = -2.0
+

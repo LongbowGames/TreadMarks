@@ -1,0 +1,55 @@
+class = mesh
+type = Woman
+
+mesh = sculpture/Woman/WomanHT.lwo
+mesh1 = sculpture/Woman/WomanMT.lwo
+mesh2 = sculpture/Woman/WomanLT.lwo
+
+LodBias = 0.3
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+#texture = textures/Waypoint.bmp
+#texture = textures/StonePebblesDX.bmp
+#texture = textures/TerrainRidgedCourse.bmp
+#texture = textures/RockFace.bmp
+#texture = textures/Field.bmp
+#texture = textures/WallpaperAbstract.bmp
+#texture = textures/BlackShiny3.bmp
+#texture = textures/LizardSkinYellow.bmp
+#texture = textures/SnakeSkinGreenBlue.bmp
+#texture = textures/PigSkin.bmp
+#texture = textures/StoneMosaic.bmp
+#texture = textures/CatFurBrown.bmp
+#texture = textures/SnakePurple.bmp
+#texture = textures/GemAmber.bmp
+#texture = textures/WallTexSC5.bmp
+#texture = textures/AnimalSkin.bmp
+#texture = textures/CarpetGreen.bmp
+#texture = textures/Chrome2.bmp
+#texture = textures/ChromeYellow.bmp
+texture = textures/CarvedOrange.bmp
+
+
+#smoothshade = 1.0
+
+scale = 1.0
+collide = 1
+mass = 2
+
+envmode = texture
+
+#blend = add
+
+#envmode = blend
+#fade = 0.65
+
+#envmode = global
+fade = 1.0
+
+RestOnGround = 1
+GroundOffset = -2.0
+
+envlight = 1
+

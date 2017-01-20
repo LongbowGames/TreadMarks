@@ -1,0 +1,14 @@
+class = sound
+type = nukeboom
+
+sound = explo/nukeboom.wav
+
+volume = 2.0
+
+FreqVariance = 0.0
+
+Priority = 0.75
+
+#Make sure this is LOUD all the time.
+DistanceScale = 0.1
+

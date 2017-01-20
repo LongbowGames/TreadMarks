@@ -1,0 +1,81 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tank entity file.
+#
+
+Class = racetank
+Type = Liquid9
+
+#blend = add
+#cullface = 0
+
+
+Mesh = Liquid9/Liquid9HT.lwo
+Mesh1 = Liquid9/Liquid9MT.lwo
+Mesh2 = Liquid9/Liquid9LT.lwo
+TurretMesh = Liquid9/Liquid9TurretHT.lwo
+TurretMesh1 = Liquid9/Liquid9TurretMT.lwo
+TurretMesh2 = Liquid9/Liquid9TurretLT.lwo
+GunMesh = Liquid9/Liquid9GunHT.lwo
+GunMesh1 = Liquid9/Liquid9GunLT.lwo
+GunMesh2 = Liquid9/Liquid9GunLT.lwo
+
+#Texture = textures/BlueTilesNew.bmp
+#Texture = textures/CarvedBronze.bmp
+#Texture = textures/GloppyGreen2.bmp
+#Texture = textures/AnimalSkinShiny.bmp
+Texture = textures/CircleGlassHilight.bmp
+
+Scale = 1.0
+
+#meters per second.
+### Tweak max speed and acceleration settings to taste! ###
+maxspeed = 50
+#accelspeed = 15.0
+accelspeed = 20.0
+
+#maxspeed = 100
+#accelspeed = 30.0
+
+turretspeed = 60.0
+#degrees per second turret rotation.
+
+SmokeType = lumpy1
+#which subtype of class "smoke" to use for spewing.
+
+#EngineSound1 = engine/tanksqueaky1.wav
+
+#EngineSound2 = engine/tanktreads.wav
+#EngineSound1 = engine/tankrumble1.wav
+
+EngineSound2 = engine/LiquidTank02.wav
+EngineSound1 = engine/LiquidTank02.wav
+
+RumbleSound = Engine/LiquidTank04.wav
+
+ProjectileType = tankgun1
+#ProjectileType = nuke
+ReloadTime = 3
+
+envlight = 1
+envmode = texture
+smoothshade = 1
+solidlight = 1
+
+mass = 0.5
+#mass = 0.2
+bolton0 = -0.33, -0.07, -1.0
+bolton1 = 0, 0.16, 0.67
+bolton2 = -0.65, -0.448, -1.19
+bolton3 = 0, -0.60, -3.0
+
+Name = Liquid Platypus
+
+LodBias = 0.15
+
+namesound = Platypus
+
+Armor = 1.0
+

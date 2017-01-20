@@ -1,0 +1,42 @@
+Class = crud
+#Class of entity.
+
+Type = DrillSparks
+#The type of the entity.
+
+Texture = Sprites/PlasmaParticleBlue.bmp
+#Particle image texture to use (two images across main diagonal).
+#AlphaGrad = 2
+
+Blend = add
+
+width = 0.6
+height = 0.6
+#sprite width and height, which will be the particle width and height.
+
+startrad = 0.0
+endrad = 0.1
+#Starting and ending radii.
+
+timetolive = 100
+#default msecs to live.
+
+#initial fade strength (1.0 for full, 0.0 for invisible)
+fade = 0.8
+
+#fade strength at end of lifespan.
+#endfade = 0.25
+endfade = 0.0
+fadebias = 0.7
+
+#number of particles in crud (default)
+particles = 3
+
+#percentage of source texture color to use in crud color.
+#colorfade = 1.3
+
+UseGroundColor = 0
+
+SizeBias = -1
+
+gravity = 1.0

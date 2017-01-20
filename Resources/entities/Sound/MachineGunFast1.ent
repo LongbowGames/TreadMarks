@@ -1,0 +1,14 @@
+class = sound
+type = machinegunfast1
+
+sound = gun/machinegunfast1.wav
+altsound =
+
+volume = 1.0
+
+FreqVariance = 0.1
+
+Priority = 0.7
+
+loop = 1
+

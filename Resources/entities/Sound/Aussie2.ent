@@ -1,0 +1,12 @@
+class = sound
+type = Aussie2
+
+sound = squishy/GoodayClean1.wav
+altsound = squishy/GoodayClean2.wav
+
+volume = 1.0
+
+FreqVariance = 0.0
+
+Priority = 0.2
+

@@ -1,0 +1,31 @@
+class = squishy
+type = sheep
+
+mesh = sculpture/sheep/sheept.lwo
+mesh1 = sculpture/sheep/sheeplt.lwo
+texture = textures/sheep.bmp
+
+scale = 1.0
+collide = 1
+mass = 0.1
+
+smoothshade = 1
+
+Transitory = 0
+
+
+Bounce = 10.0
+
+BounceMin = 2.0
+
+BounceThreshold = 3.0
+
+PitchScale = 0.5
+
+ExpandBBox = 3.0
+
+BounceEvery = 20.0
+
+
+BounceSound = baah
+

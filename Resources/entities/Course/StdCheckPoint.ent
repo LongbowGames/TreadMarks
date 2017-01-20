@@ -1,0 +1,25 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Course Point entity file.
+#
+
+Class = course
+
+Type = stdcheckpoint
+
+HitRadius = 15
+#HitRadiusAdd = 1
+
+NextWeaponDelay = 2.5
+
+#WeaponSpawnEntity = "explosphere/blipin"
+#Optional global weapon and powerup spawn entity (now they mostly have their own).
+
+CheckPointEntity = mesh/checkpost1
+
+StartPointEntity = mesh/statue2
+
+PushStartPoints = 0.0
+

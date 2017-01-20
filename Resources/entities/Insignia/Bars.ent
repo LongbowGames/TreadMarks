@@ -1,0 +1,21 @@
+class = insignia
+type = Bars
+name = Bars
+
+texture = textures/teamlogos/Bars.bmp
+
+mesh = bannerh.lwo
+mesh1 = bannerm.lwo
+mesh2 = bannerl.lwo
+
+cullface = 0
+
+Perturb = 0.5
+PerturbScale = 1
+PerturbSpeed = 2
+
+Rotation = 0, 20, 0
+
+solidlight = 0
+
+sizebias = -2

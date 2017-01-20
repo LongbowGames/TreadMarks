@@ -1,0 +1,13 @@
+class = sound
+type = Click3
+
+sound = Menu/Click3.wav
+#altsound = gun/gun2.wav
+
+volume = 2.0
+
+FreqVariance = 0.1
+
+Priority = 0.8
+
+Is2DSound = 1

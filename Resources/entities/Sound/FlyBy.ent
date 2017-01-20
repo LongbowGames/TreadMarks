@@ -1,0 +1,15 @@
+class = sound
+type = FlyBy
+
+sound = missile/JetFlyby8Bit.wav
+#sound = missile/Missile03.wav
+#altsound = missile/rocket5.wav
+
+volume = 1.5
+
+FreqVariance = 0.1
+
+Priority = 0.55
+
+#Make sure this is LOUD all the time.
+DistanceScale = 0.1

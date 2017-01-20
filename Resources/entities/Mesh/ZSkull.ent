@@ -1,0 +1,40 @@
+class = mesh
+type = ZSkull
+
+mesh = sculpture/ZSkull/ZSkullHT.lwo
+mesh1 = sculpture/ZSkull/ZSkullLT.lwo
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+
+LodBias = 0.5
+
+texture = textures/BlackShinyEvil.bmp
+#texture = textures/ShinyOrange.bmp
+
+blend = add
+cullface = 0
+
+scale = 1.0
+#collide = 1
+collide = 0
+mass = 2
+
+#envmode = blend
+envmode = texture
+
+envlight = 1
+smoothshade = 1
+solidlight = 1
+
+fade = 1.0
+#fade = 0.5
+
+#envmode = global
+#fade = 1.0
+
+RestOnGround = 1
+GroundOffset = 4.0
+
+ConstRotate = 0, 30, 0

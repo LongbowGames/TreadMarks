@@ -1,0 +1,27 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tutorial entity file.
+#
+
+Class = tutorial
+Type = ammo1
+
+TutID = 4
+
+Name = Ammo Box
+
+mesh = powerups/box2medT.lwo
+texture = textures/powerups/ammo2.bmp
+sizebias = -2
+
+
+descstring0 = -
+descstring1 = The ammo box 
+descstring2 = adds 6 extra shells
+descstring3 = to the main tank gun.
+descstring4 = a.k.a. "Pea Shooter"
+
+
+#scale = 1.5

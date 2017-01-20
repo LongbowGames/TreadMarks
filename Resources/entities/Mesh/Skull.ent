@@ -1,0 +1,40 @@
+class = mesh
+type = Skull
+
+mesh = sculpture/Skull/SkullHT.lwo
+mesh1 = sculpture/Skull/SkullMT.lwo
+mesh2 = sculpture/Skull/SkullLT.lwo
+
+LodBias = 0.3
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+#texture = textures/Waypoint.bmp
+texture = textures/Chrome1.bmp
+#texture = textures/BlackShiny2Invert.bmp
+
+
+scale = 1.0
+collide = 1
+mass = 2
+
+envmode = texture
+#envmode = blend
+#fade = 0.5
+
+#envmode = global
+fade = 1.0
+
+#smoothshade = 1
+
+RestOnGround = 1
+GroundOffset = 13.0
+
+ConstRotate = 0, 30, 0
+#ConstWave = 0, 0, 0
+#ConstWaveTime = 10
+#ConstWaveTime = 0
+
+EntityChain0 = mesh/skullbase
+

@@ -1,0 +1,28 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tutorial entity file.
+#
+
+Class = tutorial
+Type = Lasertut
+
+TutID = 70
+
+Name = Laser
+
+mesh = weapons/Laser/LaserHighT.lwo
+texture = textures/Laser.bmp
+sizebias = -1
+
+
+descstring0 = -
+descstring1 = A high energy turret mounted
+descstring2 = tank melter!
+descstring3 = -
+descstring4 = Fear the tank with the laser.
+ 
+
+
+#scale = 1.5

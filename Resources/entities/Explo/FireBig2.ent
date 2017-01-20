@@ -1,0 +1,49 @@
+#Chains FireEnvSmall, which makes ricochet sound.
+
+Class = explo
+#Class of entity.
+
+Type = firebig2
+#The type of the entity.
+
+#Texture = sprites/LumpyFire1.bmp
+Texture = sprites/fireball.img
+#texture = sprites/firefractal1.bmp
+#Which image to use.
+
+Width = 10
+Height = 10
+Base = 0
+#Size of sprite in meters once in the world.
+
+grow = 0.0
+#grow = 1.0
+
+#how to blend the image over the scene.
+
+#blend = alpha
+#transparent = 1
+#alphagrad = 1
+#alphagradbias = 0.75
+
+blend = add
+
+#initial fade strength (1.0 for full, 0.0 for invisible)
+#fade = 0.6
+fade = 0.9
+
+#number of puffs.
+count = 8
+
+#expansion radius.
+expandstart = 3
+#expand = 20
+expand = 15
+
+soundentity = "explolong"
+
+EntityChain0 = explosphere/fireenvsmall
+#EntityChain1 = explo/smokebig
+#EntityChain2 = explo/smoketiny
+#EntityChainMode = cycle
+

@@ -1,0 +1,12 @@
+class = sound
+type = tankgun1
+
+sound = gun/gun1.wav
+altsound = gun/gun2.wav
+
+volume = 1.0
+
+FreqVariance = 0.2
+
+Priority = 0.5
+

@@ -1,0 +1,22 @@
+Class = smoke
+#Class of entity.
+
+Type = fractalsmall
+#The type of the entity.
+
+Texture = sprites/SmokeFractal1.bmp
+#Which image to use.
+
+Width = 1
+Height = 1
+Base = 0
+#Size of sprite in meters once in the world.
+
+grow = 1.0
+
+#how to blend the image over the scene.
+blend = add
+
+#initial fade strength (1.0 for full, 0.0 for invisible)
+fade = 1.0
+

@@ -1,0 +1,41 @@
+class = weapon
+type = nuke
+
+mesh = weapons/icbm/ICBMHighT.lwo
+mesh1 = weapons/icbm/ICBMMedT.lwo
+texture = textures/ICBM.bmp
+sizebias = -1
+
+projectile = NukeMissile
+
+ammo = 1
+
+bolton = 2
+
+#lockon = 0
+
+reloadtime = 30.0
+
+#This reload time is so that if some bastard is sneaky enough to pick up a double,
+#triple, or quad nuke using SuperAmmo power ups, after the first nuke is fired he
+#will be a helpless sitting duck for half a minute, during which time he will be
+#hounded as if a juicy steak in a dog kennel by the rest of the players.
+
+launchangle = 0, 0, 0
+launchcoords = -0.3, 0, 0
+#launchcoords = -0.3, 0, -4.5
+#where projectile comes from
+#FireSoundEnt = machinegun1
+
+#MeshOffset = -0.3, 0, -4.5
+MeshOffset = -0.3, 0, 0
+
+weight = 20
+
+Name = Le Bomb Nuclear
+
+pickupsound = UGotDaNuke
+
+spawnsound = NukeSpawn
+
+

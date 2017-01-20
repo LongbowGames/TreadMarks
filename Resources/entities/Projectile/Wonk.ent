@@ -1,0 +1,58 @@
+class = projectile
+type = Wonk
+nameid = 21
+
+speed = 10
+#meters per second
+
+iterations = 10
+#how many steps to take per virtual second for hitscan weapons, e.g. num of smoke trails per speed meters.
+
+#damage = 0.1
+damage = 0.05
+#hit strength
+
+kick = 0.5
+
+crater = 3
+#meter radius of crater
+depth = 1.0
+#meter depth of crater
+scorch = 0.8
+#percentage to blacken near center.  1.0 is no change, 0.0 is all black.
+
+ExploEnt = lasersparks
+ExploHitEnt = spewer/wonk
+
+SmokeTrailEnt = smoke/Wonk
+smoketrail = 1
+
+SoundEnt = Wonk
+
+Texture = sprites/LaserBall.bmp
+Width = 4
+Height = 1
+blend = add
+
+timetolive = 1.0
+
+HitScan = 1
+HitScanRange = 50.0
+
+spiral = 10.0
+spiralramp = 0.01
+spiralperiod = 0.9
+
+guideramp = 1.0
+guidebias = 4.0
+guidespeed = 20
+guidemax = 20
+
+Gravity = 0.0
+LaunchInertia = 0.0
+
+followground = 1.5
+
+Detonate = 1
+
+Transitory = 0

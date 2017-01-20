@@ -1,0 +1,64 @@
+class = mesh
+type = KGlobe4
+
+mesh = sculpture/ZGlobeF/ZGlobeFHT.lwo
+mesh1 = sculpture/ZGlobeF/ZGlobeFMT.lwo
+
+scale = 1.0
+
+LodBias = 0.5
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+
+#texture = textures/BlackShiny2.bmp
+#texture = textures/Chrome1.bmp
+#texture = textures/Chrome2.bmp
+#texture = textures/Chromeyellow.bmp
+#texture = textures/ShinyOrange.bmp
+#texture = textures/fiery4.bmp
+#texture = textures/fiery5green.bmp
+#texture = textures/Fiery2.bmp
+#texture = textures/Fiery2B.bmp
+#texture = textures/CircleGlassHilight.bmp
+#texture = textures/DragonSkinRed.bmp
+#texture = textures/EarthCourse.bmp
+texture = textures/ElectricHoney.bmp
+#texture = textures/Field.bmp
+#texture = textures/RadialBlueLightning.bmp
+#texture = textures/RockLayered.bmp
+#texture = textures/Scales.bmp
+#texture = textures/ShinyOrange.bmp
+#texture = textures/LichenNightRed.bmp
+
+#texture = textures/LiquidRoses2.bmp
+#texture = textures/GlyphsFine2.bmp
+#texture = textures/MarbleWhiteBlackGold.bmp
+#texture = textures/CarpetGreen.bmp
+
+#blend = add
+cullface = 0
+
+
+#collide = 1
+collide = 0
+mass = 2
+
+#envmode = blend
+
+envlight = 1
+envmode = texture
+smoothshade = 1
+solidlight = 1
+
+fade = 1.0
+#fade = 0.5
+
+#envmode = global
+#fade = 1.0
+
+RestOnGround = 1
+#GroundOffset = 5
+
+ConstRotate = 0, 30, 0

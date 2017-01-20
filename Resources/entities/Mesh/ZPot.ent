@@ -1,0 +1,33 @@
+class = mesh
+type = ZPot
+
+mesh = sculpture/ZPot/ZPotHT.lwo
+mesh1 = sculpture/ZPot/ZPotMT.lwo
+mesh2 = sculpture/ZPot/ZPotLT.lwo
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+
+LodBias = 0.3
+
+texture = textures/BlackShiny2B.bmp
+
+scale = 1.0
+collide = 1
+mass = 2
+
+#envmode = blend
+envmode = texture
+fade = 1.0
+#fade = 0.5
+
+#envmode = global
+#fade = 1.0
+
+RestOnGround = 1
+GroundOffset = -5.0
+
+envlight = 1
+smoothshade = 1
+solidlight = 1

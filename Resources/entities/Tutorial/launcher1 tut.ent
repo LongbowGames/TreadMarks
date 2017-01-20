@@ -1,0 +1,26 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tutorial entity file.
+#
+
+Class = tutorial
+Type = launcher1tut
+
+TutID = 120
+
+Name = Concussion
+
+mesh = weapons/launcher1/launcher1hight.lwo
+texture = textures/launcher1.bmp
+sizebias = -1
+
+descstring0 = -
+descstring1 = No guidance. 
+descstring2 = Heavy splash pushes
+descstring3 = hard but doesn't hurt.
+descstring4 = -
+descstring5 = A direct hit hurts!
+
+#scale = 2.0

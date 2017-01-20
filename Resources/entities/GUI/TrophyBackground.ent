@@ -1,0 +1,21 @@
+class = guibackground
+type = trophybackground
+
+texture = menus/TrophyScreen.bmp
+
+xscale = 1.0
+yscale = 1.0
+
+rotatetime = 0.0
+
+rotateshift = 0.0
+
+fade = 0.75
+
+removetime = 0.3
+addtime = 0.1
+
+ServerSynch = 0
+
+Transparent = 0
+

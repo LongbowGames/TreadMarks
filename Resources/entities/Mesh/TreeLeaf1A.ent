@@ -1,0 +1,55 @@
+class = mesh
+type = TreeLeaf1A
+
+
+mesh = sculpture/TreeTest/TreeLeaf1A.lwo
+#mesh = sculpture/WingedDevil/WingedDevilHT.lwo
+#mesh1 = sculpture/WingedDevil/WingedDevilMT.lwo
+#mesh2 = sculpture/WingedDevil/WingedDevilLT.lwo
+
+#LodBias = 0.3
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+
+texture = TreeTest1.bmp
+#texture = JimTreeTest.bmp
+#texture = JimGrass.bmp
+#texture = textures/Fiery5.bmp
+#texture = textures/Waypoint.bmp
+
+scale = 1.0
+collide = 0
+#mass = 2
+
+Transparent = 1
+blend = alpha
+#smoothshade = 1
+#solidlight = 1.0
+cullface = 0
+#edgetrans = 1
+
+#envmode = texture
+
+#envmode = blend
+#fade = 0.5
+
+#envmode = global
+fade = 1.0
+
+RestOnGround = 1
+#GroundOffset = 6
+
+#ConstRotate = 0, 360, 0
+#ConstWave = 0, 0.1, 0
+#ConstWaveTime = 5
+
+#ConstRotate = 0, 10, 0
+#ConstWave = 0, 2.0, 0
+#ConstWaveTime = 1.0
+
+#TransmutePerturb = 0.5
+
+EntityChain0 = mesh/TreeTrunk1
+EntityChain1 = mesh/TreeBranch1

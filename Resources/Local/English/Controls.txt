@@ -1,0 +1,21 @@
+Turn Left
+Turn Right
+Forward
+Reverse
+Gun Left
+Gun Right
+Fire
+Chat
+Team Chat
+Scores
+Gun to Front
+Gun to Back
+Gun to Cam
+Free Look
+Turret Cam
+Tilt Up
+Tilt Down
+Look Left
+Look Right
+Look Back
+Reset

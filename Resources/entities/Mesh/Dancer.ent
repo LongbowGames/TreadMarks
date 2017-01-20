@@ -1,0 +1,34 @@
+class = mesh
+type = Dancer
+
+mesh = sculpture/Dancer/DancerHT.lwo
+mesh1 = sculpture/Dancer/DancerMT.lwo
+mesh2 = sculpture/Dancer/DancerLT.lwo
+
+LodBias = 0.3
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+#texture = textures/Waypoint.bmp
+#texture = textures/SnakePurple.bmp
+#texture = textures/StonePebblesDX.bmp
+#texture = textures/SnakeSkinGreenBlue.bmp
+#texture = textures/SnakeSkinBlueOrange.bmp
+texture = textures/TerrainRidgedCourse.bmp
+
+scale = 1.0
+collide = 1
+mass = 2
+
+envmode = blend
+fade = 0.5
+smoothshade = 1.0
+
+
+#envmode = global
+#fade = 1.0
+
+RestOnGround = 1
+GroundOffset = -2.0
+

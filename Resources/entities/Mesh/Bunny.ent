@@ -1,0 +1,44 @@
+class = mesh
+type = Bunny
+
+mesh = sculpture/Bunny/BunnyHT.lwo
+mesh1 = sculpture/Bunny/BunnyMT.lwo
+
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+
+LodBias = 0.5
+
+#texture = textures/BlackShiny2.bmp
+#texture = textures/Chrome1.bmp
+#texture = textures/Chrome2.bmp
+#texture = textures/ChromeCopper.bmp
+texture = textures/ChromeYellow.bmp
+#texture = textures/BlackShiny2Invert.bmp
+#texture = textures/CarvedOrange.bmp
+#texture = textures/CowHhideAltered.bmp
+#texture = textures/OwlFeathers.bmp
+#texture = textures/Glyphs.bmp
+
+
+
+scale = 1.0
+collide = 1
+mass = 2
+
+#envmode = blend
+envmode = texture
+fade = 1.0
+#fade = 0.5
+
+#envmode = global
+#fade = 1.0
+
+RestOnGround = 1
+GroundOffset = -2.0
+
+envlight = 1
+
+#smoothshade = 1

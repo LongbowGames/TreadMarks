@@ -1,0 +1,55 @@
+class = mesh
+type = ZMale4
+
+mesh = sculpture/ZMale/ZMale4HT.lwo
+mesh1 = sculpture/ZMale/ZMale4MT.lwo
+mesh2 = sculpture/ZMale/ZMale4LT.lwo
+
+LodBias = 0.3
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+
+#texture = textures/Fiery5.bmp
+#texture = textures/Waypoint.bmp
+#texture = textures/RockFace.bmp
+#texture = textures/TerrainRidgedCourse.bmp
+#texture = textures/BlackShiny1.bmp
+#texture = textures/BlackShiny2b.bmp
+texture = textures/BlackShiny3.bmp
+#texture = textures/LizardSkinBrown.bmp
+#texture = textures/CarvedOrange.bmp
+#texture = textures/CarvedBronzeA.bmp
+#texture = textures/CarvedBronze2.bmp
+
+
+
+scale = 1.0
+collide = 0
+mass = 2
+
+#blend = add
+smoothshade = 1
+solidlight = 0
+cullface = 1
+#edgetrans = 1
+
+envmode = texture
+
+#envmode = blend
+#fade = 0.5
+
+#envmode = global
+fade = 1.0
+
+RestOnGround = 1
+GroundOffset = 4.0
+
+ConstRotate = 0, 15, 0
+#ConstWave = 0, 0, 0
+#ConstWaveTime = 10
+ConstWaveTime = 0
+
+EntityChain0 = mesh/ZMale4base
+

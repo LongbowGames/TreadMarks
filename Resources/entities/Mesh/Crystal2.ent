@@ -1,0 +1,51 @@
+class = mesh
+type = Crystal2
+
+mesh = sculpture/Crystal/Crystal.lwo
+
+#LodBias = 0.5
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+
+#texture = textures/BlackShiny2.bmp
+#texture = textures/BlackShinyEvil.bmp
+#texture = textures/Chrome1.bmp
+#texture = textures/PurplePlasma.bmp
+#texture = textures/ChromeTeamBlue.bmp
+#texture = textures/Chrome2.bmp
+#texture = textures/Chromeyellow.bmp
+#texture = textures/ShinyOrange.bmp
+#texture = textures/WallTexSC5.bmp
+texture = textures/SnakeSkinPink.bmp
+#texture = textures/SnakeSkinBlueOrange.bmp
+#texture = textures/SnakeSkinGreenBlue.bmp
+#texture = textures/SnakeSkinSilver.bmp
+#texture = textures/Fiery2B.bmp
+
+#blend = add
+#cullface = 0
+
+scale = 1.0
+#collide = 1
+collide = 0
+mass = 2
+
+#envmode = blend
+
+envlight = 1
+envmode = texture
+#smoothshade = 1
+solidlight = 1
+
+fade = 1.0
+#fade = 0.5
+
+#envmode = global
+#fade = 1.0
+
+RestOnGround = 1
+GroundOffset = 6
+
+ConstRotate = 0, 30, 0

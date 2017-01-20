@@ -1,0 +1,47 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tank entity file.
+#
+
+Class = racetank
+Type = tank10
+
+Mesh = Tank10/Tank10HighT.lwo
+Mesh1 = Tank10/Tank10T.lwo
+Mesh2 = Tank10/Tank10Low.lwo
+TurretMesh = Tank10/Tank10TurretHighT.lwo
+TurretMesh1 = Tank10/Tank10TurretT.lwo
+TurretMesh2 = Tank10/Tank10TurretLow.lwo
+GunMesh = Tank10/Tank10GunHighT.lwo
+GunMesh1 = Tank10/Tank10GunT.lwo
+GunMesh2 = Tank10/Tank10GunLow.lwo
+
+Texture = textures/tank10.bmp
+Scale = 1.0
+
+#meters per second.
+### Tweak max speed and acceleration settings to taste! ###
+maxspeed = 50
+accelspeed = 15.0
+
+turretspeed = 60.0
+#degrees per second turret rotation.
+
+SmokeType = lumpy1
+#which subtype of class "smoke" to use for spewing.
+
+#EngineSound1 = engine/tanksqueaky1.wav
+EngineSound2 = engine/tanktreads.wav
+EngineSound1 = engine/tankrumble1.wav
+
+RumbleSound = Engine/RoadRumble3.wav
+
+ProjectileType = tankgun1
+#ProjectileType = nuke
+ReloadTime = 3
+
+bolton0 = -0.55, 0.30, -1.5
+bolton1 = 0.0, 0.17, 0.53
+

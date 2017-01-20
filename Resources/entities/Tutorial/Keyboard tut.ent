@@ -1,0 +1,46 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tutorial entity file.
+#
+
+Class = tutorial
+Type = keyboard
+
+TutID = 1
+
+Name = Controls
+
+mesh = keyboard.lwo
+texture = textures/keyboard.bmp
+sizebias = -2
+
+
+descstring0 = -
+descstring1 = Drive your tank with the arrow keys.
+descstring2 = Control the turret with the mouse.
+descstring3 = Fire weapons with the Lt Mouse Button.
+descstring4 = Hold down the Rt Mouse Button to free
+descstring5 = the camera and quickly look around.
+descstring6 = -
+descstring7 = Details/Alternatives
+descstring8 = -
+descstring9 = Up/Down     Arrow Keys  accelerate.
+descstring10 = Left/Right  Arrow Keys  turn.
+descstring11 = -
+descstring12 = Mouse movement Rotates Turret  Lt/Rt
+descstring13 = Comma/Period   Rotate Turret   Lt/Rt
+descstring14 = -
+descstring15 = Lt Mouse Button   Fires Weapon
+descstring16 = Space Bar         Fires Weapon
+descstring17 = -
+descstring18 = 
+descstring19 = 
+descstring20 = 
+descstring21 = 
+descstring22 = 
+descstring23 = 
+descstring24 = 
+
+#scale = 1.5

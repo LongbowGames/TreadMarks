@@ -1,0 +1,25 @@
+class = guiedit
+type = edit1
+
+#texture = menus/armorplateblue.bmp
+#texture = menus/20atesta.bmp
+texture = menus/BlackButtonBack.bmp
+
+FontType = font2
+
+#OverColor = 0.5, 1, 1
+#ClickColor = 1, 0.8, 0.5
+
+OverColor = 0.7, 1.3, 1.3
+ClickColor = 1.3, 1.3, 0.7
+
+PulseAmount = 0.4
+PulseTime = 1.0
+OverLinger = 1.0
+
+ClickSound = click1
+
+CursorFlash = 0.5
+
+ServerSynch = 0
+

@@ -1,0 +1,27 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tutorial entity file.
+#
+
+Class = tutorial
+Type = nuketut
+
+TutID = 160
+
+Name = Le Bomb Nuclear
+
+mesh = weapons/icbm/ICBMHighT.lwo
+texture = textures/ICBM.bmp
+
+descstring0 = -
+descstring1 = This tactical nuke blows a
+descstring2 = big crater with mega light and fire.
+descstring3 = -
+descstring4 = For the best effect, crest a hill
+descstring5 = and fire in the direction of a crowd.
+ 
+meshoffset = 0, 0, -1
+
+#scale = 1.5

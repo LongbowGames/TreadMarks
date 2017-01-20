@@ -1,0 +1,41 @@
+Class = explo
+#Class of entity.
+
+Type = plasmahit
+#The type of the entity.
+
+Texture = sprites/laserball.bmp
+#Which image to use.
+
+Width = 10.0
+Height = 10.0
+#Width = 30.0
+#Height = 30.0
+Base = 1.0
+#Size of sprite in meters once in the world.
+
+#how to blend the image over the scene.
+blend = add
+
+#initial fade strength (1.0 for full, 0.0 for invisible)
+fade = 1.0
+fadebias = 0.2
+
+#number of puffs.
+count = 8
+
+#expansion radius, initial and final.
+expandstart = 0.5
+expand = 10
+#expand = 30
+
+grow = 0.0
+#puff growth
+
+timetolive = 1.5
+
+EntityChain0 = explo/lasersparks
+
+gravity = 1.0
+
+Soundentity = PlasmaExplo

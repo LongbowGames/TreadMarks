@@ -1,0 +1,74 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tank entity file.
+#
+
+Class = racetank
+Type = Liquid5
+
+#blend = add
+#cullface = 0
+
+
+Mesh = Liquid5/Liquid5HT.lwo
+Mesh1 = Liquid5/Liquid5MT.lwo
+Mesh2 = Liquid5/Liquid5LT.lwo
+TurretMesh = Liquid5/Liquid5TurretHT.lwo
+TurretMesh1 = Liquid5/Liquid5TurretMT.lwo
+TurretMesh2 = Liquid5/Liquid5TurretLT.lwo
+GunMesh = Liquid5/Liquid5GunHT.lwo
+GunMesh1 = Liquid5/Liquid5GunMT.lwo
+GunMesh2 = Liquid5/Liquid5GunMT.lwo
+
+#Texture = textures/fieryblue.bmp
+#Texture = textures/BlackShiny2b.bmp
+#Texture = textures/ShinyOrange.bmp
+Texture = textures/BlackShinyEvil.bmp
+Scale = 1.0
+
+#meters per second.
+### Tweak max speed and acceleration settings to taste! ###
+maxspeed = 50
+#accelspeed = 15.0
+accelspeed = 20.0
+
+#maxspeed = 100
+#accelspeed = 30.0
+
+turretspeed = 60.0
+#degrees per second turret rotation.
+
+SmokeType = lumpy1
+#which subtype of class "smoke" to use for spewing.
+
+#EngineSound2 = engine/LiquidTank02.wav
+EngineSound1 = engine/LiquidTank02.wav
+RumbleSound = Engine/LiquidTank04L.wav
+
+EngineSound2 = engine/LiquidTank06.wav
+#EngineSound1 = engine/LiquidTank06.wav
+#RumbleSound = Engine/LiquidTank06.wav
+
+ProjectileType = tankgun1
+#ProjectileType = nuke
+ReloadTime = 3
+
+envlight = 1
+envmode = texture
+smoothshade = 1
+solidlight = 1
+
+mass = 0.5
+#mass = 0.2
+bolton0 = 0, 0, -1.74
+bolton1 = 0, 0.20, 0.20
+bolton2 = -1.76, -0.91, -1
+bolton3 = 0, -0.88, -1.78
+
+Name = Liquid Evil!
+
+Namesound = Evil
+
+LodBias = 0.15

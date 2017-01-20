@@ -1,0 +1,25 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tutorial entity file.
+#
+
+Class = tutorial
+Type = Dirtballtut
+
+TutID = 20
+
+Name = Dirtball
+
+mesh = weapons/Dirtball/Dirtball4HighT.lwo
+texture = textures/dirtball.bmp
+
+descstring0 = -
+descstring1 = For very close range action:
+descstring2 = Each blast creates a dirt mound
+descstring3 = with plenty of splash damage.
+descstring4 = Send the enemy tumbling into the air.
+descstring5 = Reload and blast them again.
+
+#scale = 2.0

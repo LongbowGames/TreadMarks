@@ -1,0 +1,49 @@
+class = mesh
+type = Head
+
+mesh = sculpture/Head/HeadHT.lwo
+mesh1 = sculpture/Head/HeadMT.lwo
+mesh2 = sculpture/Head/HeadLT.lwo
+
+LodBias = 0.3
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+
+#texture = textures/Waypoint.bmp
+#texture = textures/EarthCourse.bmp
+#texture = textures/StonePebblesDX.bmp
+#texture = textures/Field.bmp
+#texture = textures/RockFace.bmp
+#texture = textures/RockLayered.bmp
+#texture = textures/TerrainRidgedCourse.bmp
+#texture = textures/TerrainClay.bmp
+#texture = textures/StoneMosaic.bmp
+#texture = textures/StoneCracked.bmp
+#texture = textures/SnakeSkinGreenBlue.bmp
+#texture = textures/GemAmber.bmp
+#texture = textures/MarbleWhiteBlackGold.bmp
+#texture = textures/BlackShiny2.bmp
+#texture = textures/BlackShiny1.bmp
+texture = textures/BlackShiny3.bmp
+#texture = textures/Fiery2B.bmp
+
+scale = 1.0
+collide = 1
+mass = 2
+
+envmode = texture
+fade = 1.0
+
+smoothshade = 1
+
+#envmode = blend
+#fade = .5
+
+#envmode = global
+#fade = 1.0
+
+RestOnGround = 1
+GroundOffset = -2.0
+

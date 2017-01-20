@@ -1,0 +1,17 @@
+class = sound
+type = HighTone
+
+sound = missile/HighTone.wav
+#sound = missile/Missile03.wav
+#altsound = missile/rocket5.wav
+
+volume = 1.0
+
+FreqVariance = 0.0
+
+Priority = 0.7
+
+Loop = 1
+
+#Make sound a little quieter at distances.
+DistanceScale = 2.0

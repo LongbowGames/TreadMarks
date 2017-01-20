@@ -1,0 +1,41 @@
+Class = explo
+#Class of entity.
+
+Type = masshit
+#The type of the entity.
+
+#texture = sprites/firefractal1.bmp
+#Texture = sprites/GreenRing.bmp
+Texture = sprites/FlareGreen.bmp
+#Which image to use.
+
+Width = 6
+Height = 6
+Base = 0.0
+#Size of sprite in meters once in the world.
+
+grow = -1.0
+
+#how to blend the image over the scene.
+
+blend = add
+#try more traditional blend mode...
+
+#initial fade strength (1.0 for full, 0.0 for invisible)
+fade = 1.0
+
+#number of puffs.
+count = 32
+
+#expansion radius.
+expandstart = 3
+expand = 20
+
+timetolive = 1
+
+gravity = 1.0
+
+#DefaultVel = 0, 1, 0
+
+RandomRotate = 1
+

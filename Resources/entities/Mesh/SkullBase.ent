@@ -1,0 +1,45 @@
+class = mesh
+type = SkullBase
+
+mesh = sculpture/Skull/SkullBaseHT.lwo
+mesh1 = sculpture/Skull/SkullBaseMT.lwo
+mesh2 = sculpture/Skull/SkullBaseLT.lwo
+
+LodBias = 0.3
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+
+texture = textures/Fiery2B.bmp
+#texture = textures/Fiery5.bmp
+#texture = textures/Fiery2.bmp
+#texture = textures/Waypoint.bmp
+#texture = textures/RadialOrangeLightning.bmp
+#texture = textures/BlackShiny2.bmp
+#texture = textures/ChromeCopper.bmp
+#texture = textures/CarvedOrange.bmp
+
+
+scale = 1.0
+collide = 1
+mass = 2
+
+#blend = add
+#smoothshade = 1
+solidlight = 0
+#cullface = 0
+#edgetrans = 0
+
+envmode = texture
+
+#envmode = blend
+#fade = 0.5
+envlight = 1
+
+#envmode = global
+fade = 1.0
+
+RestOnGround = 1
+GroundOffset = -1.9
+

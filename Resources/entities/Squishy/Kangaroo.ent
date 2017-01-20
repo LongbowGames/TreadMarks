@@ -1,0 +1,40 @@
+class = squishy
+type = kangaroo
+
+mesh = sculpture/kangaroo/kangaroo150.lwo
+mesh1 = sculpture/kangaroo/kangaroo90.lwo
+mesh2 = sculpture/kangaroo/kangaroo20.lwo
+
+#texture = textures/sheep.bmp
+#texture = textures/EarthBrown.bmp
+#texture = JimSandCW3.bmp
+
+#texture = JimSandB.bmp
+texture = textures/Kangaroo.bmp
+
+#texture = textures/RockFace.bmp
+
+scale = 1.0
+collide = 1
+mass = 0.1
+
+smoothshade = 1
+
+Transitory = 0
+
+
+Bounce = 10.0
+
+BounceMin = 2.0
+
+BounceThreshold = 3.0
+
+PitchScale = -0.5
+
+ExpandBBox = 3.0
+
+BounceEvery = 20.0
+
+
+BounceSound = Aussie2
+

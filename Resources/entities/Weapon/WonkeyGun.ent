@@ -1,0 +1,39 @@
+class = weapon
+type = WonkeyGun
+
+mesh = weapons/WonkeyGun/WonkeyGunHigh.lwo
+mesh1 = weapons/WonkeyGun/WonkeyGunMed.lwo
+mesh2 = weapons/WonkeyGun/WonkeyGunLow.lwo
+texture = textures/BlackShinyEvil.bmp
+sizebias = -1
+
+projectile = Wonk
+
+ammo = 40
+
+bolton = 1
+
+#lockon = 0
+
+reloadtime = 0.3
+
+launchangle = 0, 0, 0
+launchcoords = 0, 0.42, 1.52
+#where projectile comes from
+
+weight = 10
+
+Name = Shadow Keeper
+
+pickupsound = IAmDeath
+spawnsound = Shadow
+
+envlight = 1
+envmode = texture
+smoothshade = 1
+solidlight = 1
+
+TransmuteTexture = 1
+
+TransmutePerturb = 0.5
+

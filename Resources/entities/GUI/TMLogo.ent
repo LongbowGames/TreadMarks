@@ -1,0 +1,26 @@
+class = mesh
+type = tmlogo
+
+mesh = trophy/tmht.lwo
+
+texture = intro/intro2.bmp
+
+scale = 10.0
+collide = 0
+#mass = 2
+
+blend = add
+smoothshade = 1
+solidlight = 1
+cullface = 0
+edgetrans = 0
+envlight = 1
+
+envmode = texture
+
+fade = 1.0
+
+ServerSynch = 0
+
+SecondaryFrustum = 1
+

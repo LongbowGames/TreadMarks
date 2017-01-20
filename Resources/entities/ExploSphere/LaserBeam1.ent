@@ -1,0 +1,35 @@
+class = explosphere
+type = laserbeam1
+
+mesh = weapons/laserbeam.lwo
+texture = textures/laserbeam2.bmp
+
+scale = 1.0
+collide = 0
+mass = 1
+
+scalematrix = 1, 1, 300
+
+expand = 1.0
+expandstart = 1.0
+
+rotatespeed = 0.0
+rotatespeedz = 0.1
+
+fade = 1.0
+fadebias = 0.1
+
+blend = add
+smoothshade = 1
+solidlight = 1
+cullface = 1
+edgetrans = 0
+
+lifespan = 1.0
+
+#envmode = texture
+#none, texture, global, blend
+
+EntityChain0 = smoke/laserball
+EntityChain1 = explo/lasersparks
+

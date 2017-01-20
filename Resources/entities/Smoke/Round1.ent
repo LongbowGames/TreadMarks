@@ -1,0 +1,21 @@
+Class = smoke
+#Class of entity.
+
+Type = round1
+#The type of the entity.
+
+Texture = sprites/RoundSmoke2.bmp
+#Which image to use.
+
+Width = 2
+Height = 2
+Base = 0
+#Size of sprite in meters once in the world.
+
+#how to blend the image over the scene.
+blend = add
+
+alphagrad = 1
+
+#initial fade strength (1.0 for full, 0.0 for invisible)
+fade = 0.5

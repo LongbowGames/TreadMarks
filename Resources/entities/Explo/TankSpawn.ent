@@ -1,0 +1,41 @@
+Class = explo
+#Class of entity.
+
+Type = TankSpawn
+#The type of the entity.
+
+#Texture = sprites/PlasmaBall.bmp
+Texture = sprites/flareBlue2.bmp
+#Which image to use.
+
+Width = 1.0
+Height = 5.0
+#Base = 0.2
+#Size of sprite in meters once in the world.
+
+#how to blend the image over the scene.
+blend = add
+
+#initial fade strength (1.0 for full, 0.0 for invisible)
+fade = 0.9
+
+#number of puffs.
+count = 64
+
+#expansion radius, initial and final.
+expandstart = -20
+expand = 30
+
+grow = 1.0
+#puff growth
+
+#fade = 0.5
+
+timetolive = 1.5
+
+gravity = 0.5
+
+SoundEntity = Respawn
+
+RandomRotate = 0
+

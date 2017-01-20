@@ -1,0 +1,12 @@
+class = sound
+type = GLauncher2
+
+sound = gun/GLauncher2.wav
+#altsound = gun/gun2.wav
+
+volume = 1.0
+
+FreqVariance = 0.3
+
+Priority = 0.5
+

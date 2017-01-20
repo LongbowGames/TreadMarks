@@ -1,0 +1,62 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tank entity file.
+#
+
+Class = racetank
+Type = tank20A
+
+Mesh = Tank20A/20AHighT.lwo
+Mesh1 = Tank20A/20AMedT.lwo
+Mesh2 = Tank20A/20ALowT.lwo
+TurretMesh = Tank20A/20ATurretHighT.lwo
+TurretMesh1 = Tank20A/20ATurretMedT.lwo
+TurretMesh2 = Tank20A/20ATurretLowT.lwo
+GunMesh = Tank20A/20AGunHighT.lwo
+GunMesh1 = Tank20A/20AGunMedT.lwo
+GunMesh2 = Tank20A/20AGunLowT.lwo
+
+Texture = textures/Tank20A.bmp
+#Texture = textures/BlackShiny2a.bmp
+Scale = 1.0
+
+#meters per second.
+### Tweak max speed and acceleration settings to taste! ###
+maxspeed = 50
+#accelspeed = 15.0
+accelspeed = 20.0
+
+turretspeed = 60.0
+#degrees per second turret rotation.
+
+SmokeType = lumpy1
+#which subtype of class "smoke" to use for spewing.
+
+#EngineSound1 = engine/tanksqueaky1.wav
+EngineSound2 = engine/tanktreadsRumble.wav
+EngineSound1 = engine/tankrumble1Deep.wav
+
+RumbleSound = Engine/RoadRumble3.wav
+
+ProjectileType = tankgun1
+#ProjectileType = nuke
+ReloadTime = 3
+
+baubletype = bauble1
+#weapon/launcher1
+
+bolton0 = -0.65, 0.42, -1.25
+bolton1 = 0.65, 0.39, -0.80
+bolton2 = -2.35, -0.95, 0.50
+bolton3 = 0, -0.82, -4.64
+
+#envmode = texture
+#smoothshade = 1
+#solidlight = 1
+#envlight = 1
+
+Name = Dreadnought
+
+namesound = Dreadnought

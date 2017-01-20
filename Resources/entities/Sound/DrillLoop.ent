@@ -1,0 +1,18 @@
+class = sound
+type = DrillLoop
+
+sound = gun/DrillLoop01A.wav
+altsound =
+
+volume = 1.0
+
+FreqVariance = 0.1
+
+Priority = 0.7
+
+loop = 1
+
+RampUp = 0.5
+RampDown = 0.5
+RampFreq = 0.5
+

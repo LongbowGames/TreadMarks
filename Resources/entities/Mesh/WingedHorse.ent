@@ -1,0 +1,31 @@
+class = mesh
+type = WingedHorse
+
+mesh = sculpture/WingedHorse/WingedHorseHT.lwo
+mesh1 = sculpture/WingedHorse/WingedHorseMT.lwo
+mesh2 = sculpture/WingedHorse/WingedHorseLT.lwo
+
+LodBias = 0.3
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+#texture = textures/Waypoint.bmp
+#texture = textures/GemAmber.bmp
+#texture = textures/StoneMosaic.bmp
+texture = textures/Chrome1.bmp
+
+
+scale = 1.0
+collide = 1
+mass = 2
+envmode = texture
+#envmode = blend
+#fade = 0.5
+
+#envmode = global
+fade = 1.0
+
+RestOnGround = 1
+GroundOffset = -2.0
+

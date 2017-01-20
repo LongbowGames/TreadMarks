@@ -1,0 +1,307 @@
+#
+# Rough French translation, using Babelfish.
+#
+
+#
+# Main menu
+#
+Manuel de Zone
+Roulement Demo
+Jeu Simple
+Jeu D'Échelle
+Multijoueur
+Options de Jeu
+Histoire Et Crédits
+XVisit Web SiteX
+X(For News, Updates, and Add-Ons!)X
+Quitté
+XOrdering InformationX
+X(For News, Updates, and On-Line Ordering!)X
+Aide
+OK
+Annulation
+XPlease Insert CD-ROM
+XInsert the Tread Marks
+XCD-ROM and click Okay
+Retournez
+Oui
+Non
+Appliquez
+Actif
+Inactif
+Permis
+Non Permis
+Fait
+# Demo
+ DEMO
+ Full
+#
+# In-game menu
+#
+Game In Progress Menu
+Return to Game
+Tank Options
+Server Menu
+Game Options
+Stop Game
+#
+# Options menu
+#
+Options de Jeu
+Graphiques
+Musique et bruit
+Commandes
+Divers
+Langage
+#
+# Graphics options
+#
+Options De Graphiques
+XRes: %d x %d
+XBit Depth: Desktop
+XBit Depth: %d
+XMode: Fullscreen
+XMode: Windowed
+XTexture Res: %d
+XS3TC: %s
+XTrilinear: %s
+Brouillard: %s
+La poussière: %d%%
+XMenu Fire: %s
+XOpenGL Driver Vendor: %s
+XTotal Texels Downloaded to Driver: %d
+XTerrain Tris: %d
+XMeshes: %s
+XDetail Texture: %s
+XView Distance: %dm
+Marques de bande de roulement: %s
+Haut
+Bas
+#
+# Music/sound options
+#
+XSound and Music Options
+XMusic: %s
+XSound Out: %s
+XSound Quality: %s
+XA3D 2.0
+XWaveOut
+XDirectSound
+#
+# Input options
+#
+XInput Options
+XEdit Tank Controls
+XEdit Camera Controls
+XJoystick: %s
+XMouse: %s
+XMouse Speed: %d%%
+XMouse Y: %s
+XInverted
+XNormal
+#
+# Misc options
+#
+XInput Options
+XNet Rate: %dk/sec
+#
+# Camera controls
+#
+XCamera Controls
+#
+# Tank controls
+#
+XTank Controls
+#
+# General controls
+#
+XPress a key or button (ESC to cancel)
+XControl:     Primary:   Secondary: Tertiary: 
+#
+# Language selection
+#
+Language Selection
+Language Selection is incomplete at this time.
+#
+# Trophy menu
+#
+Total Trophies Awarded: %d
+#
+# Ladder Roster
+#
+Ladder Roster
+Players:       
+Name:  %s
+Rank:  %s
+Races Started:     %d
+Races Finished:    %d
+Trophies Awarded:  %d
+Total Frags:  %d
+Total Deaths: %d
+New Player
+Delete Player
+#
+# New Ladder
+#
+Create a New Player
+Starting Rank:
+40th (harder)
+55th         
+70th (medium)
+85th         
+100th (easy) 
+#
+# Delete Ladder
+#
+Delete a Player
+Really delete player?
+#
+# Ladder
+#
+Ladder Progress
+Map: %s
+Opponents: %d
+Race Laps: %d
+The Ladder:        
+Start
+View
+Stats
+#
+# Stats
+#
+Hall of Fame
+Battle Stats for
+Race Stats for
+Unknown Map
+Num  Name      Best   FPH DPH Frags Dths  Laps Place Skill Time  
+#
+# Tank Select
+#
+Tank Selection
+Your Treads:     
+Name: 
+Your Insignia: 
+Team:   
+#
+# Tutorial
+#
+Field Manual
+Chapter:         
+Description:     
+#
+# Map Selection
+#
+Map Selection
+The Map:         
+Game Type:  Battle
+Game Type:  Race
+Race Laps: 
+AI Tanks: 
+Time Limit: 
+Frag Limit: 
+Enemy Skill: %d%%
+Tank Types:  All
+Tank Types:  Steel
+Tank Types: Liquid
+Start Delay: 
+Mirror Map:  %s
+Allow Joins: %s
+Battle
+ Race 
+#
+# Chat screen
+#
+Tread Marks Chat
+Chatting on channel: %s
+#Msg from
+Channels (%d)
+Users (%d)
+Chat: 
+#
+# Tank death messages
+#
+Le monde a détruit %s avec %s!
+Le monde vous a détruit avec %s!
+Vous vous êtes détruits avec %s!
+Vous vous êtes détruits avec un souhait de la mort!
+Vous avez détruit %s avec %s!
+%s s'est détruit avec %s!
+%s s'est détruit avec un souhait de la mort!
+%s vous a détruit avec %s!
+%s a détruit %s avec %s! 
+#
+# Status messages
+#
+XDownloading Textures
+XChecking Web Site
+XDownload Failed
+XLookup Failed
+XGame Paused
+XPlease Wait
+XLevel Restart
+XWrong Version
+XServer is Full
+XName Lookup Failed
+XTimed Out
+XDisconnected
+XTrying to Connect
+XConnection Accepted
+XPlayer Info Sent
+XMap Loaded
+XMap Load Failure
+XSynching Entity Type %d of %d
+XLoading Map
+XLight Shading Map
+XCreating Entities
+#
+# Tank entity messages
+#
+XPress Fire
+XUpdating Craters
+XPlease Wait...
+X[CHAT] 
+XDummy Tank
+XTarget
+#
+# HUD messages
+#
+kph: %d
+mph: %d
+fps: %d
+Arme: Principal canon
+Arme: %s
+Munitions: %d
+Santé: %d
+Mises à mort: %d
+Rechargement
+XPlace %s    Time %02d:%02d     Ping %d
+XLap %d/%d  Pos %d  Time %02d:%02d  Last %02d:%02d  Best %02d:%02d
+#
+# Ordinal numbers, 1 to 20
+#
+1ere
+2eme 
+3eme
+4th 
+5th 
+6th 
+7th 
+8th 
+9th 
+10th
+11th
+12th
+13th
+14th
+15th
+16th
+17th
+18th
+19th
+20th
+#
+# Next!
+#
+Test1
+Test2
+Foo!

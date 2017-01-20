@@ -1,0 +1,12 @@
+class = sound
+type = PlasmaExplo
+
+sound = gun/PlasmaExplo.wav
+#altsound = gun/gun2.wav
+
+volume = 1.0
+
+FreqVariance = 0.1
+
+Priority = 0.5
+

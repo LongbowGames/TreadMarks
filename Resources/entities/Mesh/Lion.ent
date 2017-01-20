@@ -1,0 +1,28 @@
+class = mesh
+type = lion
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+mesh = Sculpture/Lion/LionHT.lwo
+mesh1 = Sculpture/Lion/LionMT.lwo
+mesh2 = Sculpture/Lion/LionLT.lwo
+
+LodBias = 0.3
+
+texture = textures/Waypoint.bmp
+
+scale = 1.0
+collide = 1
+mass = 2
+
+envmode = blend
+fade = 0.5
+#smoothshade = 1.0
+
+#envmode = global
+#fade = 1.0
+
+RestOnGround = 1
+GroundOffset = -2.0
+
+

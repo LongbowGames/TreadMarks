@@ -1,0 +1,32 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tutorial entity file.
+#
+
+Class = tutorial
+Type = Flamertut
+
+TutID = 60
+
+Name = Heavy Flamer
+
+mesh = weapons/Flamer/FlamerHigh.lwo
+Secmesh = weapons/Flamer/FlamerTankHigh.lwo
+texture = textures/Flamer.bmp
+
+SecMeshOffset = -1.01, -0.08, -0.61
+
+SecRotMin = 0, 0, -20
+SecRotMax = 0, 0, -20
+
+descstring0 = -
+descstring1 = Dual 200mm nozzles of
+descstring2 = napalmy goodness.
+descstring3 = -
+descstring4 = Careful, don't BBQ yourself!
+
+meshoffset = 0, 0, -0.5
+
+#scale = 1.5

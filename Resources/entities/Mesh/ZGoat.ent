@@ -1,0 +1,38 @@
+class = mesh
+type = ZGoat
+
+mesh = sculpture/ZGoat/ZGoatHT.lwo
+mesh1 = sculpture/ZGoat/ZGoatMT.lwo
+mesh2 = sculpture/ZGoat/ZGoatLT.lwo
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+
+LodBias = 0.3
+
+#texture = textures/BlackShiny2.bmp
+#texture = textures/BlackShinyEvil.bmp
+#texture = textures/BlackShiny3.bmp
+#texture = textures/Chromeyellow.bmp
+texture = textures/Fiery2B.bmp
+
+
+scale = 1.0
+collide = 1
+mass = 2
+
+#envmode = blend
+envmode = texture
+fade = 1.0
+#fade = 0.5
+
+#envmode = global
+#fade = 1.0
+
+RestOnGround = 1
+GroundOffset = -6.0
+
+envlight = 1
+
+#smoothshade = 1

@@ -1,0 +1,27 @@
+Class = smoke
+#Class of entity.
+
+Type = flare3
+#The type of the entity.
+
+Texture = sprites/flare5.bmp
+#Texture = sprites/flareBrightOrange2.bmp
+#Texture = sprites/flare4.bmp
+
+#Which image to use.
+sizebias = -2
+
+Width = 8
+Height = 8
+Base = 0
+#Size of sprite in meters once in the world.
+
+blend = add
+fade = 1.0
+fadebias = 0.7
+timetolive = 4.0
+
+#blend mode, "copy", "add", "sub", "alpha" or "alpha2".
+
+RandomRotate = 0
+

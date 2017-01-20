@@ -1,0 +1,39 @@
+class = mesh
+type = FatPot
+
+mesh = sculpture/FatPot/FatPotHT.lwo
+mesh1 = sculpture/FatPot/FatPotMT.lwo
+mesh2 = sculpture/FatPot/FatPotLT.lwo
+
+LodBias = 0.3
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+#texture = textures/Waypoint.bmp
+#texture = textures/ChromeTeamBlue.bmp
+#texture = textures/LaserBeam2red.bmp
+#texture = textures/LaserBeam2red2.bmp
+#texture = textures/ChromeTeamRed.bmp
+texture = textures/Fiery2B.bmp
+#texture = textures/Fiery2.bmp
+
+
+scale = 1.0
+collide = 1
+mass = 2
+
+#smoothshade = 1
+
+#envmode = blend
+#fade = 0.5
+
+envmode = texture
+fade = 1.0
+
+#envmode = global
+#fade = 1.0
+
+RestOnGround = 1
+GroundOffset = -2.0
+

@@ -1,0 +1,7 @@
+class = icon
+type = health
+
+texture = hud/Icon_Health_Metal.bmp
+
+ServerSynch = 0
+

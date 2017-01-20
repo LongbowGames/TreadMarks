@@ -1,0 +1,39 @@
+class = projectile
+type = 30mm
+nameid = 0
+
+speed = 150
+#meters per second
+
+damage = 0.03
+#hit strength
+
+kick = 0.01
+
+crater = 2
+#meter radius of crater
+depth = 0.5
+#meter depth of crater
+scorch = 0.5
+#percentage to blacken near center.  1.0 is no change, 0.0 is all black.
+
+ExploEnt = Bullet
+ExploHitEnt = explosphere/fireenvsmall
+#SmokeEnt = shortfireball1
+SmokeEnt = explosphere/Teardrop
+#SoundEnt = tankgun1
+SoundEnt = 
+#No sound for 30mm projectile, will only be used from BoltOn and that will run sound loop.
+
+Texture = sprites/LumpyFire1.bmp
+Width = 0.5
+Height = 0.3
+Blend = add
+#image for traveling shell
+
+timetolive = 2.5
+
+guidespeed = 6.0
+guidemax = 7.5
+guidebias = 7.0
+guideramp = 0.1

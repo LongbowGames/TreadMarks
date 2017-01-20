@@ -1,0 +1,112 @@
+WINDOWS
+=======
+
+Requirements
+------------
+Visual Studio 2015 (VC14):	https://www.visualstudio.com/downloads/
+Boost:				http://www.boost.org/users/download/
+CMake:				https://cmake.org/download/
+Qt5:				https://www.qt.io/download-open-source/
+SFML:				https://www.sfml-dev.org/download.php
+GLEW:				http://glew.sourceforge.net/
+Zlib:				http://gnuwin32.sourceforge.net/packages/zlib.htm
+
+When given the option, all libraries should be the 32-bit version. Zlib comes
+either in an installer, or in zips. If you download the zips, you need to
+decompress both the binaries and developer files into the same location.
+
+Fixing Zlib
+-----------
+The Zlib build for Windows has a long-standing bug here:
+
+https://sourceforge.net/p/gnuwin32/bugs/169/
+
+To get it to compile properly, you'll need to edit include/zconf.h and change
+the:
+
+#if 1 /* HAVE_UNISTD_H
+
+line to:
+
+#ifdef HAVE_UNISTD_H
+
+Cmake settings
+--------------
+Open the CMake GUI, set the source code directory to the folder containing this 
+file, set the build directory to wherevery you like (I put a 'build' directory 
+within the Tread Marks root folder) and press 'Configure'.
+
+Set the compiler to Siausl Studio 2015, set the toolset to v140_xp, and press 
+'Finish'.
+
+It will fail to locate a bunch of libraries. Setting these values to the
+appropriate root directories will help CMake find them:
+* PATH_BOOST (eg: C:\local\boost_1_63_0)
+* PATH_GLEW  (eg: D:\3rdParty\glew-2.0.0)
+* PATH_QT    (eg: C:\Qt\5.7\msvc2015)
+* PATH_SFML  (eg: D:\3rdParty\SFML-2.4.1)
+* PATH_ZLIB  (eg: D:\3rdParty\zlib-1.2.3)
+
+Now when you click 'Configure' again, it should succeed with the message
+"Configuring done". Now you can click the 'Generate' button. This will create a
+'TreadMarks.sln' file in your build directory which you can open with Visual
+Studio.
+
+There's a couple projects in this solution:
+* TM: This is the actual game.
+* TreadMarks: This is the launcher.
+
+There's also an INSTALL target. This will copy all the required DLLs into the
+same directory as your executables, and if it's a release build, it will copy
+the executables and all the game files into the 'out' directory.
+
+Once the 'out' directory is populated, you can go into the 'Installers'
+directory and run the MakeAll.bat script (requires NSIS) to create an
+installer. If you have a digital certificate (a .p12 file) you can put that
+file in the Installers folder and the script will ask you for the password
+and sign it for you.
+
+OS X
+====
+Builds and launches, but currently there's a bug that makes all the textures magenta.
+
+To get Boost, lib, and GLEW, the easiest way is with home-brew.
+
+You can get Homebrew by running the following command on the command line:
+
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
+
+And then to install the libraries, run:
+
+brew install glew
+brew install lzlib
+brew install boost
+
+From here you can use cmake-gui as in the Windows build.
+
+Linux
+=====
+I've ony tried to build a headless server so far. It might work, but so far
+I've only tested the build with g++ 4.8, which crashes on startup because they
+didn't fully implement c++ regular expression until 4.9.
+
+To do that, you only need Boost and Zlib, and of course cmake and a compiler.
+On Ubuntu, here's how you get your packages:
+
+sudo apt-get install build-essential cmake libboost-all-dev zlib1g-dev
+
+Or on RedHat it's:
+
+sudo yum install gcc-g++ cmake boost zlib
+
+Once you have all the pre-requisites, you can create the build script and build
+it with:
+
+mkdir build
+cd build
+cmake -DCMAKE_CXX_COMPILER=g++ -DCMAKE_CXX_FLAGS="-std=c++11" -DBUILD_HEADLESS=true ..
+make
+make install
+
+Once everything is built, it should be copied into the 'out' directory.
+

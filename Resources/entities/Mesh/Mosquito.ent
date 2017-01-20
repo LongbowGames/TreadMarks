@@ -1,0 +1,40 @@
+class = mesh
+type = Mosquito
+
+mesh = sculpture/Mosquito/MosquitoHT.lwo
+mesh1 = sculpture/Mosquito/MosquitoMT.lwo
+mesh2 = sculpture/Mosquito/MosquitoLT.lwo
+
+LodBias = 0.3
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+#texture = textures/Waypoint.bmp
+texture = textures/SnakeSkinGreenBlue.bmp
+#texture = textures/SnakePurple.bmp
+#texture = textures/SnakeSkinPink.bmp
+#texture = textures/StonePebblesDX.bmp
+#texture = textures/LizardSkinYellow.bmp
+#texture = textures/RadialBlueLightning.bmp
+
+scale = 1.0
+collide = 1
+mass = 2
+
+envmode = blend
+fade = 0.5
+
+#envmode = texture
+#fade = 1.0
+
+RestOnGround = 1
+GroundOffset = 6.0
+
+ConstRotate = 0, 90, 0
+ConstWave = 0, 2, 0
+ConstWaveTime = 1
+#ConstWaveTime = 10
+
+EntityChain0 = mesh/mosquitobase
+

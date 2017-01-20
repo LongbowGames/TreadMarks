@@ -1,0 +1,31 @@
+class = explosphere
+type = blipout
+
+mesh = SphereHigh.lwo
+mesh1 = SphereLow.lwo
+lodbias = 0.1
+
+texture = textures/PurplePlasma2.bmp
+
+scale = 1.0
+collide = 0
+mass = 1
+
+expand = 0.1
+expandstart = 5
+
+rotatespeed = 0.5
+
+fade = 1.0
+
+blend = add
+smoothshade = 1
+solidlight = 0
+cullface = 1
+edgetrans = 1
+
+lifespan = 0.5
+
+envmode = texture
+#none, texture, global, blend
+

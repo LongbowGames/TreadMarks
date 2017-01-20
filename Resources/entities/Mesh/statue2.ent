@@ -1,0 +1,48 @@
+class = mesh
+type = statue2
+
+mesh = Sculpture/Diva2/Diva2HT.lwo
+mesh1 = Sculpture/Diva2/Diva2MT.lwo
+mesh2 = Sculpture/Diva2/Diva2LT.lwo
+
+LodBias = 0.3
+#texture = textures/Waypoint.bmp
+#texture = textures/MarbleWhiteBlackGold.bmp
+#texture = textures/SnakeSkinSilver.bmp
+#texture = textures/SnakeSkinPink.bmp
+#texture = textures/SnakeSkinGreenBlue.bmp
+#texture = textures/SnakePurple.bmp
+#texture = textures/BlackShiny3.bmp
+#texture = textures/RadialBlueLightning.bmp
+#texture = textures/BlueTiles.bmp
+texture = textures/BlueTilesNew.bmp
+#texture = textures/Chrome2.bmp
+#texture = textures/ChromeYellow.bmp
+#texture = textures/ChromeTeamBlue.bmp
+#texture = textures/LaserBeam2.bmp
+
+
+
+
+
+scale = 1.0
+collide = 1
+mass = 2
+
+#envmode = blend
+envmode = texture
+#fade = 0.5
+
+#envmode = global
+fade = 1.0
+#smoothshade = 1.0
+
+#solidlight = 1
+envlight = 1
+
+RestOnGround = 1
+GroundOffset = -2.0
+
+
+
+

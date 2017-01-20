@@ -1,0 +1,53 @@
+class = projectile
+type = MatterMissile
+nameid = 7
+
+speed = 50
+#meters per second
+
+#power = 100
+#hit strength
+
+damage = 1.5
+kick = 1
+
+SplashRadius = 100
+SplashDamage = 1.5
+SplashPush = 50
+
+crater = 50
+#meter radius of crater
+depth = -20
+#meter depth of crater
+scorch = 1.0
+#percentage to blacken near center.  1.0 is no change, 0.0 is all black.
+
+ExploEnt = Matter
+SmokeEnt = fireball1
+#SoundEnt = missile1
+SoundEnt = circus
+
+mesh = weapons/icbm/ICBMHighT.lwo
+mesh1 = weapons/icbm/ICBMMedT.lwo
+texture = textures/ICBMGreen.bmp
+sizebias = -1
+
+SmokeTrailEnt = fractal1long
+SmokeTrail = 1
+
+guidespeed = 15.0
+guidemax = 20.0
+guidebias = 2.0
+guideramp = 4.0
+
+Gravity = -0.5
+
+timetolive = 30.0
+
+SmokeTrailOffset = 0, 0, -3.0
+
+Transitory = 0
+
+Detonate = 1
+
+FlareEnt = smoke/flareNuke

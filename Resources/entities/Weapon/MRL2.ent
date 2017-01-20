@@ -1,0 +1,25 @@
+class = weapon
+type = MRL2
+
+mesh = weapons/Mrl2/MRL2HighT.lwo
+mesh1 = weapons/Mrl2/MRL2MedT.lwo
+texture = textures/MRL2.bmp
+sizebias = -1
+
+projectile = missilemrl1
+
+ammo = 16
+
+bolton = 1
+
+#lockon = 0
+
+reloadtime = 0.2
+
+launchangle = -7.0, 0, 0
+launchcoords = 0, 0.75, 2.3
+#where projectile comes from
+
+weight = 100
+
+Name = M.R.L.

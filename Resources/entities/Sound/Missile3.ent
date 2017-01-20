@@ -1,0 +1,13 @@
+class = sound
+type = missile3
+
+#sound = missile/Missile03B.wav
+sound = missile/Missile03L.wav
+#altsound = missile/rocket5.wav
+
+volume = 1.0
+
+FreqVariance = 0.1
+
+Priority = 0.5
+

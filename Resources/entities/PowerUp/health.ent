@@ -1,0 +1,16 @@
+class = powerup
+type = health
+
+mesh = powerups/CrosswrenchT.lwo
+#texture = textures/powerups/heart1.bmp
+texture = textures/Crosswrench.bmp
+sizebias = -2
+
+healthfix = 0.4
+
+weight = 300
+
+level = 0
+
+pickupsound = PickUpWrench
+

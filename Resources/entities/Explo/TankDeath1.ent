@@ -1,0 +1,47 @@
+Class = explo
+#Class of entity.
+
+Type = tankdeath1
+#The type of the entity.
+
+texture = sprites/firefractal1.bmp
+#Which image to use.
+
+Width = 5
+Height = 5
+Base = 0
+#Size of sprite in meters once in the world.
+
+grow = -1.0
+
+#how to blend the image over the scene.
+
+#blend = alpha
+#transparent = 1
+#alphagrad = 1
+#alphagradbias = 0.75
+
+blend = add
+#try more traditional blend mode...
+
+#initial fade strength (1.0 for full, 0.0 for invisible)
+fade = 0.9
+
+#number of puffs.
+count = 64
+
+#expansion radius.
+expandstart = 5
+expand = 80
+
+lifespan = 2
+
+#soundentity = "explolong"
+soundentity = TankExplo
+
+
+#EntityChain0 = explosphere/fireenvsmall
+#EntityChain1 = explo/smokebig
+#EntityChain2 = explo/smoketiny
+#EntityChainMode = cycle
+

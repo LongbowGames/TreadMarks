@@ -1,0 +1,36 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tutorial entity file.
+#
+
+Class = tutorial
+Type = WonkeyGuntut
+
+TutID = 270
+
+Name = Shadow Keeper
+
+mesh = weapons/WonkeyGun/WonkeyGunHigh.lwo
+texture = textures/BlackShinyEvil.bmp
+sizebias = -1
+
+envlight = 1
+envmode = texture
+smoothshade = 1
+solidlight = 1
+
+TransmuteTexture = 1
+
+TransmutePerturb = 0.5
+
+descstring0 = -
+descstring1 = Death Incarnate
+descstring2 = Short range chain lightning.
+descstring3 = -
+descstring4 = No aiming needed. Move in
+descstring5 = and take out an entire group.
+
+
+#scale = 1.5

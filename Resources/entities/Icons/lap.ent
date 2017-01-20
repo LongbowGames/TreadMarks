@@ -1,0 +1,7 @@
+class = icon
+type = lap
+
+texture = hud/Icon_Lap.bmp
+
+ServerSynch = 0
+

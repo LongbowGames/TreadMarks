@@ -1,0 +1,32 @@
+class = guibackground
+type = introback6
+
+texture = intro/intro5a.bmp
+
+xscale = 1.0
+yscale = 1.0
+
+rotatetime = 0.0
+
+rotateshift = 0.0
+
+fade = 1.0
+fadebias = 0.8
+
+blend = add
+
+removetime = 2.5
+addtime = 2.5
+
+ServerSynch = 0
+
+Transparent = 0
+
+VertsX = 11
+VertsY = 11
+PerturbScale = 10.0
+PerturbXV = 0.0
+PerturbYV = -0.1
+PerturbStart = 0.00
+PerturbEnd = 0.00
+

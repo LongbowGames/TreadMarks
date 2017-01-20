@@ -1,0 +1,43 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tank entity file.
+#
+
+Class = racetank
+
+Type = tank5
+
+Mesh = tank5/tank5HighB.lwo
+Mesh1 = tank5/tank5B.lwo
+Mesh2 = tank5/tank5Low.lwo
+TurretMesh = tank5/tank5turretHigh.lwo
+TurretMesh1 = tank5/tank5Turret.lwo
+TurretMesh2 = tank5/tank5TurretLow.lwo
+
+Texture = textures/tank5s.bmp
+
+Scale = 1.0
+
+#meters per second.
+maxspeed = 50.0
+accelspeed = 15.0
+
+turretspeed = 60.0
+#degrees per second turret rotation.
+
+SmokeType = round1
+#which subtype of class "smoke" to use for spewing.
+
+CrudForce = 1.0
+#Multiplier for meters per second of accelerative force needed to spew crud.
+
+EngineSound2 = engine/tank2treads.wav
+EngineSound1 = engine/tanktreads.wav
+
+RumbleSound = Engine/RoadRumble3.wav
+
+ProjectileType = smalldirtball
+ReloadTime = 5
+

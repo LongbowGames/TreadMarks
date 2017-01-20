@@ -1,0 +1,18 @@
+Class = smoke
+#Class of entity.
+
+Type = fire1
+#The type of the entity.
+
+#Texture = sprites/fire3_1.bmp
+Texture = sprites/LumpyFire1.bmp
+#Which image to use.
+
+Width = 2
+Height = 2
+Base = 0
+#Size of sprite in meters once in the world.
+
+blend = add
+fade = 0.9
+#blend mode, "copy", "add", "sub", "alpha" or "alpha2".

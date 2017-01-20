@@ -1,0 +1,26 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tutorial entity file.
+#
+
+Class = tutorial
+Type = MineLayertut
+
+TutID = 100
+
+Name = Plasma Mines
+
+mesh = weapons/MineLayer/MineLayerHighT.lwo
+texture = textures/MineLayer.bmp
+sizebias = -1
+
+descstring0 = -
+descstring1 = Balls of high energy,
+descstring2 = dropped from your rear.
+descstring3 = -
+descstring4 = Use only when moving!
+
+
+#scale = 2.0

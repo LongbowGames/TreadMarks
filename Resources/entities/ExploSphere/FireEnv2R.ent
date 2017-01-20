@@ -1,0 +1,39 @@
+#Smaller, quicker clone of FireEnv1 with ricochet.
+
+class = explosphere
+type = fireenv2R
+
+mesh = SphereHigh.lwo
+mesh1 = SphereLow.lwo
+lodbias = 0.1
+
+#texture = textures/FieryBlue.bmp
+#texture = textures/RadialBlueLightning.bmp
+texture = textures/Fiery5.bmp
+#texture = textures/BlackShiny2b.bmp
+
+scale = 1.0
+collide = 0
+mass = 1
+
+expand = 10
+expandstart = 2
+
+rotatespeed = 1.0
+
+fade = 1.0
+
+blend = add
+smoothshade = 1
+solidlight = 1
+cullface = 0
+edgetrans = 1
+
+lifespan = 0.6
+
+envmode = texture
+#none, texture, global, blend
+
+soundentity = "thud1"
+
+EntityChain0 = explosphere/FireEnvSmall

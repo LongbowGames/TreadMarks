@@ -1,0 +1,28 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tutorial entity file.
+#
+
+Class = tutorial
+Type = MRL2tut
+
+TutID = 140
+
+Name = M.R.L.
+
+mesh = weapons/Mrl2/MRL2HighT.lwo
+texture = textures/MRL2.bmp
+sizebias = -1
+
+
+descstring0 = -
+descstring1 = Fast firing, medium-range
+descstring2 = artillery missiles.
+descstring3 = -
+descstring4 = Great for firing
+descstring5 = at enemies on hillsides.
+
+
+#scale = 1.5

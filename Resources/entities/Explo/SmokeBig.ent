@@ -1,0 +1,31 @@
+Class = explo
+#Class of entity.
+
+Type = smokebig
+#The type of the entity.
+
+Texture = sprites/LumpySmoke1.bmp
+#Which image to use.
+
+Width = 12
+Height = 12
+Base = 0
+#Size of sprite in meters once in the world.
+
+grow = -0.2
+
+#how to blend the image over the scene.
+blend = add
+
+#initial fade strength (1.0 for full, 0.0 for invisible)
+fade = 0.8
+
+#number of puffs.
+count = 12
+
+#expansion radius, initial and final.
+expandstart = 7
+expand = 20
+
+EntityChain0 = explosphere/Shockwave1
+

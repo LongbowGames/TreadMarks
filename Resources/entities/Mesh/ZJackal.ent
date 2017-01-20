@@ -1,0 +1,42 @@
+class = mesh
+type = ZJackal
+
+mesh = sculpture/ZJackal/ZJackalHT.lwo
+mesh1 = sculpture/ZJackal/ZJackalMT.lwo
+
+LodBias = 0.6
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+#texture = textures/BlackShiny2.bmp
+#texture = textures/RadialOrangeLightning.bmp
+texture = textures/Fiery5B.bmp
+#texture = textures/Fiery5.bmp
+#texture = textures/Fiery4.bmp
+#texture = textures/Fiery3.bmp
+#texture = textures/RadialBlueLightning.bmp
+#texture = textures/BlueTilesNew.bmp
+#texture = textures/GlyphsFine.bmp
+#texture = textures/PurplePlasma2.bmp
+#texture = textures/LiquidRoses2.bmp
+#texture = textures/CarvedOrange.bmp
+#texture = textures/ChromeCopper.bmp
+
+
+scale = 1.0
+collide = 1
+mass = 2
+
+#envmode = blend
+envmode = texture
+fade = 1.0
+#fade = 0.5
+
+#envmode = global
+#fade = 1.0
+
+RestOnGround = 1
+GroundOffset = -10.0
+
+envlight = 1

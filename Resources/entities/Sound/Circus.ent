@@ -1,0 +1,17 @@
+class = sound
+type = circus
+
+sound = Horn/circus.wav
+altsound =
+
+volume = 1.0
+
+FreqVariance = 0.0
+
+Priority = 0.7
+
+loop = 1
+
+#Make sound a little quieter at distances.
+DistanceScale = 2.0
+

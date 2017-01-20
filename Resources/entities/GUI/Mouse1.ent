@@ -1,0 +1,21 @@
+class = guimouse
+type = mouse1
+
+#texture = textures/fiery5.bmp
+texture = textures/blackshiny2.bmp
+mesh = pointer2.lwo
+scale = 1.0
+
+blend = add
+envmode = texture
+solidlight = 1
+cullface = 0
+fade = 1.0
+edgetrans = 1
+smoothshade = 1
+
+Rotation = 45, -60, 0
+RotateSpeed = 0, 0, 20
+
+ServerSynch = 0
+

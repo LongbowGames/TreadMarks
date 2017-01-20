@@ -1,0 +1,24 @@
+#Voxel Entity File.
+#Lines beginning with # are comments.
+#Format is <parameter><whitespace>["="]<value>.
+#
+#This is a Tree entity file.
+#
+
+Class = tree
+#Class of entity.
+
+Type = leafy1
+#The type of the entity.
+
+Texture = Trees/tree2.img
+#Which image to use.
+
+Width = 16
+Height = 16
+Base = 8
+Trunk = 0.5
+#Size of sprite in meters once in the world.
+
+ExploKill = treedeath
+

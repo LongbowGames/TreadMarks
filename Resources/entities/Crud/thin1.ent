@@ -1,0 +1,36 @@
+Class = crud
+#Class of entity.
+
+Type = thin1
+#The type of the entity.
+
+Texture = Sprites/Particles2.bmp
+#Particle image texture to use (two images across main diagonal).
+AlphaGrad = 2
+
+width = 0.3
+height = 0.3
+#sprite width and height, which will be the particle width and height.
+
+startrad = 0.2
+endrad = 1.5
+#Starting and ending radii.
+
+timetolive = 600
+#default msecs to live.
+
+#initial fade strength (1.0 for full, 0.0 for invisible)
+#fade = 0.7
+fade = 0.5
+
+#fade strength at end of lifespan.
+#endfade = 0.25
+endfade = 0.0
+fadebias = 0.8
+
+#number of particles in crud (default)
+particles = 16
+
+#percentage of source texture color to use in crud color.
+colorfade = 1.0
+

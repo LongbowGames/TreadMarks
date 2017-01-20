@@ -1,0 +1,38 @@
+class = mesh
+type = DrillBit
+
+mesh = weapons/Drill2/Drill2BitHighT.lwo
+mesh1 = weapons/Drill2/Drill2BitLowT.lwo
+#texture = textures/BlackShiny2Invert.bmp
+texture = textures/BlackShiny2b.bmp
+
+scale = 1.0
+collide = 0
+mass = 1
+
+#scalematrix = 0.1, 0.1, 300
+#scalematrix = 2.0, 2.0, 300
+
+#rotatespeed = 0.0
+#rotatespeedz = 0.1
+
+#fade = 0.6
+
+#blend = add
+
+envlight = 0
+#envmode = texture
+envmode = global
+
+#smoothshade = 1
+solidlight = 1
+#cullface = 1
+#edgetrans = 0
+
+group = 2
+#this forces the laser entity into the Ethereal group, which gets processed after the
+#Prop group that weapons default to, so that it won't lag a frame in its position
+#when the weapon sets its position.
+
+Transitory = 1
+

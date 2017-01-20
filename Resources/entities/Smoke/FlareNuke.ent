@@ -1,0 +1,25 @@
+Class = smoke
+#Class of entity.
+
+Type = flareNuke
+#The type of the entity.
+
+Texture = sprites/flareBrightOrange2.bmp
+
+#Which image to use.
+sizebias = -2
+
+Width = 24
+Height = 24
+Base = 0
+#Size of sprite in meters once in the world.
+
+blend = add
+fade = 1.0
+fadebias = 0.7
+timetolive = 140.0
+
+#blend mode, "copy", "add", "sub", "alpha" or "alpha2".
+
+RandomRotate = 0
+

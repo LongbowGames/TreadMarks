@@ -1,0 +1,32 @@
+class = mesh
+type = ZPyramidL
+
+mesh = sculpture/ZPyramidL/ZPyramidLHT.lwo
+
+#mesh = Waypoint2.lwo
+#mesh = Sculpture/Diva2T.lwo
+#mesh = Sculpture/LongFigure4T.lwo
+
+#texture = textures/BlackShiny2.bmp
+#texture = textures/StoneMosaic.bmp
+#texture = textures/Chromeyellow.bmp
+#texture = textures/ChromeTeamBlue.bmp
+texture = textures/CarvedOrange.bmp
+#texture = textures/ChromeCopper.bmp
+
+scale = 1.0
+collide = 1
+mass = 2
+
+#envmode = blend
+envmode = texture
+fade = 1.0
+#fade = 0.5
+
+#envmode = global
+#fade = 1.0
+
+RestOnGround = 1
+GroundOffset = -5.0
+
+envlight = 1

@@ -1,0 +1,60 @@
+class = squishy
+type = snow
+
+mesh = sculpture/Snow/Snow.lwo
+#mesh = sculpture/Crystal/Crystal.lwo
+
+#mesh1 = sculpture/sheep/sheeplt.lwo
+
+#texture = textures/sheep.bmp
+#texture = textures/BlackShiny3.bmp
+#Texture = textures/BlackShinyEvil.bmp
+#texture = textures/Fiery2B.bmp
+#texture = textures/DragonSkinRed.bmp
+#texture = textures/Fiery5Blue2.bmp
+#texture = textures/Fiery5Green.bmp
+#texture = textures/CarvedBronze3.bmp
+#texture = textures/PigSkin.bmp
+#texture = textures/Chromeyellow.bmp
+texture = textures/TerrainMult3.bmp
+
+#scale = 1.5
+#scale = 0.75
+scale = 4.0
+
+collide = 1
+mass = 0.1
+
+#blend = add
+blend = add
+
+envlight = 1
+envmode = texture
+#envmode = global
+smoothshade = 0
+#smoothshade = 1
+solidlight = 1
+
+#fade = 1.0
+fade = 1.0
+
+
+Transitory = 0
+
+
+Bounce = 20.0
+
+BounceMin = 2.0
+
+BounceThreshold = 3.0
+
+PitchScale = 0.5
+
+ExpandBBox = 3.0
+
+BounceEvery = 5.0
+
+
+#BounceSound = baah
+
+ConstRotate = 0, 120, 0

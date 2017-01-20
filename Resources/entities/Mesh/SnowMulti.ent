@@ -1,0 +1,57 @@
+class = mesh
+type = SnowMulti
+
+mesh = sculpture/Snow/SnowMulti.lwo
+mesh1 = sculpture/Snow/SnowMultiLT.lwo
+
+LodBias = 0.5
+
+#mesh = sculpture/Crystal/Crystal.lwo
+
+#mesh1 = sculpture/sheep/sheeplt.lwo
+
+#texture = textures/sheep.bmp
+#texture = textures/BlackShiny3.bmp
+#Texture = textures/BlackShinyEvil.bmp
+#texture = textures/Fiery2B.bmp
+#texture = textures/DragonSkinRed.bmp
+#texture = textures/Fiery5Blue2.bmp
+#texture = textures/Fiery5Green.bmp
+#texture = textures/CarvedBronze3.bmp
+#texture = textures/PigSkin.bmp
+#texture = textures/Chromeyellow.bmp
+#texture = textures/ShinyOrange.bmp
+
+#texture = textures/PurplePlasma2.bmp
+texture = textures/LaserBeam2.bmp
+#texture = textures/SnakeSkinPink.bmp
+#texture = textures/SnakeSkinBlueOrange.bmp
+#texture = textures/SnakeSkinGreenBlue.bmp
+#texture = textures/SnakeSkinSilver.bmp
+
+scale = 3.0
+#scale = 0.75
+#scale = 1.0
+
+collide = 0
+mass = 2.0
+
+blend = add
+cullface = 0
+
+envlight = 1
+envmode = texture
+#envmode = global
+smoothshade = 0
+#smoothshade = 1
+
+#solidlight = 1
+
+fade = 1.0
+
+RestOnGround = 1
+GroundOffset = 6
+#GroundOffset = 8
+
+
+ConstRotate = 0, 180, 0

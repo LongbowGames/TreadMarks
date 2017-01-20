@@ -1,0 +1,53 @@
+class = projectile
+type = laserbeam1
+nameid = 5
+
+speed = 150
+#meters per second
+
+damage = 0.1
+#hit strength
+
+kick = 0.01
+
+crater = 2
+#meter radius of crater
+depth = 0.0
+#meter depth of crater
+scorch = 0.7
+#percentage to blacken near center.  1.0 is no change, 0.0 is all black.
+
+ExploEnt = YellowSparks
+#ExploHitEnt = explosphere/fireenv2
+ExploHitEnt = LaserHit
+#SmokeEnt = shortfireball1
+
+SmokeEnt = explosphere/laserbeam1
+
+#SoundEnt = tankgun1
+#SoundEnt = missile1
+SoundEnt = Laser2
+#No sound for 30mm projectile, will only be used from BoltOn and that will run sound loop.
+
+#mesh = weapons/laserbeam.lwo
+#texture = textures/laserbeam2.bmp
+#Blend = add
+#scalematrix = 1, 1, 300
+Texture = sprites/LaserBall.bmp
+#Width = 2
+#Height = 2
+Width = 4
+Height = 1
+blend = add
+
+timetolive = 1.0
+
+HitScan = 1
+HitScanRange = 300.0
+
+Gravity = 0.0
+LaunchInertia = 0.0
+
+
+
+

@@ -1,0 +1,45 @@
+class = projectile
+type = MagmaSpew
+nameid = 6
+
+speed = 25
+#meters per second
+
+damage = 0.6
+#hit strength
+
+kick = 0.1
+#amount of speed to impart to target in collision.
+
+gravity = 1.0
+
+crater = 2
+#meter radius of crater
+depth = 0
+#meter depth of crater
+scorch = 0.8
+#percentage to blacken near center.  1.0 is no change, 0.0 is all black.
+
+ExploEnt = FireBig
+ExploHitEnt = explosphere/FireEnv1
+#ExploEnt = explosphere/fireenv1
+SmokeEnt = explo/greensparks
+#SmokeEnt = explosphere/Teardrop
+#SoundEnt = missile1
+SoundEnt = 
+#SmokeTrailEnt = explo/TinyGreenSparks
+#SmokeTrailEnt = crud/OrangeSparks
+SmokeTrailEnt = MagmaSmoke
+
+Smoketrail = 1
+
+Texture = sprites/PlasmaOrange.bmp
+Width = 5.0
+Height = 5.0
+Blend = add
+#image for traveling shell
+
+#Fade = 0.5
+
+timetolive = 10
+

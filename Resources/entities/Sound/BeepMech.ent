@@ -1,0 +1,11 @@
+class = sound
+type = BeepMech
+
+sound = horn/BeepMech.wav
+#altsound =
+
+volume = 1.0
+
+Is2DSound = 1
+
+Priority = 0.6

@@ -1,0 +1,29 @@
+Class = smoke
+#Class of entity.
+
+Type = Wonk
+#The type of the entity.
+
+Texture = sprites/FlarePurple.bmp
+#Which image to use.
+SizeBias = -2
+
+Width = 2.0
+Height = 1.0
+Base = 0
+#Size of sprite in meters once in the world.
+
+grow = 0.0
+
+#how to blend the image over the scene.
+blend = add
+
+#initial fade strength (1.0 for full, 0.0 for invisible)
+fade = 1.0
+
+fadebias = 0.5
+
+timetolive = 0.5
+
+randomrotate = 1
+

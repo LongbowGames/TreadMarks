@@ -1,0 +1,69 @@
+1.7.0 (January 2017)
+Now free and open source!
+Initial work on porting to Mac and Linux.
+Replaced Miles with OpenAL.
+Replaced most Win32 code with SFML and Qt.
+Resolution list now lists all valid resolutions, and defaults to desktop resolution.
+Settings now stored in .ini file instead of registry.
+Now checks for master server at tmmaster.longbowgames.com instead of an IP address, and checks automatically when server screen is opened.
+Added support for headless server builds.
+
+1.6.2 (December 2007)
+Fixed a bug that stopped it from working on Win9x.
+
+1.6.1 (May 2007)
+Vista support added
+Ladderboard scores are now stored in "<CommonAppData>\Tread Marks\Scores"
+Will now also search for .cfg and AddOns folders in "<AppData>\Tread Marks" and "<CommonAppData>\Tread Marks", in that order.
+Launcher now only has two profiles to load, "Average" and "High".  "High" now loads godlypc.cfg.
+Updated master server address
+
+1.6.0
+Unification release of all previous demos and versions
+
+1.5.9
+Fixed crashing problem with map changes on dedi server
+Fixed Flags so they can only be picked up when NumTeams > 1, and only if their team is active
+Changed AI and arrows to ignore flags that aren't active
+Added code so if an ip:port is passed in on the command line to TM.exe the game will auto connect to that game
+Cleaned up server disconnects on exit from game
+Changed Single Game GUI so it doesn't allow NumTeams = 1
+Updated all Course entities to have a weapon spawn time of 2.5 secs (some were 5, some were 2.5)
+When selecting a CTF map in single player, team scoring will be enabled and num teams will be set based on the number of teams in the CTF map
+Updated the dedicated.cfg file with new net settings, and information on setting up CTF servers
+Flag status on client connect is now correct
+
+1.5.8
+Fixed control changes not being saved
+Fixed AIAutoFill not working correctly after a map change with dedi servers
+When an AI is added, the server sends a message about what team it joined
+Updated the flagpole.ent with Transitory = 1 so the poles would be removed correcly
+Fixed "Flag was dropped" spamming messages when connecting to a game in progress
+
+1.5.7
+Fixed joystick support
+
+1.5.6
+Changed master server lookup to grab file master15.txt instead of master.txt
+Enabled F12 for grabbing Screen Shots in release build
+Fixed bug with localization that would cause servers to crash
+Prevent players from using "AI-" at the start of their name
+Improve score display when playing on teams, but not using team scoring (Need a way to see who is on what team)
+Added a flag to map config string - DisableFrags .. when set, kills do not change the frag counter
+Added a parameter to Course entities - TeamSpawnType .. -1 = no one, 0 = anyone, >0 = team number
+Enable Team Play for Single Game
+Added Parameters to map definition to control team settings (for training maps ... training maps need to be updated) 
+Added a MaxMapTeams parameter to the map definition
+Automatic team selection will now fill up the team with the fewest number of players (make sure to select team "None" to trigger auto-select)
+Typing /list on the server will also display current scores (useful for tournaments).
+Moved FPS one "letter" to the left to keep it out of the Ping meter
+Added new Flag entity type (derived from Insignia)
+Added a buttload of code for CTF style play
+Updated the Training Maps with new flags to clear out the new Single Game settings (team stuff)
+Optional Teams (Team0 = "", etc) have been removed from the dedicated server config settings. To create more teams, use the insignia entity
+Added config parameter "MaxAllowedTeams" to control team limits on dedicated servers
+Incremented challenge key to prevent 1.5.5 clients from connecting to 1.5.6 servers, and vice versa
+Added code to have AIs leave and join to balance when players join and leave
+Added config parameter "AIAutoFill" to control AI add/leave based on player connects
+Changed terrain collision response for the camera when using free-look. Can now look "up" better.
+Added a user modifyable dead-zone for joysticks

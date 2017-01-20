@@ -1,0 +1,35 @@
+class = flag
+type = team1flag
+
+mesh = bannerteamh.lwo
+mesh1 = bannerteamm.lwo
+mesh2 = bannerteaml.lwo
+
+polemeshtype = FlagPole
+
+texture = textures/teamlogos/BlackBanner.bmp
+
+smoothshade = 1
+
+sizebias = -2
+
+fragadd = 0
+flagkill = 1
+
+droptime = 30
+
+teamid = 1
+
+Perturb = 0.5
+PerturbScale = 1
+PerturbSpeed = 3
+
+cullface = 0
+
+ScaleMatrix = 6, 6, 6
+
+solidlight = 0
+
+carrierspeedscale = .7
+carrierfireratescale = .5
+#carrierarmorscale = 2

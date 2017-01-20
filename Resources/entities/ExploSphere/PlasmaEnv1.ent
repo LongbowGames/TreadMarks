@@ -1,0 +1,34 @@
+class = explosphere
+type = PlasmaEnv1
+
+mesh = SphereHigh.lwo
+mesh1 = SphereLow.lwo
+lodbias = 0.2
+
+texture = textures/Fiery5Blue2.bmp
+#texture = textures/RadialBlueLightning.bmp
+#texture = textures/Fiery5Green.bmp
+#texture = textures/BlackShiny2b.bmp
+
+scale = 1.0
+collide = 0
+mass = 1
+
+expand = 20
+expandstart = 2
+
+rotatespeed = 0.5
+
+fade = 1.0
+
+blend = add
+smoothshade = 1
+solidlight = 1
+cullface = 0
+edgetrans = 1
+
+lifespan = 1.0
+
+envmode = texture
+#none, texture, global, blend
+

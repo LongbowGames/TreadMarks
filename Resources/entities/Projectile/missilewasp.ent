@@ -1,0 +1,57 @@
+class = projectile
+type = missilewasp
+nameid = 11
+
+mesh = weapons/missiles/missile1t.lwo
+texture = textures/Bomb.bmp
+#temporary!
+
+#speed = 80
+speed = 50
+#meters per second
+
+damage = 0.08
+#hit strength
+
+kick = 0.1
+
+gravity = -1.0
+#percentage of normal gravity to use
+
+crater = 3
+#meter radius of crater
+depth = 0.5
+#meter depth of crater
+scorch = 0.7
+#percentage to blacken near center.  1.0 is no change, 0.0 is all black.
+
+ExploEnt = FireTall
+#ExploHitEnt = explosphere/fireenv2
+ExploHitEnt = explo/wasphit
+#SmokeEnt = fractal1
+SmokeTrailEnt = fractaltiny
+#SmokeTrailEnt = WaspSmoke
+#SoundEnt = missile3
+
+smoketrail = 1
+
+SmokeTrailOffset = 0, 0, -1.0
+
+spiral = 60.0
+spiralramp = 0.01
+spiralperiod = 0.3
+
+#spiral = 1000.0
+#spiralramp = 0.01
+#spiralperiod = 0.3
+
+guideramp = 0.1
+guidebias = 2.0
+guidespeed = 30
+#guidemax = 30
+guidemax = 25
+
+#followground = 1
+#bounce = 1.0
+
+FlareEnt = smoke/flarepink

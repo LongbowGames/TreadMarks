@@ -1,0 +1,34 @@
+class = weapon
+type = MatterBomb
+
+mesh = weapons/icbm/ICBMHighT.lwo
+mesh1 = weapons/icbm/ICBMMedT.lwo
+texture = textures/ICBMGreen.bmp
+sizebias = -1
+
+projectile = MatterMissile
+
+ammo = 1
+
+bolton = 2
+
+#lockon = 0
+
+reloadtime = 30.0
+
+launchangle = 0, 0, 0
+launchcoords = -0.3, 0, 0
+#where projectile comes from
+
+#FireSoundEnt = machinegun1
+
+#MeshOffset = -0.3, 0, -4.5
+MeshOffset = -0.3, 0, 0
+
+weight = 10
+
+Name = Matter Bomb
+
+pickupsound = Flower
+
+spawnsound = NukeSpawn

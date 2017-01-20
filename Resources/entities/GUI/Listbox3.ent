@@ -1,0 +1,16 @@
+class = guilistbox
+type = listbox3
+
+SelectColor = 1.0, 1.0, 0.2
+
+UpType = guibutton/buttonupsquished
+DownType = guibutton/buttondownsquished
+ListType = guibutton/button1
+
+#KnobType = guibutton/buttonknob
+#KnobWidth = 1
+
+#No knob.
+
+ServerSynch = 0
+
