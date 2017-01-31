@@ -2,3 +2,4 @@
 /build
 /Installers/*.p12
 /Installers/out/*.exe
+/*.p12

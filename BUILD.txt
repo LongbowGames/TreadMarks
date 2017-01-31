@@ -43,9 +43,10 @@ It will fail to locate a bunch of libraries. Setting these values to the
 appropriate root directories will help CMake find them:
 * PATH_BOOST (eg: C:\local\boost_1_63_0)
 * PATH_GLEW  (eg: D:\3rdParty\glew-2.0.0)
-* PATH_QT    (eg: C:\Qt\5.7\msvc2015)
+* PATH_QT    (eg: C:\Qt\5.7\msvc2015) (optional)
 * PATH_SFML  (eg: D:\3rdParty\SFML-2.4.1)
 * PATH_ZLIB  (eg: D:\3rdParty\zlib-1.2.3)
+* PATH_UCRT  (eg: C:\Program Files (x86)\Windows Kits\10\Redist\ucrt\DLLs\x86) (optional)
 
 Now when you click 'Configure' again, it should succeed with the message
 "Configuring done". Now you can click the 'Generate' button. This will create a
@@ -56,15 +57,20 @@ There's a couple projects in this solution:
 * TM: This is the actual game.
 * TreadMarks: This is the launcher.
 
-There's also an INSTALL target. This will copy all the required DLLs into the
-same directory as your executables, and if it's a release build, it will copy
-the executables and all the game files into the 'out' directory.
-
-Once the 'out' directory is populated, you can go into the 'Installers'
-directory and run the MakeAll.bat script (requires NSIS) to create an
-installer. If you have a digital certificate (a .p12 file) you can put that
-file in the Installers folder and the script will ask you for the password
-and sign it for you.
+There's some additional targets that are useful:
+* FIXUP: This will copy all the necessary dependencies in order for you to run
+         the project from Visual Studio. Just make sure you set the debugging
+	 working directory to the "Resources" directory and you're all set to
+	 debug.
+* INSTALL: This will attempt to install all the necessary files to play the
+           game into the final location. By default, it will be in the
+	   "Program Files (x86)" folder, so you'll either need to run Visual
+	   Studio as an administrator for this target to work, or change the
+	   CMAKE_INSTALL_PREFIX variable in CMake.
+* PACKAGE: If you have NSIS installed, this will create an installer.
+* PACKAGE_AND_SIGN: If you have a digital certificate, and you set the CERT and
+                    CERT_PASS variables in CMake, this will make a signed
+		    installer.
 
 OS X
 ====
