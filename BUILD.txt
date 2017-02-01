@@ -66,9 +66,8 @@ There's some additional targets that are useful:
 	   Studio as an administrator for this target to work, or change the
 	   CMAKE_INSTALL_PREFIX variable in CMake.
 * PACKAGE: If you have NSIS installed, this will create an installer.
-* PACKAGE_AND_SIGN: If you have a digital certificate, and you set the CERT and
-                    CERT_PASS variables in CMake, this will make a signed
-		    installer.
+* SIGN: If you have a digital certificate, and you set the CERT and CERT_PASS
+        variables in CMake, this will sign your installer.
 
 OS X
 ====

@@ -44,8 +44,7 @@ INCLUDE(CPack)
 
 IF(WIN32)
   ADD_CUSTOM_TARGET(
-    PACKAGE_AND_SIGN
-    COMMAND "${CMAKE_COMMAND}" --build ${CMAKE_BINARY_DIR} --config $<CONFIG> --target package
+    SIGN
     COMMAND signtool.exe "sign /f \"${CERT}\" /p \"${CERT_PASS}\" /t http://timestamp.digicert.com /d \"Tread Marks\" \"${CMAKE_BINARY_DIR}/Tread Marks Installer.exe\""
     WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}"
     )
