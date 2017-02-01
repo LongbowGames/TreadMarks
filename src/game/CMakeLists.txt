@@ -180,7 +180,7 @@ IF(NOT "${BAD_GUI_REQS}" STREQUAL "")
   MESSAGE(FATAL_ERROR "Libraries missing for GUI-enabled build. Remember to set the PATH_ params if using non-standard locations.  The following libraries were not found:${BAD_GUI_REQS}")
 ENDIF()
 
-SET(SEARCH_DIRS "${Qt5Core_DIR}/../../../bin/" "${SFML_INCLUDE_DIR}/../bin" "${GLEW_INCLUDE_PATH}/../bin/Release/Win32" "${ZLIB_INCLUDE_DIR}/../bin")
+SET(SEARCH_DIRS "${Qt5Core_DIR}/../../../bin/" "${SFML_INCLUDE_DIR}/../bin" "${GLEW_INCLUDE_PATH}/../bin/Release/Win32" "${ZLIB_INCLUDE_DIR}/../bin" "${PATH_UCRT}")
 FILE(GENERATE OUTPUT "${CMAKE_CURRENT_BINARY_DIR}/fixup$<CONFIG>.cmake" CONTENT "
   INCLUDE(BundleUtilities)
   FIXUP_BUNDLE(\"$<TARGET_FILE:TM>\" \"\" \"${SEARCH_DIRS}\")")

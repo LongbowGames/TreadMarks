@@ -43,6 +43,10 @@ set(CPACK_MONOLITHIC_INSTALL on)
 INCLUDE(CPack)
 
 IF(WIN32)
+  IF(NOT "${PATH_UCRT}" STREQUAL "")
+    INSTALL(DIRECTORY "${PATH_UCRT}/" DESTINATION "/")
+  ENDIF()
+
   ADD_CUSTOM_TARGET(
     SIGN
     COMMAND signtool.exe "sign /f \"${CERT}\" /p \"${CERT_PASS}\" /t http://timestamp.digicert.com /d \"Tread Marks\" \"${CMAKE_BINARY_DIR}/Tread Marks Installer.exe\""
