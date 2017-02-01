@@ -15,14 +15,14 @@
 
 
 
-#include "Networking.h"
-#include "CStr.h"
-#include "Timer.h"
-#include "Trees.h"
-#include "CfgParse.h"
+#include "../game/Networking.h"
+#include "../game/CStr.h"
+#include "../game/Timer.h"
+#include "../game/Trees.h"
+#include "../game/CfgParse.h"
 #include "TMMaster.h"
 #include <stdlib.h>
-#include "BitPacking.h"
+#include "../game/BitPacking.h"
 #include "../game/version.h"
 #include <algorithm>
 

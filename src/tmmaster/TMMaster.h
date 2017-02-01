@@ -16,9 +16,9 @@
 #ifndef TMMASTER_H
 #define TMMASTER_H
 
-#include "Networking.h"
-#include "BitPacking.h"
-#include "Heartbeat.h"
+#include "../game/Networking.h"
+#include "../game/BitPacking.h"
+#include "../game/Heartbeat.h"
 
 //#define TMMASTER_CHALLENGE_KEY		0xc8a10001
 #define TMMASTER_CHALLENGE_KEY		0xc8a10002
