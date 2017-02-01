@@ -136,9 +136,12 @@ void GenericBuffer::CreateBuffer(int w, int h, bool fullscreen, const char *Name
 
 void GenericBuffer::Resize(int w, int h)
 {
-	window.setSize(sf::Vector2u(w, h));
-	m_w = w;
-	m_h = h;
+	if(!m_fullscreen)
+	{
+		window.setSize(sf::Vector2u(w, h));
+		m_w = w;
+		m_h = h;
+	}
 }
 
 bool GenericBuffer::Clear(){
