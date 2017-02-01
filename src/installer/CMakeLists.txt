@@ -35,7 +35,7 @@ ELSE()
   SET(CPACK_PACKAGE_EXECUTABLES "TreadMarks" "TM")
 ENDIF()
 
-SET(CPACK_PACKAGE_FILE_NAME "Tread Marks Installer")
+SET(CPACK_PACKAGE_FILE_NAME "Tread Marks Install")
 SET(CPACK_PACKAGE_INSTALL_DIRECTORY "LDA Games${SLASH}Tread Marks")
 SET(CPACK_PACKAGE_INSTALL_REGISTRY_KEY "Tread Marks")
 set(CPACK_MONOLITHIC_INSTALL on)
@@ -49,7 +49,7 @@ IF(WIN32)
 
   ADD_CUSTOM_TARGET(
     SIGN
-    COMMAND signtool.exe "sign /f \"${CERT}\" /p \"${CERT_PASS}\" /t http://timestamp.digicert.com /d \"Tread Marks\" \"${CMAKE_BINARY_DIR}/Tread Marks Installer.exe\""
+    COMMAND signtool.exe "sign /f \"${CERT}\" /p \"${CERT_PASS}\" /t http://timestamp.digicert.com /d \"Tread Marks\" \"${CMAKE_BINARY_DIR}/Tread Marks Install.exe\""
     WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}"
     )
 ENDIF()
