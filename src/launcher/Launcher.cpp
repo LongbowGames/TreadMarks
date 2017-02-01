@@ -21,7 +21,7 @@
 #include <direct.h>
 #include "../game/CStr.h"
 #include "resource.h"
-#include "Reg.h"
+#include "../game/Reg.h"
 #include "../game/Directories.h"
 #include <stdio.h>
 

@@ -16,9 +16,10 @@
 #include "../Directories.h"
 #include <shlobj.h>
 #include <string>
-#include <boost/filesystem.hpp>
+#include <experimental/filesystem>
 
-using namespace boost::filesystem;
+using namespace std;
+using namespace std::experimental::filesystem;
 
 CStr GetAppDataDir()
 {
@@ -31,7 +32,7 @@ CStr GetAppDataDir()
 			rc += '/';
 		rc += "Longbow Digital Arts/Tread Marks/";
 	}
-	create_directory(rc);
+	create_directories(rc);
 	return CStr(rc.c_str());
 }
 
@@ -46,6 +47,6 @@ CStr GetCommonAppDataDir()
 			rc += '/';
 		rc += "Longbow Digital Arts/Tread Marks/";
 	}
-	create_directory(rc);
+	create_directories(rc);
 	return CStr(rc.c_str());
 }

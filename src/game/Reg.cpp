@@ -17,14 +17,12 @@
 #include <algorithm>
 #include <cstring>
 #include <fstream>
-#include <boost/lexical_cast.hpp>
 
 #include "Reg.h"
 #include "CStr.h"
 #include "Directories.h"
 
 using namespace std;
-using namespace boost;
 
 Registry& Registry::Get()
 {
